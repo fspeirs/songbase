@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {exportIndexToRTF = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {exportIndexToRTF = id; reload = id; }; 
+            CLASS = SBCatalogueController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aController = SBFController; 
+                searchField = NSSearchField; 
+                table = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {search = id; }; 
+            CLASS = SBFController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = SBTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

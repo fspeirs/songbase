@@ -1,0 +1,12 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {showCatalogueWindow = id; showPreferencesWindow = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = SBAppDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
