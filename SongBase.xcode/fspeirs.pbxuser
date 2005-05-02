@@ -59,7 +59,7 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 122662212;
+			PBXPerProjectTemplateStateSaveDate = 132849318;
 			PBXPrepackagedSmartGroups_v2 = (
 				{
 					PBXTransientLocationAtTop = bottom;
@@ -236,7 +236,11 @@
 					};
 				},
 			);
-			PBXWorkspaceStateSaveDate = 122662212;
+			PBXWorkspaceStateSaveDate = 132849318;
+		};
+		perUserProjectItems = {
+			5F69D97107EB1EF200D08D4E = 5F69D97107EB1EF200D08D4E;
+			5F69D97507EB1EF600D08D4E = 5F69D97507EB1EF600D08D4E;
 		};
 		sourceControlManager = 5F4A2308071D4FF9005743CF;
 		userBuildSettings = {
@@ -418,9 +422,9 @@
 	};
 	5F4A2336071D5EFC005743CF = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 979}}";
-			sepNavSelRange = "{1117, 0}";
-			sepNavVisRect = "{{0, 378}, {705, 428}}";
+			sepNavIntBoundsRect = "{{0, 0}, {778, 979}}";
+			sepNavSelRange = "{831, 52}";
+			sepNavVisRect = "{{0, 258}, {778, 198}}";
 			sepNavWindowFrame = "{{268, 84}, {750, 558}}";
 		};
 	};
@@ -490,6 +494,23 @@
 		isa = PBXSymbolicBreakpoint;
 		state = 1;
 		symbolName = "-[NSException raise]";
+	};
+	5F69D97107EB1EF200D08D4E = {
+		fRef = 5F4A2336071D5EFC005743CF;
+		isa = PBXTextBookmark;
+		rLen = 1;
+		rLoc = 25;
+		rType = 1;
+	};
+	5F69D97507EB1EF600D08D4E = {
+		fRef = 5F4A2336071D5EFC005743CF;
+		isa = PBXTextBookmark;
+		name = "\t\t\t[doc setFileName: [catalogue pathForSong:song]];\n";
+		rLen = 52;
+		rLoc = 831;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 411;
 	};
 	8D15AC270486D014006FF6A4 = {
 		activeExec = 0;
