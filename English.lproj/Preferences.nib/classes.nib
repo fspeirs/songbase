@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {setFontUsingFontPanel = id; }; 
+            CLASS = OAFontView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {saveAction = id; showFullScreenWindow = id; showPreferences = id; }; 
+            CLASS = "Songbase_2AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = NSArrayController; 
+                prefsWindow = NSWindow; 
+                table = NSTableView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {importFiles = id; showPreferences = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                importFiles = id; 
+                makeFlat = id; 
+                makeSharp = id; 
+                saveAction = id; 
+                showFullScreenWindow = id; 
+                showPreferences = id; 
+            }; 
+            CLASS = "Songbase_2AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = NSArrayController; 
+                prefsWindow = NSWindow; 
+                table = NSTableView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
