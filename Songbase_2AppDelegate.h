@@ -30,4 +30,10 @@
 - (IBAction)showFullScreenWindow:(id)sender;
 
 - (IBAction)showPreferences:(id)sender;
+
+- (IBAction)importFiles:(id)sender;
+- (void)processFile: (NSString *)path;
+
+- (IBAction)makeSharp:(id)sender;
+- (IBAction)makeFlat:(id)sender;
 @end

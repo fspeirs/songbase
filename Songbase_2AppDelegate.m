@@ -132,4 +132,64 @@
 	[NSBundle loadNibNamed: @"Preferences" owner: self];	
 	[prefsWindow makeKeyAndOrderFront: self];
 }
+
+- (IBAction)importFiles:(id)sender {
+	NSOpenPanel *open = [NSOpenPanel openPanel];
+	[open setCanChooseFiles: YES];
+	[open setCanChooseDirectories: YES];
+	[open setAllowsMultipleSelection: YES];
+	[open setAllowedFileTypes: [NSArray arrayWithObject: @"songbase"]];
+	
+	[open beginSheetForDirectory: nil
+							file: nil
+				  modalForWindow: window
+				   modalDelegate: self
+				  didEndSelector: @selector(openPanelDidEnd:returnCode:contextInfo:)
+					 contextInfo: nil];
+	
+}
+
+- (void)openPanelDidEnd:(NSOpenPanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo {
+	if(returnCode == NSOKButton) {
+		NSArray *files = [sheet filenames];
+		NSEnumerator *en = [files objectEnumerator];
+		NSString *path;
+		while(path = [en nextObject])
+			[self processFile: path];
+	}
+}
+
+- (void)processFile: (NSString *)path {
+	NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile: path];
+	
+	NSString *copy = [dict objectForKey: @"copyright"];
+	NSString *title = [dict objectForKey: @"title"];
+	NSData *body = [dict objectForKey: @"body"];
+	
+	NSError *err;
+	NSAttributedString *attrstr = [[NSAttributedString alloc] initWithData: body
+																   options: nil documentAttributes: nil error: &err];
+	
+	NSMutableString *lyrics = [[NSMutableString alloc] init];
+	[lyrics appendString: [attrstr string]];
+	
+	
+	NSManagedObject *obj = [NSEntityDescription insertNewObjectForEntityForName: @"Song"
+														 inManagedObjectContext: [self managedObjectContext]];
+	
+	[obj setValue: copy forKey: @"copyright"];
+	[obj setValue: title forKey: @"title"];
+	[obj setValue: lyrics forKey: @"lyrics"];
+}
+
+- (IBAction)makeSharp:(id)sender {
+	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];
+
+	NSString *songKey = [song valueForKey: @"songKey"];
+	[song setValue: [NSString stringWithFormat: @"%@♭", songKey] forKey: @"songKey"];
+}
+
+- (IBAction)makeFlat:(id)sender {
+	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];	
+}
 @end
