@@ -7,6 +7,8 @@
 	objects = {
 		080E96DDFE201D6D7F000001 = {
 			children = (
+				5F409F8D082D39670035AABC,
+				5F409F8E082D39670035AABC,
 				5F28772D0826300E001639A5,
 				5F28772E0826300E001639A5,
 				5F28772F0826300E001639A5,
@@ -405,6 +407,28 @@
 			settings = {
 			};
 		};
+		5F409F8D082D39670035AABC = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SBLongStringVT.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		5F409F8E082D39670035AABC = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SBLongStringVT.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		5F409F8F082D39670035AABC = {
+			fileRef = 5F409F8E082D39670035AABC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
 //5F0
 //5F1
 //5F2
@@ -549,6 +573,7 @@
 				5F2877310826300E001639A5,
 				5F2877320826300E001639A5,
 				5F28778208263B0C001639A5,
+				5F409F8F082D39670035AABC,
 			);
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;

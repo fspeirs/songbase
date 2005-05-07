@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					243,
+					246,
 					20,
 					48,
 					43,
@@ -56,8 +56,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 136931632;
-			PBXWorkspaceStateSaveDate = 136931632;
+			PBXPerProjectTemplateStateSaveDate = 137181362;
+			PBXWorkspaceStateSaveDate = 137181362;
 		};
 		sourceControlManager = 5F28771408262A70001639A5;
 		userBuildSettings = {
@@ -105,16 +105,16 @@
 	5F28772F0826300E001639A5 = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1070, 617}}";
-			sepNavSelRange = "{242, 0}";
+			sepNavSelRange = "{248, 0}";
 			sepNavVisRect = "{{0, 0}, {1070, 617}}";
 			sepNavWindowFrame = "{{100, 78}, {1109, 746}}";
 		};
 	};
 	5F2877300826300E001639A5 = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {566, 1036}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 1036}}";
 			sepNavSelRange = "{1991, 0}";
-			sepNavVisRect = "{{0, 850}, {459, 186}}";
+			sepNavVisRect = "{{0, 0}, {1070, 617}}";
 			sepNavWindowFrame = "{{97, 103}, {1109, 746}}";
 		};
 	};
@@ -123,7 +123,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 0;
+					_indexOfSelectedView = 1;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -262,16 +262,16 @@
 	77C8280B06725ACE000B614F = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1070, 666}}";
-			sepNavSelRange = "{386, 0}";
+			sepNavSelRange = "{821, 66}";
 			sepNavVisRect = "{{0, 0}, {1070, 666}}";
 			sepNavWindowFrame = "{{292, 83}, {1109, 795}}";
 		};
 	};
 	77C8280C06725ACE000B614F = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1172, 1904}}";
-			sepNavSelRange = "{4800, 0}";
-			sepNavVisRect = "{{0, 1238}, {1070, 666}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 2744}}";
+			sepNavSelRange = "{6119, 0}";
+			sepNavVisRect = "{{0, 2008}, {1070, 666}}";
 			sepNavWindowFrame = "{{15, 78}, {1109, 795}}";
 		};
 	};

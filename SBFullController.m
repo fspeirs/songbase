@@ -1,7 +1,15 @@
 #import "SBFullController.h"
 #import "SBFSWindow.h"
+#import "SBLongStringVT.h"
 
 @implementation SBFullController
++ (void)initialize {
+	SBLongStringVT *vt = [[SBLongStringVT alloc] init];
+	
+	[NSValueTransformer setValueTransformer: [vt autorelease]
+									forName: @"SBLongStringVT"];
+}
+
 - (id)init {
 	self = [super init];
 	if(self) {
