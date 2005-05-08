@@ -118,7 +118,6 @@
 
 - (IBAction)showFullScreenWindow:(id)sender {
 	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];
-	NSLog(@"Selected %@", [song valueForKey: @"title"]);
 	
 	if(!fullScreenController) {
 		fullScreenController = [[SBFullController alloc] init];

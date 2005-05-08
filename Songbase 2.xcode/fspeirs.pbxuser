@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	29B97313FDCFA39411CA2CEA = {
-		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeBuildStyle = 4A9504CDFFE6A4B311CA0CBA;
 		activeExecutable = 5F28770608262A67001639A5;
 		activeTarget = 8D1107260486CEB800E47090;
 		addToTargets = (
@@ -59,6 +59,10 @@
 			PBXPerProjectTemplateStateSaveDate = 137181362;
 			PBXWorkspaceStateSaveDate = 137181362;
 		};
+		perUserProjectItems = {
+			5F409FAA082E4EEE0035AABC = 5F409FAA082E4EEE0035AABC;
+			5F409FAB082E4EEE0035AABC = 5F409FAB082E4EEE0035AABC;
+		};
 		sourceControlManager = 5F28771408262A70001639A5;
 		userBuildSettings = {
 		};
@@ -112,11 +116,36 @@
 	};
 	5F2877300826300E001639A5 = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1070, 1036}}";
-			sepNavSelRange = "{1991, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 1148}}";
+			sepNavSelRange = "{247, 0}";
 			sepNavVisRect = "{{0, 0}, {1070, 617}}";
 			sepNavWindowFrame = "{{97, 103}, {1109, 746}}";
 		};
+	};
+	5F409F8E082D39670035AABC = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 666}}";
+			sepNavSelRange = "{489, 0}";
+			sepNavVisRect = "{{0, 0}, {1070, 666}}";
+			sepNavWindowFrame = "{{58, 78}, {1109, 795}}";
+		};
+	};
+	5F409FAA082E4EEE0035AABC = {
+		fRef = 77C8280C06725ACE000B614F;
+		isa = PBXTextBookmark;
+		rLen = 0;
+		rLoc = 4419;
+		rType = 0;
+	};
+	5F409FAB082E4EEE0035AABC = {
+		fRef = 77C8280C06725ACE000B614F;
+		isa = PBXTextBookmark;
+		name = "Songbase_2AppDelegate.m: 120";
+		rLen = 0;
+		rLoc = 4419;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 4273;
 	};
 	770B37EC0679A11B001EADE2 = {
 		uiCtxt = {
@@ -269,9 +298,9 @@
 	};
 	77C8280C06725ACE000B614F = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1172, 2744}}";
-			sepNavSelRange = "{6119, 0}";
-			sepNavVisRect = "{{0, 2008}, {1070, 666}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 2730}}";
+			sepNavSelRange = "{4419, 0}";
+			sepNavVisRect = "{{0, 1597}, {740, 180}}";
 			sepNavWindowFrame = "{{15, 78}, {1109, 795}}";
 		};
 	};
