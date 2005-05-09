@@ -59,10 +59,6 @@
 			PBXPerProjectTemplateStateSaveDate = 137181362;
 			PBXWorkspaceStateSaveDate = 137181362;
 		};
-		perUserProjectItems = {
-			5F409FAA082E4EEE0035AABC = 5F409FAA082E4EEE0035AABC;
-			5F409FAB082E4EEE0035AABC = 5F409FAB082E4EEE0035AABC;
-		};
 		sourceControlManager = 5F28771408262A70001639A5;
 		userBuildSettings = {
 		};
@@ -129,23 +125,6 @@
 			sepNavVisRect = "{{0, 0}, {1070, 666}}";
 			sepNavWindowFrame = "{{58, 78}, {1109, 795}}";
 		};
-	};
-	5F409FAA082E4EEE0035AABC = {
-		fRef = 77C8280C06725ACE000B614F;
-		isa = PBXTextBookmark;
-		rLen = 0;
-		rLoc = 4419;
-		rType = 0;
-	};
-	5F409FAB082E4EEE0035AABC = {
-		fRef = 77C8280C06725ACE000B614F;
-		isa = PBXTextBookmark;
-		name = "Songbase_2AppDelegate.m: 120";
-		rLen = 0;
-		rLoc = 4419;
-		rType = 0;
-		vrLen = 329;
-		vrLoc = 4273;
 	};
 	770B37EC0679A11B001EADE2 = {
 		uiCtxt = {

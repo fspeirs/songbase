@@ -5,21 +5,9 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>91AC326B-81CC-49FF-BB35-8E0611994F97</UUID>
-        <nextObjectID>354</nextObjectID>
+        <nextObjectID>363</nextObjectID>
         <metadata></metadata>
     </databaseInfo>
-    <object type="SONG" id="z102">
-        <attribute name="copyright" type="string">unknown</attribute>
-        <attribute name="lyrics" type="string">Pierce my ear O Lord my God 
-Take me to Your throne this day 
-I will serve no other god 
-Lord I'm here to stay 
-
-For You have paid the price for me 
-With Your blood You ransomed me I will serve You eternally 
-A free man I'll never be </attribute>
-        <attribute name="title" type="string">Pierce my ear O Lord my God </attribute>
-    </object>
     <object type="SONG" id="z103">
         <attribute name="copyright" type="string">Fernando Ortega</attribute>
         <attribute name="lyrics" type="string">He wraps Himself in light, as with a garment
@@ -227,30 +215,6 @@ Your love secures me on the pathway to heaven
 And your love is my strength and power.</attribute>
         <attribute name="title" type="string">Your Love</attribute>
     </object>
-    <object type="SONG" id="z112">
-        <attribute name="copyright" type="string">2000 Darlene Zschech/Hillsong / Kingsway Music </attribute>
-        <attribute name="lyrics" type="string">Thank you for the cross Lord 
-Thank you for the price you paid 
-Bearing all my sin and shame 
-In love You came 
-And gave amazing grace 
-Thank you for this love Lord 
-Thank you for the nail pierced hands 
-Washed me in Your cleansing flow 
-Now all I know 
-Your forgiveness and embrace 
-
-Worthy is the Lamb 
-Seated on the throne 
-We crown You now with many crowns 
-You reign victorious 
-High and lifted up Jesus Son of God 
-The High King of Heaven crucified 
-Worthy is the Lamb 
-</attribute>
-        <attribute name="title" type="string">Thank you for the cross Lord 
-</attribute>
-    </object>
     <object type="SONG" id="z113">
         <attribute name="copyright" type="string"></attribute>
         <attribute name="lyrics" type="string">I will bless the Lord forever
@@ -440,73 +404,6 @@ Lovelier by far than all of these
 </attribute>
         <attribute name="title" type="string">He is fairer than the lily of the valley </attribute>
     </object>
-    <object type="SONG" id="z119">
-        <attribute name="copyright" type="string">Fanny J. Crosby </attribute>
-        <attribute name="lyrics" type="string">Redeemed, how I love to proclaim it!Redeemed by the blood of the Lamb;Redeemed through His infinite mercy,His child and forever I am.
-
-Redeemed, redeemed,Redeemed by the blood of the Lamb;Redeemed, redeemed,His child and forever I am.
-
-Redeemed, and so happy in Jesus,No language my rapture can tell;I know that the light of His presenceWith me doth continually dwell.
-
-Redeemed, redeemed,Redeemed by the blood of the Lamb;Redeemed, redeemed,His child and forever I am.
-
-I think of my blessed Redeemer,I think of Him all the day long:I sing, for I cannot be silent;His love is the theme of my song.
-
-Redeemed, redeemed,Redeemed by the blood of the Lamb;Redeemed, redeemed,His child and forever I am.
-
-I know I shall see in His beauty,	
-The King in whose law I delight,			            
-Who lovingly guardeth my footsteps,
-And giveth me songs in the night.
-
-Redeemed, redeemed,Redeemed by the blood of the Lamb;Redeemed, redeemed,His child and forever I am.													
-I know there's a crown that is waiting,In yonder bright mansion for me,And soon, with the spirits made perfect,At home with the Lord I shall be.
-
-Redeemed, redeemed,Redeemed by the blood of the Lamb;Redeemed, redeemed,His child and forever I am.
-</attribute>
-        <attribute name="title" type="string">Redeemed, how I love to proclaim it!</attribute>
-    </object>
-    <object type="SONG" id="z120">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">On the Cross crucified, 
-In great sorrow He died:
-The Giver of life was He.
-Yet my Lord was despised 
-And rejected of men,
-This Jesus of Calvary.
-
-Chorus
-He was wounded for our transgressions,
-He was bruised for our iniquities;
-Surely He bore our sorrows,
-And by His stripes we are healed.
-
-Price for healing was paid, 
-As those cruel stripes were made,
-Within Pilate's judgment hall.
-Now His suffering affords perfect healing for all. 
-This wonderful Healer's mine.
-
-Came the leper to Christ, 
-Saying, "Surely I know
-That Thou, Lord, canst make me whole."
-When his great faith was seen, Jesus said, "Yes, I will,"
-And touched him and made him clean.
-
-Chorus
-He was wounded for our transgressions,
-He was bruised for our iniquities;
-Surely He bore our sorrows,
-And by His stripes we are healed.
-
-
-He has healed my sick soul, made me every whit whole,
-And He'll do the same for you.
-He's the same yesterday and today and for aye,
-This Healer of men today.
-</attribute>
-        <attribute name="title" type="string">On the Cross crucified</attribute>
-    </object>
     <object type="SONG" id="z121">
         <attribute name="copyright" type="string"> Matthew Ward, 2nd Chapter of Acts
 </attribute>
@@ -592,30 +489,6 @@ To the Lamb who sits upon the throne
 </attribute>
         <attribute name="title" type="string">I hear angels singing praises </attribute>
     </object>
-    <object type="SONG" id="z124">
-        <attribute name="copyright" type="string">A Howard / P Turner c 1985 Restoration Music Ltd 
-</attribute>
-        <attribute name="lyrics" type="string">Salvation belongs to our God 
-Who sits upon the throne 
-And unto the Lamb 
-Praise and glory wisdom and thanks 
-Honour and power and strength 
-
-Be to our God forever and ever 
-Be to our God forever and ever 
-Be to our God forever and ever amen 
-
-And we the redeemed shall be strong 
-In purpose and unity 
-Declaring aloud praise and glory Wisdom and thanks 
-Honour and power and strength 
-
-Be to our God forever and ever 
-Be to our God forever and ever 
-Be to our God forever and ever amen
-</attribute>
-        <attribute name="title" type="string">Salvation belongs to our God </attribute>
-    </object>
     <object type="SONG" id="z125">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">Blessed be the Lord God, blessed be the Lord God of Israel
@@ -695,21 +568,6 @@ I adore You, worship and bow down
 Worship and bow down</attribute>
         <attribute name="title" type="string">There is no better place</attribute>
     </object>
-    <object type="SONG" id="z129">
-        <attribute name="copyright" type="string"></attribute>
-        <attribute name="lyrics" type="string">Lift me up higher than the mountains
-Lift me up on Your healing wing
-Lift me up higher than the angels
-Lift me up to Your throne of grace
-That I may worship You on bended knee
-That I may pour my love out at Your feet
-That I may see Your face
-And die to my own life
-And live the risen life of Christ
-Lift me up.
-</attribute>
-        <attribute name="title" type="string">Lift me Higher</attribute>
-    </object>
     <object type="SONG" id="z130">
         <attribute name="copyright" type="string"></attribute>
         <attribute name="lyrics" type="string">If I could but touch 
@@ -745,47 +603,6 @@ And live the risen life of Christ
 Lift me up 
 </attribute>
         <attribute name="title" type="string">Lift me up higher than the mountains </attribute>
-    </object>
-    <object type="SONG" id="z132">
-        <attribute name="copyright" type="string">P Oakley c 1995 Kingsway's ThankYou Music 
-</attribute>
-        <attribute name="lyrics" type="string">There's a place where the streets shine 
-With the glory of the Lamb 
-There's a way we can go there 
-We can live there beyond time 
-Because of You because of You 
-Because of Your love because of Your blood 
-
-No more pain no more sadness 
-No more suffering no more tears 
-No more sin no more sickness 
-No injustice no more death 
-Because of You because of You 
-Because of Your love because of Your blood
-
-All our sins are washed away 
-And we can live forever 
-Now we have this hope because of You 
-Oh we'll see You face to face 
-And we will dance together 
-In the city of our God because of You 
-
-There is joy everlasting 
-There is gladness there is peace 
-There is wine ever flowing 
-There's a wedding there's a feast 
-Because of You because of You 
-Because of Your love because of Your blood 
-
-All our sins are washed away 
-And we can live forever 
-Now we have this hope because of You 
-Oh we'll see You face to face 
-And we will dance together 
-In the city of our God because of You 
-</attribute>
-        <attribute name="title" type="string">There's a place where the streets shine 
-</attribute>
     </object>
     <object type="SONG" id="z133">
         <attribute name="copyright" type="string">I Lundie
@@ -883,48 +700,6 @@ My Spirit runs out to meet You
 Oh Lord I cry unto You </attribute>
         <attribute name="title" type="string">Just one touch </attribute>
     </object>
-    <object type="SONG" id="z136">
-        <attribute name="copyright" type="string">Steve McEwan c Body Songs / Copycare Ltd. 1983
-</attribute>
-        <attribute name="lyrics" type="string">Great is the Lord 
-And most worthy of praise 
-The city of our God the holy place 
-The joy of the whole earth 
-Great is the Lord 
-In whom we have the victory 
-He aids us against the enemy 
-We bow down on our knees
-
-And Lord we want to lift 
-Your name on high 
-And Lord we want to thank You 
-For the works You've done in our lives
-And Lord we trust in Your unfailing love For You alone are God Eternal 
-Throughout earth and heaven above 
-</attribute>
-        <attribute name="title" type="string">Great is the Lord </attribute>
-    </object>
-    <object type="SONG" id="z137">
-        <attribute name="copyright" type="string">Paul Sharkey, Public Domain
-</attribute>
-        <attribute name="lyrics" type="string">I stand in awe of Your holy Name 
-Spirit healing, revealing, aflame 
-I stand only through faith
-Grafted into my place 
-In the tree that's planted in You 
-
-I never cease to wonder and praise 
-Your holy call which came in these days In the darkness of night 
-Came the voice in love's light 
-Calling me to the riches of God 
-
-Now I stand redeemed 
-I stand redeemed 
-I stand only through faith 
-In Your love and Your grace 
-Grafted in to the riches of God </attribute>
-        <attribute name="title" type="string">I stand in awe</attribute>
-    </object>
     <object type="SONG" id="z138">
         <attribute name="copyright" type="string">Ian White c 1985 Little Misty Music 
 </attribute>
@@ -984,35 +759,6 @@ The Lamb upon the throne
 And unto you do we lift our praise 
 The Lamb upon the throne</attribute>
         <attribute name="title" type="string">Glory glory glory to the lamb </attribute>
-    </object>
-    <object type="SONG" id="z140">
-        <attribute name="copyright" type="string">A Jewell</attribute>
-        <attribute name="lyrics" type="string">Our Father You are in heaven 
-Holy is Your name (the breath of God)
-Your Kingdom come 
-Your will be done (breathe on you) 
-Here on the earth 
-As it is in heaven (the fire of God) 
-Give us now our daily bread (live in you)
-Forgive us all our sins 
-*As we forgive our enemies (Pentecost)
-  And lead us not (the breath of God)
-  Into temptation (breathe on you)
-  But set us free (the fire of God)
-  From all evil 
-  For Yours Lord is the Kingdom 
-  ( Pentecost Pentecost) 
-  And the power and all the glory (duet)
-  Forever and ever forever more (duet)
-
-*Pentecost Pentecost
-  Pentecost Pentecost 
-  See the fire burning
-  Holy fire from heaven 
-  Pentecost Glory
-  Forever and ever forever more 
-</attribute>
-        <attribute name="title" type="string">Our Father </attribute>
     </object>
     <object type="SONG" id="z141">
         <attribute name="copyright" type="string"></attribute>
@@ -1109,40 +855,6 @@ Oh we touch you
 Let Your healing virtue flow
 </attribute>
         <attribute name="title" type="string">There's a garment</attribute>
-    </object>
-    <object type="SONG" id="z145">
-        <attribute name="copyright" type="string">Sarah Fuller Adams, Arthur Tozer Russell 
-</attribute>
-        <attribute name="lyrics" type="string">Nearer my God to Thee nearer to TheeE'en though it be a cross that raiseth meStill all my song shall be
-Nearer my God to Thee                                                                                                           Nearer my God to Thee nearer to Thee
-
-Though like the wanderer
-The sun gone downDarkness be over me my rest a stoneYet in my dreams I'd be
-Nearer my God to Thee                                                    Nearer my God to Thee nearer to Thee
-
-There let the way appear
-Steps unto heav'nAll that Thou send'st me
-In mercy givenAngels to beckon me 
-Nearer my God to Thee
-Nearer my God to Thee nearer to Thee                                                                 
-
-
-Then with my waking thoughts
-Bright with Thy praiseOut of my stony griefs 
-Bethel I'll raiseSo by my woes to be
-Nearer my God to Thee
-Nearer my God to Thee nearer to Thee 
-                                                                 
-Or if on joyful wing cleaving the skySun moon and stars forgot
-Upward I'll flyStill all my song shall be
-Nearer my God to Thee
-Nearer my God to Thee nearer to Thee                                                       
-
-Christ alone beareth me                                                                                                         Where Thou dost shine                                                                                                             Joint heir He maketh me                                                                                                               Of the divine                                                                                                                                         In Christ my soul shall be
-Nearest my God to Thee
-Nearest my God to Thee nearest to Thee
-</attribute>
-        <attribute name="title" type="string">Nearer my God to Thee nearer to Thee</attribute>
     </object>
     <object type="SONG" id="z146">
         <attribute name="copyright" type="string">Unknow</attribute>
@@ -1349,40 +1061,6 @@ And no good things does he withhold
 From those who walk his way</attribute>
         <attribute name="title" type="string">How lovely is thy dwelling place</attribute>
     </object>
-    <object type="SONG" id="z155">
-        <attribute name="copyright" type="string">M Black</attribute>
-        <attribute name="lyrics" type="string">Land of promise shines before us 
-Hills and valleys softly lie 
-Watered plains and running rivers 
-Underneath an azure sky 
-
-Milk and honey flowing richly 
-Grapes of Eschol ripe and full 
-Heav'nly manna in abundance 
-Jesus let Your Kingdom rule 
-
-I shall see the heav'nly bridegroom 
-In His beauty He shall stand 
-In the shining of the sunlight 
-In the gateway of that land 
-
-Hallelujah sing to Jesus 
-Sing His mercy and his grace 
-Crown Him wholly own Him fully 
-Come Lord Jesus take your place 
-
-With the oil of joy and gladness 
-Let the kingly One be crowned 
-Bring Him glory praise and incense 
-In the shining of that land 
-
-Land of promise shines before us 
-Hills and valleys softly lie 
-Watered plains and running rivers 
-Underneath an azure sky 
-</attribute>
-        <attribute name="title" type="string">Land of promise shines before us </attribute>
-    </object>
     <object type="SONG" id="z156">
         <attribute name="copyright" type="string">R Morgan c 1998 Reuben Morgan  / Hillsong 
 </attribute>
@@ -1417,22 +1095,6 @@ Hosanna Hosanna
 Jesus died and rose again 
 </attribute>
         <attribute name="title" type="string">Let the weak say I am strong </attribute>
-    </object>
-    <object type="SONG" id="z157">
-        <attribute name="copyright" type="string">Mary Elizabeth Byrne </attribute>
-        <attribute name="lyrics" type="string">Be Thou my Vision O Lord of my heart;Naught be all else to me save that Thou artThou my best thought by day or by night,Waking or sleeping, Thy presence my light.
-
-Be Thou my Wisdom, and Thou my true word;I ever with Thee and Thou with me, Lord;Thou my great Father, I Thy true son;Thou in me dwelling, and I with Thee one.
-
-Be Thou my battle shield, sword for the fight;Be Thou my dignity, Thou my delight;Thou my soul's shelter, Thou my high tower:Raise Thou me heavenward,
-O Power of my power.
-
-Riches I heed not, nor man's empty praise,Thou mine inheritance, now and always:Thou and Thou only, first in my heart,High King of heaven, my treasure Thou art.
-
-High King of heaven, after victory's won,May I reach heaven's joys 
-O bright Heaven's Sun!Heart of my own heart, whatever befall,Still be my vision, O ruler of all.
-</attribute>
-        <attribute name="title" type="string">Be Thou My Vision</attribute>
     </object>
     <object type="SONG" id="z158">
         <attribute name="copyright" type="string">Mrs C. H. Morris</attribute>
@@ -1506,20 +1168,6 @@ Is to see You
 Is to see You 
 </attribute>
         <attribute name="title" type="string">One thing I ask one thing I seek </attribute>
-    </object>
-    <object type="SONG" id="z161">
-        <attribute name="copyright" type="string">Charles Wesley </attribute>
-        <attribute name="lyrics" type="string">O for a thousand tongues to singMy great Redeemer's praise,The glories of my God and King,The triumphs of His grace!
-
-My gracious Master and my God,Assist me to proclaim,To spread through all the earth abroadThe honours of Thy name.
-
-Jesus! the name that charms our fears,That bids our sorrows cease;'Tis music in the sinner's ears,'Tis life, and health, and peace.
-
-He breaks the power of cancelled sin,He sets the prisoner free;His blood can make the foulest clean,His blood availed for me.
-
-Hear Him, ye deaf; His praise, ye dumb,Your loosened tongues employ;Ye blind, behold your Saviour come,And leap, ye lame, for joy.
-</attribute>
-        <attribute name="title" type="string">O for a thousand tongues to sing</attribute>
     </object>
     <object type="SONG" id="z162">
         <attribute name="copyright" type="string">E C W Boulton</attribute>
@@ -1610,41 +1258,6 @@ Well let it burn over me
 Oh sweet fire come and burn over me 
 </attribute>
         <attribute name="title" type="string">There's a wind a-blowing 
-</attribute>
-    </object>
-    <object type="SONG" id="z165">
-        <attribute name="copyright" type="string">Graham Kendrick c Make Way Music 1989
-</attribute>
-        <attribute name="lyrics" type="string">We'll walk the land with hearts on fire 
-And every step will be a prayer 
-Hope is rising new day dawning 
-Sound of singing fills the air
-
-Two thousand years and still the flame 
-Is burning bright across the land 
-Hearts are waiting longing aching 
-For awakening once again 
-
-Let the flame burn brighter 
-In the heart of the darkness 
-Turning night to glorious day 
-Let the song grow louder 
-As our love grows stronger
-Let it shine let it shine 
-
-We'll walk for truth speak out for love 
-In Jesus' name we shall be strong 
-To lift the fallen to save the children 
-To fill the nation with Your song 
-
-Let the flame burn brighter 
-In the heart of the darkness 
-Turning night to glorious day 
-Let the song grow louder 
-As our love grows stronger
-Let it shine let it shine 
-</attribute>
-        <attribute name="title" type="string">We'll walk the land with hearts on fire 
 </attribute>
     </object>
     <object type="SONG" id="z166">
@@ -1762,34 +1375,6 @@ Because You're alive
 Because You're alive I live </attribute>
         <attribute name="title" type="string">I live I live</attribute>
     </object>
-    <object type="SONG" id="z172">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">In the holy of holies 
-Behind the heavenly veil
-Sat the ark of the covenant 
-Where the most high dwells 
-But only the high priest could enter therein 
-To offer up a sacrifice of atonement for sin 
-But the veil was rent in an instant 
-Revealing the holy place 
-On a hill near by on a rugged cross 
-Justice met grace 
-
-Now I can go into the holy of holies 
-I can kneel and make my petition known 
-I can go into the holy of holies
-And although I'm just a common man 
-Because of God's redemption plan 
-I can boldly approach the throne 
-
-For the blood of sacrifices 
-Is now no longer required 
-For the blood of Christ God's spotless lamb 
-Has opened heaven's door 
-Allowing us to enter in
-To the presence of the Lord </attribute>
-        <attribute name="title" type="string">In the holy of holies </attribute>
-    </object>
     <object type="SONG" id="z173">
         <attribute name="copyright" type="string">Michael W. Smith c  Milene Music</attribute>
         <attribute name="lyrics" type="string">Alleluia Alleluia 
@@ -1808,37 +1393,6 @@ Worthy is the Lamb
 
 Amen </attribute>
         <attribute name="title" type="string">Alleluia Alleluia</attribute>
-    </object>
-    <object type="SONG" id="z174">
-        <attribute name="copyright" type="string">Harriett B. Stowe </attribute>
-        <attribute name="lyrics" type="string">Still, still with Thee
-When purple morning breakethWhen the bird waketh 
-And the shadows fleeFairer than morning
-Lovelier than daylightDawns the sweet consciousness
-I am with Thee
-
-Alone with Thee
-Amid the mystic shadowsThe solemn hush of nature newly bornAlone with Thee in breathless adorationIn the calm dew and freshness of the morn
-
-As in the dawning o'er the waveless oceanThe image of the morning star doth restSo in the stillness Thou beholdest onlyThine image in the waters of my breast
-
-Still, still with Thee
-As to each newborn morningA fresh and solemn splendour
-Still is givenSo does this blessed consciousness AwakingBreathe each day nearness
-Unto Thee and heaven.
-
-When sinks the soul 
-Subdued by toil to slumberIts closing eye looks up to Thee in prayerSweet the repose 
-Beneath thy wings o'er shadingBut sweeter still to wake 
-And find Thee there
-
-So shall it be at last
-In that bright morningWhen the soul waketh 
-And life's shadows fleeO in that hour 
-Fairer than daylight dawningShall rise the glorious thought
-I am with Thee
-</attribute>
-        <attribute name="title" type="string">Still, still with Thee</attribute>
     </object>
     <object type="SONG" id="z175">
         <attribute name="copyright" type="string"></attribute>
@@ -1961,33 +1515,6 @@ And renew a right spirit within me
 </attribute>
         <attribute name="title" type="string">create in me a clean heart</attribute>
     </object>
-    <object type="SONG" id="z182">
-        <attribute name="copyright" type="string">M Frye c 1999 Vineyard Songs (UK / Eire)
-</attribute>
-        <attribute name="lyrics" type="string">Jesus be the centre 
-Be my source be my light
-Jesus 
-
-Jesus be the centre 
-Be my hope be my song 
-Jesus 
-
-Be the fire in my heart
-Be the wind in these sails 
-Be the reason that I live 
-Jesus Jesus 
-
-Jesus be my vision 
-Be my path be my guide 
-Jesus 
-
-Be the fire in my heart 
-Be the wind in these sails 
-Be the reason that I live 
-Jesus Jesus 
-</attribute>
-        <attribute name="title" type="string">Jesus be the centre </attribute>
-    </object>
     <object type="SONG" id="z183">
         <attribute name="copyright" type="string">A Jewell, Public Domain 
 </attribute>
@@ -1997,25 +1524,6 @@ For He's my Saviour
 My lovely Saviour 
 And He is on the throne </attribute>
         <attribute name="title" type="string">I will tell you why I love Jesus </attribute>
-    </object>
-    <object type="SONG" id="z184">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">And they sang a new song 
-Worthy is the Lamb
-To receive all honour glory and praise 
-From each tribe and nation 
-Purchased by His blood 
-Comes a royal priesthood 
-To bring in the rule of God 
-
-To Him who sits upon the throne
-And to the Lamb 
-Be praise and honour
-And glory and power 
-Forever and ever - worship the Lamb 
-Forever and ever - worship the Lamb 
-Forever and ever more - worship the Lamb</attribute>
-        <attribute name="title" type="string">And they sang a new song </attribute>
     </object>
     <object type="SONG" id="z185">
         <attribute name="copyright" type="string">Jarrod Cooper, 1996 Sovereign Lifestyle Music 
@@ -2043,21 +1551,6 @@ In royal robes I don't deserve
 I live to serve Your Majesty
 </attribute>
         <attribute name="title" type="string">King of Kings, Majesty </attribute>
-    </object>
-    <object type="SONG" id="z186">
-        <attribute name="copyright" type="string">Terry McAlmon 2000 HeavenSong Music</attribute>
-        <attribute name="lyrics" type="string">Blessing and honour, glory and power
-Riches and wisdom and strength
-Blessing and honour, glory and power
-Riches and wisdom and strength
-Be upon You, unto You
-Who sits at the right hand of God
-Be unto You, unto You
-Who sits at the right hand of God
-
-Unto You
-</attribute>
-        <attribute name="title" type="string">Blessing and honour, glory and power</attribute>
     </object>
     <object type="SONG" id="z187">
         <attribute name="copyright" type="string">Bruce Haynes, Lindell Cooley,
@@ -2282,26 +1775,6 @@ Sound the alarm
 </attribute>
         <attribute name="title" type="string">They rush on the city</attribute>
     </object>
-    <object type="SONG" id="z196">
-        <attribute name="copyright" type="string">Brian Doerkson c 1990 Mercy / Vineyard Publishing 
-</attribute>
-        <attribute name="lyrics" type="string">Holiness is your life in me 
-Making me clean through your blood 
-Holiness is your fire in me 
-Purging my heart like a flood 
-I know you are perfect in holiness 
-Your life in me 
-Setting me free making me holy 
-
-Only the blood of Jesus covers all of my sin Only the life of Jesus renews me from within Your blood is enough your mercy complete 
-Your work of atonement 
-Paid for my debts making me holy 
-
-Women:  Only the blood of Jesus x 3 
-Men:  Mercy triumphs over judgement x 2 
-</attribute>
-        <attribute name="title" type="string">Holiness is your life in me</attribute>
-    </object>
     <object type="SONG" id="z197">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">We have sung our songs of victory
@@ -2382,33 +1855,6 @@ Swing wide the gates
 Let the King come in</attribute>
         <attribute name="title" type="string">Swing wide the gates</attribute>
     </object>
-    <object type="SONG" id="z201">
-        <attribute name="copyright" type="string">F. R. Havergal. </attribute>
-        <attribute name="lyrics" type="string">Take my life, and let it be  
-Consecrated, Lord, to Thee.Take my moments and my days;
-Let them flow in ceaseless praise.
-
-Take my hands, and let them move 
-At the impulse of Thy love.Take my feet, and let them be 
-Swift and beautiful for Thee.
-
-Take my voice, and let me sing 
-Always, only, for my King.Take my lips, and let them be
-Filled with messages from Thee.
-
-Take my silver and my gold; 
-Not a mite would I withhold.Take my intellect, and use
-Every power as Thou shalt choose.
-
-Take my will, and make it Thine;  
-It shall be no longer mine.Take my heart, it is Thine own;  
-It shall be Thy royal throne.                
-Take my love, my Lord, I pour
-At Thy feet its treasure store.Take myself, and I will be
-Ever only all for Thee. 
-</attribute>
-        <attribute name="title" type="string">Take my life, and let it be  </attribute>
-    </object>
     <object type="SONG" id="z202">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">The life of God has found a home in me
@@ -2446,29 +1892,6 @@ A fragrance rare of wonderful worth
 His name is like an ointment poured forth 
 His wonderful wonderful name </attribute>
         <attribute name="title" type="string">His name is like ointment poured forth</attribute>
-    </object>
-    <object type="SONG" id="z204">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">The Lord bless you, the Lord keep you
-And make His face to shine upon you
-The Lord be gracious unto you
-The Lord lift up His countenance upon you
-And give you peace
-
-Oh taste and see that the Lord is good to those who trust Him, for tomorrow
-
-So make a new word for tomorrow
-Call it "Take no thought for day"
-Or even better you might say
-And as for me and my great big family
-We will trust Him for tomorrow
-
-The Lord bless you, the Lord keep you
-And make His face to shine upon you
-The Lord be gracious unto you
-The Lord lift up His countenance upon you
-And give you peace, give you peace</attribute>
-        <attribute name="title" type="string">The Blessing</attribute>
     </object>
     <object type="SONG" id="z205">
         <attribute name="copyright" type="string">Terry MacAlmon 2000 TMMI Music
@@ -2584,55 +2007,6 @@ And once again I look upon the cross where you died
 I'm humbled by your mercy and I'm broken inside
 Once again I thank You, once again I pour out my life</attribute>
         <attribute name="title" type="string">Jesus Christ, I think upon Your sacrifice</attribute>
-    </object>
-    <object type="SONG" id="z212">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">Here I am waiting abide in me I pray
-Here I am longing for You
-Hide me in Your love bring me to my knees
-May I know Jesus more and more
-
-Come live in me all my life take over
-Come breath on me and I will rise on eagles wings</attribute>
-        <attribute name="title" type="string">Here I am waiting</attribute>
-    </object>
-    <object type="SONG" id="z213">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">Would you be free from your burden of sin?
-There's power in the blood, power in the blood
-Would you o'er evil a victory win?
-There's wonderful power in the blood
-
-There is power, power wonder working power
-In the blood of the Lamb
-There is power, power wonder working power
-In the precious blood of the Lamb
-
-Would you be free from your passions and pride?
-There's power in the blood, power in the blood
-Come for a cleansing from Calvary's tide
-There's wonderful power in the blood
-
-There is power, power wonder working power
-In the blood of the Lamb
-There is power, power wonder working power
-In the precious blood of the Lamb
-
-Would you be whiter much whiter than snow?
-There's power in the blood, power in the blood
-Sin stains are lost in its life-giving flow
-There's wonderful power in the blood
-
-There is power, power wonder working power
-In the blood of the Lamb
-There is power, power wonder working power
-In the precious blood of the Lamb
-
-Would you do service for Jesus your King?
-There's power in the blood, power in the blood
-Would you live daily His praises to sing?
-There's wonderful power in the blood</attribute>
-        <attribute name="title" type="string">Would you be free from your burden of sin</attribute>
     </object>
     <object type="SONG" id="z214">
         <attribute name="copyright" type="string">R Mark c 1998 Kingsway's ThankYou Music
@@ -2809,63 +2183,6 @@ O hold us still following Thee
 O hold us still following Thee </attribute>
         <attribute name="title" type="string">Beholding Thee</attribute>
     </object>
-    <object type="SONG" id="z219">
-        <attribute name="copyright" type="string">A Jewell</attribute>
-        <attribute name="lyrics" type="string">Breaking Heaven's glory 
-Calling into the night 
-Softly shining of star light
-Holy glory of light 
-
-Dancing dance in the garden 
-Angels sing with you here 
-Dancing treading the heavens 
-Jesus your glory is here 
-
-Singing songs of heaven 
-Shouting "Glory to God"
-Dancing heaven rejoicing
-Creation welcomes the Son 
-
-Glory hallelujah glory glory to God 
-Glory in the highest glory glory to God</attribute>
-        <attribute name="title" type="string">Breaking Heaven's glory </attribute>
-    </object>
-    <object type="SONG" id="z220">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">Let the Son of Righteousness arise 
-With healing in his wings 
-Shine upon your people Lord 
-Let your Holy spirit bring 
-The light that sets us free 
-To fix our eyes on things above 
-The glory of your presence 
-The healing of your love 
-Melt the clouds of darkness Lord 
-And set your people free 
-Let the Son of Righteousness 
-Arise and shine on me 
-
-Shine in every corner soften every heart 
-Strengthen all your body glorify each part 
-
-Let the Son of Righteousness arise 
-With healing in his wings 
-Shine upon your people Lord 
-Let your Holy spirit bring 
-The light that sets us free 
-To fix our eyes on things above 
-The glory of your presence 
-The healing of your love 
-Melt the clouds of darkness now 
-And set your people free 
-Let the Son of Righteousness 
-Arise and shine on me 
-
-Banish condemnation with your heart embrace
-Let the joy of Jesus shine on every face
-</attribute>
-        <attribute name="title" type="string">Let the Son of Righteousness arise </attribute>
-    </object>
     <object type="SONG" id="z221">
         <attribute name="copyright" type="string">Morgan, Reuben c 1998 Reuben Morgan (Hillsong)
 </attribute>
@@ -2965,21 +2282,6 @@ Will wait for a tomorrow
 Or on the tide be borne away 
 </attribute>
         <attribute name="title" type="string">Time and tide </attribute>
-    </object>
-    <object type="SONG" id="z224">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">All I once held dear, built my life uponAll this world reveres, and wars to ownAll I once thought gain I have counted lossSpent and worthless now, compared to this
-
-Knowing you, JesusKnowing you, there is no greater thingYou're my all, you're my restYou're my joy, my righteousnessAnd I love you, Lord
-
-Now my heart's desire is to know you moreTo be found in you and known as yoursTo possess by faith what I could not earnAll-surpassing gift of righteousness
-
-Knowing you, JesusKnowing you, there is no greater thingYou're my all, you're my restYou're my joy, my righteousnessAnd I love you, Lord
-
-Oh, to know the power of your risen lifeAnd to know You in Your sufferingsTo become like you in your death, my LordSo with you to live and never die
-
-Knowing you, JesusKnowing you, there is no greater thingYou're my all, you're my restYou're my joy, my righteousnessAnd I love you, Lord</attribute>
-        <attribute name="title" type="string">All I once held dear</attribute>
     </object>
     <object type="SONG" id="z225">
         <attribute name="copyright" type="string">Unknown</attribute>
@@ -3116,39 +2418,6 @@ The whole world waits for you
         <attribute name="title" type="string">Wonderful Counsellor 
 </attribute>
     </object>
-    <object type="SONG" id="z233">
-        <attribute name="copyright" type="string">D Ruis C 1993 Mercy / Vineyard Publishing 
-</attribute>
-        <attribute name="lyrics" type="string">Sing a song of celebration 
-Lift up a shout of praise 
-For the Bridegroom will come
-The glorious One 
-And oh we will look on His face 
-We'll go to a much better place 
-
-Dance with all your might 
-Lift up your hands and clap for joy 
-The time's drawing near
-When He will appear 
-And oh we will stand by His side 
-A strong pure spotless Bride 
-
-Oh we will dance on  
-The streets that are golden 
-The glorious Bride
-And the great son of Man 
-From every tongue and tribe and nation Will join in the song of the Lamb
-
-Men-Women echo 
-Sing aloud for the time of rejoicing is near
-The risen King our Groom is soon to appear 
-The wedding feast to come is now near at hand
-Lift up your voice proclaim the coming Lamb
-
-</attribute>
-        <attribute name="title" type="string">Sing a song of celebration 
-</attribute>
-    </object>
     <object type="SONG" id="z234">
         <attribute name="copyright" type="string">Lenny LeBlanc &amp; Paul Baloche
  1995 Integrity's Hosanna! Music/ASCAP/LeSongs Publishing</attribute>
@@ -3213,60 +2482,6 @@ Come running to the mercy seat
 Come running to the mercy seat 
 </attribute>
         <attribute name="title" type="string">In the darkness </attribute>
-    </object>
-    <object type="SONG" id="z236">
-        <attribute name="copyright" type="string">Daniel L Schutte c 1991 New Dawn Music </attribute>
-        <attribute name="lyrics" type="string">I the Lord of sea and sky
-I have heard My people cry 
-All who dwell in dark and sin
-My hand will save 
-I who made the stars of night
-I will make their darkness bright 
-I will speak My word to them 
-Whom shall I send 
-
-Here I am Lord is it I Lord 
-I have heard You calling in the night I will go Lord if you lead me 
-I will hold Your people in my heart 
-
-I the Lord of snow and rain 
-I have borne my people's pain 
-I have wept for love of them 
-They turn away 
-I will break their hearts of stone 
-Give them hearts for love alone 
-I will speak My word to them 
-Whom shall I send
-
-
-I the Lord of wind and flame 
-I will tend the poor and lame 
-I will set a feast for them
-My hand will save 
-Finest bread I will provide
-Till their hearts are satisfied 
-I will give My life to them
-Whom shall I send
-
-Here I am Lord is it I Lord 
-I have heard You calling in the night I will go Lord if you lead me 
-I will hold Your people in my heart </attribute>
-        <attribute name="title" type="string">I the Lord of sea and sky</attribute>
-    </object>
-    <object type="SONG" id="z237">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">You deserve the glory and honour 
-Lord we lift our hearts in worship 
-As we praise Your holy name 
-repeat 
-
-For You are great 
-You do miracles so great 
-There is no one else like You 
-There is no one else like You 
-</attribute>
-        <attribute name="title" type="string">You deserve the glory and honour 
-</attribute>
     </object>
     <object type="SONG" id="z238">
         <attribute name="copyright" type="string">Brian Doerksen, c 1989 Mercy Publishing / Kingsway's ThankYou Music 
@@ -3403,44 +2618,6 @@ Your need to supply
 Reach out and touch the Lord 
 As He goes by </attribute>
         <attribute name="title" type="string">Reach out and touch the Lord </attribute>
-    </object>
-    <object type="SONG" id="z245">
-        <attribute name="copyright" type="string">William Williams</attribute>
-        <attribute name="lyrics" type="string">Guide me, O Thou great JehovahPilgrim through this barren landI am weak, but Thou art mightyHold me with Thy powerful handBread of heavenFeed me now and evermore
-
-Open now the crystal fountainWhence the healing stream doth flowLet the fiery cloudy pillarLead me all my journey throughStrong DelivererBe Thou still my Strength and Shield
-
-If I tread the verge of JordanBid my anxious fears subside                                                                                     Bear me through the swelling torrent                                                                                    Land me safe on Canaan's sideSongs of praisesI will ever give to Thee                                                                                                                                                       
-
-Saviour, come we long to see Thee                                                                                         Long to dwell with Thee above                                                                                                    And to know in full communion                                                                                                                           All the sweetness of Thy love                                                                                                       Come Lord Jesus                                                                                                                        Take Thy waiting people home</attribute>
-        <attribute name="title" type="string">Guide me oh Thou great Jehovah</attribute>
-    </object>
-    <object type="SONG" id="z246">
-        <attribute name="copyright" type="string">1996 Megin's College Fund Music ASCAP Latter Rain Music Admin by Sparow
-</attribute>
-        <attribute name="lyrics" type="string">To the King who gave everything for me
-Whose body crucified high on Calvary's tree 
-Whose redemptive blood makes way for me 
-I now give everything 
-
-To the King who came in the form of a child 
-All powerful God and yet so mild 
-Whose obedience shows the way for me
-I humbly come to Thee 
-
-Chorus 
-To the King alone I will give my life 
-To the King I will sing both day and night 
-To the Lamb of God who has paid the price 
-To the King alone, I will give my life 
-
-To the King the One True Royalty 
-The King He has befriended me 
-But greater still He lives in me 
-I give Him everything 
-</attribute>
-        <attribute name="title" type="string">To the King who gave everything for me
-</attribute>
     </object>
     <object type="SONG" id="z247">
         <attribute name="copyright" type="string"></attribute>
@@ -3584,49 +2761,6 @@ You alone are Holy
 </attribute>
         <attribute name="title" type="string">Great and wonderful</attribute>
     </object>
-    <object type="SONG" id="z253">
-        <attribute name="copyright" type="string">William Booth Adpt. Lex Loizides c 1994 Kingsway's ThankYou Music
-</attribute>
-        <attribute name="lyrics" type="string">O God of burning cleansing flame 
-Send the fire 
-Your blood-bought gift today we claim 
-Send the fire today 
-Look down and see this waiting host 
-And send the promised Holy Ghost 
-We need another Pentecost 
-Send the fire today x 2   
-
-God of Elijah hear our cry
-Send the fire 
-And make us fit to live or die 
-Send the fire today
-To burn up every trace of sin 
-To bring the light and glory in 
-The revolution now begin 
-Send the fire today x 2  
-
-It's fire we want for fire we plead 
-Send the fire 
-The fire will meet our every need 
-Send the fire today 
-For strength to always do what's right
-For grace to conquer in the fight 
-For power to walk the world in white 
-Send the fire today x 2  
-
-To make our weak hearts 
-Strong and brave 
-Send the fire 
-To live a dying world to save 
-Send the fire today 
-Oh see us on Your altar lay 
-We give our lives to you today 
-So crown the offering now we pray 
-Send the fire today x 3  
-</attribute>
-        <attribute name="title" type="string">O God of burning cleansing flame 
-</attribute>
-    </object>
     <object type="SONG" id="z254">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">Just let your spirit rise
@@ -3662,20 +2796,6 @@ And more to find Thee
 </attribute>
         <attribute name="title" type="string">Let me be obedient Lord </attribute>
     </object>
-    <object type="SONG" id="z256">
-        <attribute name="copyright" type="string"></attribute>
-        <attribute name="lyrics" type="string">Lord I have heard of your fame
-And I stand in awe of Your deeds, oh Lord
-Lord I have heard of your fame
-And I stand in awe of Your deeds, oh Lord
-
-Renew them, renew them
-In our day and in our time make them known
-Renew them, renew them
-In our day and in our time make them known
-In wrath remember mercy</attribute>
-        <attribute name="title" type="string">Lord I have heard</attribute>
-    </object>
     <object type="SONG" id="z257">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">Holy holy
@@ -3690,46 +2810,6 @@ Lift up His name in all the earth
 Lift up your voice and give Him glory
 For He is worthy to be praised</attribute>
         <attribute name="title" type="string">Holy holy (lift up His name with the sound of singing)</attribute>
-    </object>
-    <object type="SONG" id="z258">
-        <attribute name="copyright" type="string">Banecroft, Charitie Lees</attribute>
-        <attribute name="lyrics" type="string">Before the throne of God above 
-I have a strong a perfect plea 
-A great high priest whose name is Love Who ever lives and pleads for me 
-My name is graven on His hands
-My name is written on His heart 
-I know that while in heaven stands 
-No tongue can bid me thence depart x2
- 
-When Satan tempts me to despair 
-And tells me of the guilt within 
-Upwards I look and see Him there 
-Who made an end to all my sin 
-Because the sinless Saviour died 
-My sinful soul is counted free 
-For God the just is satisfied 
-To look on him and pardon me x 2 
-
-Behold Him there the risen lamb 
-My perfect spotless righteousness 
-The great unchangeable I Am 
-The King of glory and of grace 
-One with Himself I cannot die 
-My soul is purchased with His blood 
-My life is hid with Christ on high 
-With Christ my Saviour and my God x 2 
-
-
-
-
-
-
-
-
-
-
-</attribute>
-        <attribute name="title" type="string">Before the throne of God above </attribute>
     </object>
     <object type="SONG" id="z259">
         <attribute name="copyright" type="string">Unknown</attribute>
@@ -3804,18 +2884,6 @@ Since for me He bled and died
 Oh I love Him yes I love Him 
 More than all the world beside</attribute>
         <attribute name="title" type="string">Oh I love Him yes I love Him </attribute>
-    </object>
-    <object type="SONG" id="z264">
-        <attribute name="copyright" type="string"></attribute>
-        <attribute name="lyrics" type="string">I worship You Almighty God
-There is none like You
-I worship You Oh Prince of Peace
-That is what I love to do
-
-I give you praise for you are my righteousness
-I worship You Almighty God
-There is none like you</attribute>
-        <attribute name="title" type="string">I worship You Almighty God</attribute>
     </object>
     <object type="SONG" id="z265">
         <attribute name="copyright" type="string">Charles Wesley (1707-1788) 
@@ -4065,92 +3133,6 @@ For the Spirit of the Lord is still moving suddenly</attribute>
         <attribute name="title" type="string">They were all together in one place
 </attribute>
     </object>
-    <object type="SONG" id="z274">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">I will follow You, follow you wholeheartedly
-I will follow You, follow you unreservedly
-Your word is the lamp that lights my pathway
-Your word is a light unto my feet.
-
-El-Shaddai, El-Shaddai, You're the God of my supply
-You are the Lord of Hosts, God Almighty
-I will follow You El-Shaddai
-
-I will do Your will, do Your will wholeheartedly
-I will give my life, give it unreservedly
-To live all my life for One who's faithful
-My lips filled with Your praise because I'm grateful.</attribute>
-        <attribute name="title" type="string">I will follow You</attribute>
-    </object>
-    <object type="SONG" id="z275">
-        <attribute name="copyright" type="string">Madam Guyon</attribute>
-        <attribute name="lyrics" type="string">All scenes alike engaging prove                                                                           To souls impressed with sacred love!                                                                  Where'er they dwell, they dwell in Thee;                                                                          In heaven, in earth, or on the sea.
-
-To me remains nor place nor time;                                                                                         My country is in every clime;                                                                                               I can be calm and free from care                                                                                          On any shore, since God is there.
-
-While place we seek, or place we shun,                                                                           The soul finds happiness in none;                                                                                   But, with my God to guide our way,                                                                                      'Tis equal joy to go or stay.
-
-Could I be cast where Thou art not,                                                                                    That were indeed a dreadful lot;                                                                                          But regions none remote I call,                                                                                     Secure of finding God in all.</attribute>
-        <attribute name="title" type="string">All Scenes Alike</attribute>
-    </object>
-    <object type="SONG" id="z276">
-        <attribute name="copyright" type="string">Matthew Bridges (1800-94) &amp; Godfrey Thring (1823-1903) </attribute>
-        <attribute name="lyrics" type="string">Crown Him with many crowns
-The Lamb upon His throne 
-Hark how the heav'nly anthem drowns 
-All music but its own 
-Awake my soul and sing 
-Of Him who died for thee 
-And hail Him as thy matchless King
-Through all eternity 
-
-
-Crown Him the Lord of life
-Who triumphed o'er the grave 
-And rose victorious in the strife
-For those He came to save
-His glories now we sing
-Who died and rose on high 
-Who died eternal life to bring 
-And lives that death may die 
-
-
-Crown Him the Lord of love
-Behold His hands and side 
-Those wounds yet visible above 
-In beauty glorified 
-No angel in the sky 
-Can fully bear that sight 
-But downward bends His burning eye
-At mysteries so bright
-
-
-Crown Him the Lord of peace
-Whose power a sceptre sways 
-From pole to pole that wars may cease
-And all be prayer and praise 
-His reign shall know no end 
-And round His pierced feet 
-Fair flowers of paradise extend 
-Their fragrance ever sweet 
-
-
-Crown Him the Lord of years 
-The Potentate of time 
-Creator of the rolling spheres
-Ineffably sublime 
-All hail Redeemer hail 
-For Thou hast died for me 
-Thy praise shall never, never fail
-Throughout eternity
-
-
-
-
-
-</attribute>
-        <attribute name="title" type="string">Crown Him with many crowns</attribute>
-    </object>
     <object type="SONG" id="z277">
         <attribute name="copyright" type="string">Fanny Crosby</attribute>
         <attribute name="lyrics" type="string">Blessed Assurance Jesus is mine 
@@ -4229,13 +3211,6 @@ Ever my tongue shall tell
 Of Calvary</attribute>
         <attribute name="title" type="string">Jesus was slain for me </attribute>
     </object>
-    <object type="SONG" id="z280">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">Jesus I love you 
-I bow down before you 
-Praises and worship to our king Alleluia Alleluia Alleluia Allelu </attribute>
-        <attribute name="title" type="string">Jesus I love you </attribute>
-    </object>
     <object type="SONG" id="z281">
         <attribute name="copyright" type="string">Andrew Jewell</attribute>
         <attribute name="lyrics" type="string">You are worthy of all power 
@@ -4307,44 +3282,6 @@ Can ever pluck me from His hand
 Till He returns or calls me home
 Here in the power of Christ I stand.</attribute>
         <attribute name="title" type="string">In Christ alone</attribute>
-    </object>
-    <object type="SONG" id="z284">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">A river is flowing from heaven above 
-A river of blessing a river of love 
-Tis reaching the nations both far and near
-This river of God oh let it flow here 
-
-O river of God flow down on me 
-O river of God flow out from me 
-O river of God so full and free 
-O river of God I cry to thee
-
-The desert shall blossom as fresh as the rose 
-This river brings healing wherever it flows 
-The ground that is parched so thirsty and dry 
-Shall surely be flooded with rain from on high 
-
-The deaf shall have hearing 
-The blind folk shall see 
-The lame shall be loosed from their infirmity 
-The crooked made straight 
-And the broken made whole 
-This latter time blessing as promised by Joel 
-
-The fetters of fear and of doubt soon shall break When unbelief goes and the church shall awake 
-The chains of hard bondage for ever will fall 
-And Jesus exalted supreme over all 
-
-By this flowing river earth's bondage shall cease The floods are now rising to bring us release 
-The vision is glorious then why not believe
-Step into the blessing His fullness receive
-
-O river of God flow down on me 
-O river of God flow out from me 
-O river of God so full and free 
-O river of God I cry to thee</attribute>
-        <attribute name="title" type="string">A river is flowing from heaven above </attribute>
     </object>
     <object type="SONG" id="z285">
         <attribute name="copyright" type="string">Russell Fragar/Hillsong Music Australia</attribute>
@@ -4451,45 +3388,6 @@ Hopes in thee
         <attribute name="title" type="string">Jesus we've come to pray 
 </attribute>
     </object>
-    <object type="SONG" id="z289">
-        <attribute name="copyright" type="string">Gail Cole, Glen Cummings c 1975 Church of the Messiah 
-</attribute>
-        <attribute name="lyrics" type="string">I will dwell in His secret place
-In His shadow I will abide 
-In His fortress I will take refuge 
-In my God the Most High 
-
-From plague and from snare
-You are protected 
-You need not fear the dark of night 
-And with His wing you will be covered 
-Delivered from the wicked's might 
-
-I will dwell in His secret place 
-In His shadow I will abide 
-In His fortress I will take refuge 
-In my God The Most High
-
-There shall no evil o'ercome you
-Neither shall the plague come nigh 
-For He shall place His angels o'er you To keep you safe in all your ways 
-
-I will dwell in His secret place 
-In His shadow I will abide 
-In His fortress I will take refuge 
-In my God The Most High 
-
-When I call to the Lord He will answer He will set my soul on high 
-He will be near in time of trouble 
-Give long life and satisfy
-
-I will dwell in His secret place 
-In His shadow I will abide 
-In His fortress I will take refuge 
-In my God The Most High
-</attribute>
-        <attribute name="title" type="string">I will dwell in His secret place</attribute>
-    </object>
     <object type="SONG" id="z290">
         <attribute name="copyright" type="string">D Ruis c 1993 Mercy / Vineyard Publishing
 </attribute>
@@ -4531,55 +3429,6 @@ Hath prevailed
 To open the book
 And lose the seals thereof</attribute>
         <attribute name="title" type="string">Cry out and shout</attribute>
-    </object>
-    <object type="SONG" id="z292">
-        <attribute name="copyright" type="string">John W. Peterson </attribute>
-        <attribute name="lyrics" type="string">O what a wonderful, wonderful day
-A day I will never forget
-After I wandered in darkness away
-Jesus my saviour I met
-O, what a tender compassionate Friend
-He met the need of my heart
-Shadows dispelling with joy I am telling
-He made all the darkness depart
-
-Heaven came down 
-And glory filled my soul
-When at the cross
-My saviour made me whole
-My sins were washed away
-And my night was turned to day
-When heaven came down 
-And glory filled my soul
-
-Born of the Spirit with life from above                                                                                                     Into God's family divine
-Justified fully thro' Calvary's love
-O what a standing is mine
-And the transaction so quickly was made
-When as a sinner I came
-Took of the offer of grace He did proffer
-He saved me O praise His dear name
-
-
-Now I've a hope that will surely endure
-After the passing of time
-I have a future in heaven for sure
-There in those mansions sublime
-And it's because of that wonderful day
-When at the cross I believed
-Riches eternal and blessings supernal
-From His precious hand I received
-
-Heaven came down 
-And glory filled my soul
-When at the cross
-My saviour made me whole
-My sins were washed away
-And my night was turned to day
-When heaven came down 
-And glory filled my soul
-</attribute>
-        <attribute name="title" type="string">O what a wonderful, wonderful day</attribute>
     </object>
     <object type="SONG" id="z293">
         <attribute name="copyright" type="string">Fanny J. Crosby </attribute>
@@ -4849,27 +3698,6 @@ Wonderful man of Calvary
 </attribute>
         <attribute name="title" type="string">Fairest of all the earth beside</attribute>
     </object>
-    <object type="SONG" id="z304">
-        <attribute name="copyright" type="string">Francis H. Rawley </attribute>
-        <attribute name="lyrics" type="string">I will sing the wondrous storyOf the Christ who died for me.How He left His home in gloryFor the cross of Calvary.
-
-Yes, I'll sing the wondrous storyOf the Christ who died for me,Sing it with the saints in glory,Gathered by the crystal sea.
-
-I was lost, but Jesus found me,Found the sheep that went astray,Threw His loving arms around me,Drew me back into His way.
-
-Yes, I'll sing the wondrous storyOf the Christ who died for me,Sing it with the saints in glory,Gathered by the crystal sea.
-
-I was bruised, but Jesus healed me,Faint was I from many a fall,Sight was gone, and fears possessed me,But He freed me from them all.
-
-Yes, I'll sing the wondrous storyOf the Christ who died for me,Sing it with the saints in glory,Gathered by the crystal sea.
-
-He will keep me till the riverRolls its waters at my feet;Then He'll bear me safely over,Where the loved ones I shall meet.
-
-Yes, I'll sing the wondrous storyOf the Christ who died for me,Sing it with the saints in glory,Gathered by the crystal sea.
-
-</attribute>
-        <attribute name="title" type="string">I will sing the wondrous story</attribute>
-    </object>
     <object type="SONG" id="z305">
         <attribute name="copyright" type="string">S Townend c 1995 Kingsway's ThankYou Music
 </attribute>
@@ -4900,26 +3728,6 @@ I cannot give an answer
 But this I know with all my heart 
 His wounds have paid my ransom </attribute>
         <attribute name="title" type="string">How deep the Father's love for us </attribute>
-    </object>
-    <object type="SONG" id="z306">
-        <attribute name="copyright" type="string">Steve Fry 1983 Birdwing / Cherry Lane Music / ASCAP </attribute>
-        <attribute name="lyrics" type="string">Jesus all glorious create in us a temple 
-We are called as living stones 
-Where You're enthroned 
-And as You rose from death in power 
-So rise within our worship 
-Rise upon our praise 
-And let the hand that saw You raised 
-Clothe us in Your glory draw us by 
-Your Grace 
-
-O the glory of Your presence 
-We Your temple give You reverence 
-So arise to Your rest 
-And be blessed by our praise 
-As we glory in Your embrace 
-As Your presence now fills this place </attribute>
-        <attribute name="title" type="string">Jesus all glorious create in us a temple </attribute>
     </object>
     <object type="SONG" id="z307">
         <attribute name="copyright" type="string">Unknown</attribute>
@@ -4971,14 +3779,6 @@ Lily of the valley
 And lovely yes altogether lovely 
 Anointed anointed of the Lord</attribute>
         <attribute name="title" type="string">Anointed anointed of the father</attribute>
-    </object>
-    <object type="SONG" id="z310">
-        <attribute name="copyright" type="string"></attribute>
-        <attribute name="lyrics" type="string">My Jesus, My saviour,
-Lord, there is none like You.All of my days I want to praiseThe wonders of Your mighty love.My comfort, my shelter,Tower of refuge and strength,Let every breath, all that I am,Never cease to worship You.
-
-Shout to the Lord all the earth, let us singPower and majesty, praise to the King.Mountains bow downAnd the seas will roarAt the sound of Your name.I sing for joy at the work of Your hands.Forever I'll love You, forever I'll stand.Nothing compares to the promise I have in You.</attribute>
-        <attribute name="title" type="string">My Jesus, My Saviour</attribute>
     </object>
     <object type="SONG" id="z311">
         <attribute name="copyright" type="string">Andrew Jewell, Public Domain</attribute>
@@ -5070,42 +3870,6 @@ But He sees Jesus
 </attribute>
         <attribute name="title" type="string">I am covered over </attribute>
     </object>
-    <object type="SONG" id="z315">
-        <attribute name="copyright" type="string"></attribute>
-        <attribute name="lyrics" type="string">We are a moment, You are forever
-Lord of the ages, God before time
-We are a vapour, You are eternal
-Love everlasting, reigning on high
-
-Holy holy, Lord God AlmightyWorthy is the Lamb that was slain
-Highest praises, honour and glory
-Be unto Your name
-Be unto Your name
-
-We are the broken, You are the healer
-Jesus Redeemer, mighty to save
-You are the love song, we'll sing forever
-Bowing before You, praising Your name
-
-Holy holy, Lord God AlmightyWorthy is the Lamb that was slain
-Highest praises, honour and glory
-Be unto Your name
-Be unto Your name</attribute>
-        <attribute name="title" type="string">we are a moment </attribute>
-    </object>
-    <object type="SONG" id="z316">
-        <attribute name="copyright" type="string">A Jewell</attribute>
-        <attribute name="lyrics" type="string">Lord we see the rain come falling down Saturating thirsty ground 
-O Lord with all our hearts
-We've turned around 
-And this is what we seek 
-
-Cloud of glory coming down 
-Cloud of glory coming down 
-Cloud of glory coming down 
-This is what we seek </attribute>
-        <attribute name="title" type="string">Lord we see the rain</attribute>
-    </object>
     <object type="SONG" id="z317">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">Sweet rose of Sharon
@@ -5115,28 +3879,6 @@ Beautiful flower fairest that grows
 I'm glad that I've found Thee 
 Sweet Sharon's rose</attribute>
         <attribute name="title" type="string">Sweet rose of Sharon</attribute>
-    </object>
-    <object type="SONG" id="z318">
-        <attribute name="copyright" type="string">Andrew Jewell, Public Domain</attribute>
-        <attribute name="lyrics" type="string">Can you hear the angels singing 
-Can you hear the name they sing 
-Can you hear the joy of Heaven 
-Jesus the Lord so dear 
-Jesus the Lord so dear 
-
-At His name the love of God 
-Pours forth in streams
-From Heaven high 
-At His name 
-At His name 
-
-Softly now the night is passing 
-Gentle now the dawn is near
-Golden is the light from heaven 
-Jesus the Lord is here 
-Jesus the Lord is here 
-</attribute>
-        <attribute name="title" type="string">can you hear the angels singing</attribute>
     </object>
     <object type="SONG" id="z319">
         <attribute name="copyright" type="string">Steve Cook, Vikki Cook c 1994 PDI Worship / Word Music Inc
@@ -5188,47 +3930,6 @@ O for a sense of inward peace
 O for thy glory to increase 
 Saviour anoint me now </attribute>
         <attribute name="title" type="string">O for a new anointing</attribute>
-    </object>
-    <object type="SONG" id="z321">
-        <attribute name="copyright" type="string">Anne R. Cousin  </attribute>
-        <attribute name="lyrics" type="string">The sands of time are sinking
-The dawn of heaven breaks;The summer morn I've sighed for
-The fair, sweet morn awakes:Dark, dark hath been the midnight
-But dayspring is at hand,And glory, glory dwelleth
-In Immanuel's land.
-
-O Christ, He is the fountain
-The deep, sweet well of love!The streams on earth I've tasted
-More deep I'll drink above:There to an ocean fullness
-His mercy doth expand,And glory, glory dwelleth 
-In Immanuel's land.
-
-With mercy and with judgment 
-My web of time He wove,And aye, the dews of sorrow 
-Were lustered by His love;I'll bless the hand that guided
-I'll bless the heart that plannedWhen throned where glory dwelleth
-In Immanuel's land.
-
-O I am my Beloved's 
-And my Beloved is mine!He brings a poor vile sinner 
-Into His "house of wine".
-I stand upon His merit
-I know no other stand,Not even where glory dwelleth
-In Immanuel's land.
-
-The Bride eyes not her garment
-But her dear Bridegroom's face;I will not gaze at glory
-But on my King of grace.Not at the crown He giveth
-But on His pierced hand;The Lamb is all the glory
-Of Immanuel's land
-
-I've wrestled on towards Heaven
-Against storm and wind and tide,Now, like a weary traveller
-That leaneth on his guide,Amid the shades of evening
-While sinks life's lingering sand,I hail the glory dawning
-From Immanuel's land.
-</attribute>
-        <attribute name="title" type="string">The sands of time are sinking</attribute>
     </object>
     <object type="SONG" id="z322">
         <attribute name="copyright" type="string">R Mark c 1991 Word's Spirit of Praise Music 
@@ -5292,38 +3993,6 @@ Moment of love of joy of peace with You
 
 </attribute>
         <attribute name="title" type="string">With thankfulness </attribute>
-    </object>
-    <object type="SONG" id="z325">
-        <attribute name="copyright" type="string">A Jewell</attribute>
-        <attribute name="lyrics" type="string">Look down O Lord and hear our prayer 
-Amazing grace how sweet the sound
-The land it thirsts for rain
-That saved a wretch like me
-The birds have flown 
-I once was lost
-The heights lie bare 
-But now I'm found
-Come down on us again 
-Was blind but now I see
-
-Lord sweep o'er our country 
-Like a long forgotten melody 
-Let hearts once turned to stone
-Now awake to joy again 
-Thunder in the islands 
-And a fire in the wilderness 
-Lord let this nation sing again 
-
-Let us sing
-From the islands to the coast land shores 
-In the heights and in the valleys
-Let this nation sing again 
-Let us sing
-From the moor land to the shining peak 
-Where the river runs and mountains sleep
-Lord let this nation sing again 
-</attribute>
-        <attribute name="title" type="string">Lord sweep o'er our country </attribute>
     </object>
     <object type="SONG" id="z326">
         <attribute name="copyright" type="string">Arlene Friesen Songs, Public Domain </attribute>
@@ -5440,34 +4109,6 @@ Holy is the Lord
         <attribute name="title" type="string">Let our praise to You be as incense 
 </attribute>
     </object>
-    <object type="SONG" id="z331">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">I'll walk closer now on the higher way
-Through the darkest night will You hold my hand
-Jesus guide my way
-
-For You mourn with me and You dance with me
-For My heart of hearts is bound to You
-
-Though I walk through valleys low
-I'll fear no evil 
-By Your waters still my soul
-My heart will trust in You
-My heart will trust in You</attribute>
-        <attribute name="title" type="string">I'll walk closer now on the higher way
-Through the darkest night will You hold my hand
-Jesus guide my way
-
-For You mourn with me and you dance with me
-For My heart of hearts is bound to You
-
-Though I walk through valleys low
-I'll fear no evil 
-By Your waters still my soul
-My heart will trust in You
-My heart will trust in You
-</attribute>
-    </object>
     <object type="SONG" id="z332">
         <attribute name="copyright" type="string">Rich Mullins</attribute>
         <attribute name="lyrics" type="string">Joseph took his wife and child
@@ -5527,31 +4168,6 @@ The anointing is raining on me today
 The anointing is raining on me </attribute>
         <attribute name="title" type="string">The anointing of the Lord
 </attribute>
-    </object>
-    <object type="SONG" id="z335">
-        <attribute name="copyright" type="string">David Haas 1987 Gia Publications</attribute>
-        <attribute name="lyrics" type="string">Deep within there's a fire 
-That can't be quenched 
-And there's a love for You 
-As strong as death 
-Hear us Lord 
-Hear the longing of our hearts 
-We want to be
-Where you are and not apart 
-We feel You near 
-Your presence all around us 
-Oh Lord we want to see Your face 
-Take us away 
-
-The Spirit and the Bride cry out to You 
-Lord we cry out to You come quickly 
-We long for the day
-When we will see Your face 
-We long to be with You come quickly 
-
-And breathe on us until You come 
-Breathe on us until You come</attribute>
-        <attribute name="title" type="string">Deep within</attribute>
     </object>
     <object type="SONG" id="z336">
         <attribute name="copyright" type="string">Unknown</attribute>
@@ -5774,23 +4390,6 @@ And heaven to earth will answer
 Saviour of the world is King!" </attribute>
         <attribute name="title" type="string">I Cannot Tell</attribute>
     </object>
-    <object type="SONG" id="z344">
-        <attribute name="copyright" type="string">P Sharkey</attribute>
-        <attribute name="lyrics" type="string">I feel Your presence here
-I know You are upon me 
-And out of Heaven came this hour anointing 
-Your light is all around 
-Your healing streams are flowing 
-And here within this moment now You stand 
-
-Majesty!
-Declare the Heavens
-So high!
-And "King of Kings!" let the earth now reply.
-Worthy is the Lamb! 
-Worthy is the Lamb! </attribute>
-        <attribute name="title" type="string">I feel Your presence here</attribute>
-    </object>
     <object type="SONG" id="z345">
         <attribute name="copyright" type="string">Unknown</attribute>
         <attribute name="lyrics" type="string">O cloud of great glory 
@@ -5945,25 +4544,6 @@ God be with you till we meet again
 </attribute>
         <attribute name="title" type="string">God be with you till we meet again</attribute>
     </object>
-    <object type="SONG" id="z352">
-        <attribute name="copyright" type="string">Terry MacAlmon 1997 HeavenSong Music</attribute>
-        <attribute name="lyrics" type="string">Can you hear the sound of Heaven Like the sound of many waters 
-It's the sound of worship 
-Coming from the throne 
-There are cries of adoration 
-As men from every nation 
-Lift their voice to make
-His glory known 
-Singing 
-
-Holy holy holy are You Lord 
-Holy holy holy are You Lord 
-The elders and angels bow 
-The redeemed worship You now 
-Holy holy holy are You Lord
-</attribute>
-        <attribute name="title" type="string">Can you hear the sound of Heaven</attribute>
-    </object>
     <object type="SONG" id="z353">
         <attribute name="copyright" type="string">R Mark c 1997 Daybreak Music Ltd 
 </attribute>
@@ -6029,5 +4609,1974 @@ I will find You in that secret place
 Don't hide Your face from me
 When I seek You I will find You</attribute>
         <attribute name="title" type="string">Lord light a fire</attribute>
+    </object>
+    <object type="SONG" id="z120">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">On the Cross crucified, 
+In great sorrow He died:
+The Giver of life was He.
+Yet my Lord was despised 
+And rejected of men,
+This Jesus of Calvary.
+
+Chorus
+He was wounded for our transgressions,
+He was bruised for our iniquities;
+Surely He bore our sorrows,
+And by His stripes we are healed.
+
+Price for healing was paid, 
+As those cruel stripes were made,
+Within Pilate's judgment hall.
+Now His suffering affords perfect healing for all. 
+This wonderful Healer's mine.
+
+Came the leper to Christ, 
+Saying, "Surely I know
+That Thou, Lord, canst make me whole."
+When his great faith was seen, Jesus said, "Yes, I will,"
+And touched him and made him clean.
+
+Chorus
+He was wounded for our transgressions,
+He was bruised for our iniquities;
+Surely He bore our sorrows,
+And by His stripes we are healed.
+
+He has healed my sick soul, made me every whit whole,
+And He'll do the same for you.
+He's the same yesterday and today and for aye,
+This Healer of men today.
+</attribute>
+        <attribute name="title" type="string">On the Cross crucified</attribute>
+    </object>
+    <object type="SONG" id="z186">
+        <attribute name="copyright" type="string">Terry McAlmon 2000 HeavenSong Music</attribute>
+        <attribute name="lyrics" type="string">Blessing and honour, glory and power
+Riches and wisdom and strength
+Blessing and honour, glory and power
+Riches and wisdom and strength
+Be unto You, unto You
+Who sits at the right hand of God
+Be unto You, unto You
+Who sits at the right hand of God
+
+Unto You
+</attribute>
+        <attribute name="title" type="string">Blessing and honour, glory and power</attribute>
+    </object>
+    <object type="SONG" id="z256">
+        <attribute name="copyright" type="string"></attribute>
+        <attribute name="lyrics" type="string">Lord I have heard of your fame
+And I stand in awe of Your deeds, oh Lord
+Lord I have heard of your fame
+And I stand in awe of Your deeds, oh Lord
+
+Renew them, renew them
+In our day and in our time make them known
+Renew them, renew them
+In our day and in our time make them known
+In wrath remember mercy
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Lord I have heard</attribute>
+    </object>
+    <object type="SONG" id="z212">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Here I am waiting abide in me I pray
+Here I am longing for You
+Hide me in Your love bring me to my knees
+May I know Jesus more and more
+
+Come live in me all my life take over
+Come breathe on me and I will rise on eagles wings</attribute>
+        <attribute name="title" type="string">Here I am waiting</attribute>
+    </object>
+    <object type="SONG" id="z165">
+        <attribute name="copyright" type="string">Graham Kendrick c Make Way Music 1989
+</attribute>
+        <attribute name="lyrics" type="string">We'll walk the land with hearts on fire 
+And every step will be a prayer 
+Hope is rising new day dawning 
+Sound of singing fills the air
+
+Two thousand years and still the flame 
+Is burning bright across the land 
+Hearts are waiting longing aching 
+For awakening once again 
+
+Let the flame burn brighter 
+In the heart of the darkness 
+Turning night to glorious day 
+Let the song grow louder 
+As our love grows stronger
+Let it shine let it shine 
+
+We'll walk for truth speak out for love 
+In Jesus' name we shall be strong 
+To lift the fallen to save the children 
+To fill the nation with Your song 
+
+Let the flame burn brighter 
+In the heart of the darkness 
+Turning night to glorious day 
+Let the song grow louder 
+As our love grows stronger
+Let it shine let it shine
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">We'll walk the land with hearts on fire 
+</attribute>
+    </object>
+    <object type="SONG" id="z335">
+        <attribute name="copyright" type="string">David Haas 1987 Gia Publications</attribute>
+        <attribute name="lyrics" type="string">Deep within there's a fire 
+That can't be quenched 
+And there's a love for You 
+As strong as death 
+Hear us Lord 
+Hear the longing of our hearts 
+We want to be
+Where you are and not apart 
+We feel You near 
+Your presence all around us 
+Oh Lord we want to see Your face 
+Take us away 
+
+The Spirit and the Bride cry out to You 
+Lord we cry out to You come quickly 
+We long for the day
+When we will see Your face 
+We long to be with You come quickly 
+
+And breathe on us until You come 
+Breathe on us until You come
+
+
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Deep within</attribute>
+    </object>
+    <object type="SONG" id="z155">
+        <attribute name="copyright" type="string">M Black</attribute>
+        <attribute name="lyrics" type="string">Land of promise shines before us 
+Hills and valleys softly lie 
+Watered plains and running rivers 
+Underneath an azure sky 
+
+Milk and honey flowing richly 
+Grapes of Eschol ripe and full 
+Heav'nly manna in abundance 
+Jesus let Your Kingdom rule 
+
+I shall see the heav'nly bridegroom 
+In His beauty He shall stand 
+In the shining of the sunlight 
+In the gateway of that land 
+
+Hallelujah sing to Jesus 
+Sing His mercy and his grace 
+Crown Him wholly own Him fully 
+Come Lord Jesus take your place 
+
+With the oil of joy and gladness 
+Let the kingly One be crowned 
+Bring Him glory praise and incense 
+In the shining of that land 
+
+Land of promise shines before us 
+Hills and valleys softly lie 
+Watered plains and running rivers 
+Underneath an azure sky 
+
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Land of promise shines before us </attribute>
+    </object>
+    <object type="SONG" id="z112">
+        <attribute name="copyright" type="string">2000 Darlene Zschech/Hillsong / Kingsway Music </attribute>
+        <attribute name="lyrics" type="string">Thank you for the cross Lord 
+Thank you for the price you paid 
+Bearing all my sin and shame 
+In love You came 
+And gave amazing grace 
+Thank you for this love Lord 
+Thank you for the nail pierced hands 
+Washed me in Your cleansing flow 
+Now all I know 
+Your forgiveness and embrace 
+
+Worthy is the Lamb 
+Seated on the throne 
+We crown You now with many crowns 
+You reign victorious 
+High and lifted up Jesus Son of God 
+The High King of Heaven crucified 
+Worthy is the Lamb 
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Thank you for the cross Lord 
+</attribute>
+    </object>
+    <object type="SONG" id="z318">
+        <attribute name="copyright" type="string">Andrew Jewell, Public Domain</attribute>
+        <attribute name="lyrics" type="string">Can you hear the angels singing 
+Can you hear the name they sing 
+Can you hear the joy of Heaven 
+Jesus the Lord so dear 
+Jesus the Lord so dear 
+
+At His name the love of God 
+Pours forth in streams
+From Heaven high 
+At His name 
+At His name 
+
+Softly now the night is passing 
+Gentle now the dawn is near
+Golden is the light from heaven 
+Jesus the Lord is here 
+Jesus the Lord is here 
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Can you hear the angels singing</attribute>
+    </object>
+    <object type="SONG" id="z182">
+        <attribute name="copyright" type="string">M Frye c 1999 Vineyard Songs (UK / Eire)
+</attribute>
+        <attribute name="lyrics" type="string">Jesus be the centre 
+Be my source be my light
+Jesus 
+
+Jesus be the centre 
+Be my hope be my song 
+Jesus 
+
+Be the fire in my heart
+Be the wind in these sails 
+Be the reason that I live 
+Jesus Jesus 
+
+Jesus be my vision 
+Be my path be my guide 
+Jesus 
+
+Be the fire in my heart 
+Be the wind in these sails 
+Be the reason that I live 
+Jesus Jesus 
+
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Jesus be the centre </attribute>
+    </object>
+    <object type="SONG" id="z276">
+        <attribute name="copyright" type="string">Matthew Bridges (1800-94) &amp; Godfrey Thring (1823-1903) </attribute>
+        <attribute name="lyrics" type="string">Crown Him with many crowns
+The Lamb upon His throne 
+Hark how the heav'nly anthem drowns 
+All music but its own 
+Awake my soul and sing 
+Of Him who died for thee 
+And hail Him as thy matchless King
+Through all eternity 
+
+Crown Him the Lord of life
+Who triumphed o'er the grave 
+And rose victorious in the strife
+For those He came to save
+His glories now we sing
+Who died and rose on high 
+Who died eternal life to bring 
+And lives that death may die 
+
+Crown Him the Lord of love
+Behold His hands and side 
+Those wounds yet visible above 
+In beauty glorified 
+No angel in the sky 
+Can fully bear that sight 
+But downward bends His burning eye
+At mysteries so bright
+
+Crown Him the Lord of peace
+Whose power a sceptre sways 
+From pole to pole that wars may cease
+And all be prayer and praise 
+His reign shall know no end 
+And round His pierced feet 
+Fair flowers of paradise extend 
+Their fragrance ever sweet 
+
+Crown Him the Lord of years 
+The Potentate of time 
+Creator of the rolling spheres
+Ineffably sublime 
+All hail Redeemer hail 
+For Thou hast died for me 
+Thy praise shall never, never fail
+Throughout eternity
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Crown Him with many crowns</attribute>
+    </object>
+    <object type="SONG" id="z132">
+        <attribute name="copyright" type="string">P Oakley c 1995 Kingsway's ThankYou Music 
+</attribute>
+        <attribute name="lyrics" type="string">There's a place where the streets shine 
+With the glory of the Lamb 
+There's a way we can go there 
+We can live there beyond time 
+Because of You because of You 
+Because of Your love because of Your blood 
+
+No more pain no more sadness 
+No more suffering no more tears 
+No more sin no more sickness 
+No injustice no more death 
+Because of You because of You 
+Because of Your love because of Your blood
+
+All our sins are washed away 
+And we can live forever 
+Now we have this hope because of You 
+Oh we'll see You face to face 
+And we will dance together 
+In the city of our God because of You 
+
+There is joy everlasting 
+There is gladness there is peace 
+There is wine ever flowing 
+There's a wedding there's a feast 
+Because of You because of You 
+Because of Your love because of Your blood 
+
+All our sins are washed away 
+And we can live forever 
+Now we have this hope because of You 
+Oh we'll see You face to face 
+And we will dance together 
+In the city of our God because of You 
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">There's a place where the streets shine 
+</attribute>
+    </object>
+    <object type="SONG" id="z253">
+        <attribute name="copyright" type="string">William Booth Adpt. Lex Loizides c 1994 Kingsway's ThankYou Music
+</attribute>
+        <attribute name="lyrics" type="string">O God of burning cleansing flame 
+Send the fire 
+Your blood-bought gift today we claim 
+Send the fire today 
+Look down and see this waiting host 
+And send the promised Holy Ghost 
+We need another Pentecost 
+Send the fire today x 2   
+
+God of Elijah hear our cry
+Send the fire 
+And make us fit to live or die 
+Send the fire today
+To burn up every trace of sin 
+To bring the light and glory in 
+The revolution now begin 
+Send the fire today x 2  
+
+It's fire we want for fire we plead 
+Send the fire 
+The fire will meet our every need 
+Send the fire today 
+For strength to always do what's right
+For grace to conquer in the fight 
+For power to walk the world in white 
+Send the fire today x 2  
+
+To make our weak hearts 
+Strong and brave 
+Send the fire 
+To live a dying world to save 
+Send the fire today 
+Oh see us on Your altar lay 
+We give our lives to you today 
+So crown the offering now we pray 
+Send the fire today x 3  
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">O God of burning cleansing flame 
+</attribute>
+    </object>
+    <object type="SONG" id="z325">
+        <attribute name="copyright" type="string">A Jewell</attribute>
+        <attribute name="lyrics" type="string">Look down O Lord and hear our prayer 
+Amazing grace how sweet the sound
+The land it thirsts for rain
+That saved a wretch like me
+The birds have flown 
+I once was lost
+The heights lie bare 
+But now I'm found
+Come down on us again 
+Was blind but now I see
+
+Lord sweep o'er our country 
+Like a long forgotten melody 
+Let hearts once turned to stone
+Now awake to joy again 
+Thunder in the islands 
+And a fire in the wilderness 
+Lord let this nation sing again 
+
+Let us sing
+From the islands to the coast land shores 
+In the heights and in the valleys
+Let this nation sing again 
+Let us sing
+From the moor land to the shining peak 
+Where the river runs and mountains sleep
+Lord let this nation sing again 
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Lord sweep o'er our country </attribute>
+    </object>
+    <object type="SONG" id="z140">
+        <attribute name="copyright" type="string">A Jewell</attribute>
+        <attribute name="lyrics" type="string">Our Father You are in heaven 
+Holy is Your name (the breath of God)
+Your Kingdom come 
+Your will be done (breathe on you) 
+Here on the earth 
+As it is in heaven (the fire of God) 
+Give us now our daily bread (live in you)
+Forgive us all our sins 
+*As we forgive our enemies (Pentecost)
+  And lead us not (the breath of God)
+  Into temptation (breathe on you)
+  But set us free (the fire of God)
+  From all evil 
+  For Yours Lord is the Kingdom 
+  (Pentecost Pentecost) 
+  And the power and all the glory (duet)
+  Forever and ever forever more (duet)
+
+*Pentecost Pentecost
+  Pentecost Pentecost 
+  See the fire burning
+  Holy fire from heaven 
+  Pentecost Glory
+  Forever and ever forever more 
+</attribute>
+        <attribute name="title" type="string">Our Father </attribute>
+    </object>
+    <object type="SONG" id="z275">
+        <attribute name="copyright" type="string">Madam Guyon</attribute>
+        <attribute name="lyrics" type="string">All scenes alike engaging prove
+To souls impressed with sacred love!
+Where'er they dwell, they dwell in Thee;
+In heaven, in earth, or on the sea.
+
+To me remains nor place nor time;
+My country is in every clime;
+I can be calm and free from care
+On any shore, since God is there.
+
+While place we seek, or place we shun,
+The soul finds happiness in none;
+But, with my God to guide our way,
+'Tis equal joy to go or stay.
+
+Could I be cast where Thou art not,
+That were indeed a dreadful lot;
+But regions none remote I call,
+Secure of finding God in all.</attribute>
+        <attribute name="title" type="string">All Scenes Alike</attribute>
+    </object>
+    <object type="SONG" id="z161">
+        <attribute name="copyright" type="string">Charles Wesley </attribute>
+        <attribute name="lyrics" type="string">O for a thousand tongues to sing
+My great Redeemer's praise,
+The glories of my God and King,
+The triumphs of His grace!
+
+My gracious Master and my God,
+Assist me to proclaim,
+To spread through all the earth abroad
+The honours of Thy name.
+
+Jesus! the name that charms our fears,
+That bids our sorrows cease;
+'Tis music in the sinner's ears,
+'Tis life, and health, and peace.
+
+He breaks the power of cancelled sin,
+He sets the prisoner free;
+His blood can make the foulest clean,
+His blood availed for me.
+
+Hear Him, ye deaf;
+His praise, ye dumb,
+Your loosened tongues employ;
+Ye blind, behold your Saviour come,
+And leap, ye lame, for joy.</attribute>
+        <attribute name="title" type="string">O for a thousand tongues to sing</attribute>
+    </object>
+    <object type="SONG" id="z357">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Set my spirit free
+That I might worship Thee
+Set my spirit free
+That I might praise Thy name
+Let all bondage go
+And let deliverance flow.
+Set my spirit free to worship Thee.</attribute>
+        <attribute name="title" type="string">Set my spirit free</attribute>
+    </object>
+    <object type="SONG" id="z274">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">I will follow You, follow you wholeheartedly
+I will follow You, follow you unreservedly
+Your word is the lamp that lights my pathway
+Your word is a light unto my feet.
+
+El-Shaddai, El-Shaddai, You're the God of my supply
+You are the Lord of Hosts, God Almighty
+I will follow You El-Shaddai
+
+I will do Your will, do Your will wholeheartedly
+I will give my life, give it unreservedly
+To live all my life for One who's faithful
+My lips filled with Your praise because I'm grateful.
+
+El-Shaddai, El-Shaddai, You're the God of my supply
+You are the Lord of Hosts, God Almighty
+I will follow You El-Shaddai
+</attribute>
+        <attribute name="title" type="string">I will follow You</attribute>
+    </object>
+    <object type="SONG" id="z344">
+        <attribute name="copyright" type="string">P Sharkey</attribute>
+        <attribute name="lyrics" type="string">I feel Your presence here
+I know You are upon me 
+And out of Heaven came this hour anointing 
+Your light is all around 
+Your healing streams are flowing 
+And here within this moment now You stand 
+
+Majesty!
+Declare the Heavens, "So high!"
+And "King of Kings!" let the earth now reply.
+Worthy is the Lamb! 
+Worthy is the Lamb! </attribute>
+        <attribute name="title" type="string">I feel Your presence here</attribute>
+    </object>
+    <object type="SONG" id="z280">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Jesus I love you 
+I bow down before you 
+Praises and worship to our king
+
+Alleluia Alleluia Alleluia Allelu </attribute>
+        <attribute name="title" type="string">Jesus I love you </attribute>
+    </object>
+    <object type="SONG" id="z219">
+        <attribute name="copyright" type="string">A Jewell</attribute>
+        <attribute name="lyrics" type="string">Breaking Heaven's glory 
+Calling into the night 
+Softly shining of star light
+Holy glory of light 
+
+Dancing dance in the garden 
+Angels sing with you here 
+Dancing treading the heavens 
+Jesus your glory is here 
+
+Singing songs of heaven 
+Shouting "Glory to God"
+Dancing heaven rejoicing
+Creation welcomes the Son 
+
+Glory hallelujah
+Glory, glory to God 
+Glory in the highest
+Glory, glory to God</attribute>
+        <attribute name="title" type="string">Breaking Heaven's glory </attribute>
+    </object>
+    <object type="SONG" id="z264">
+        <attribute name="copyright" type="string"></attribute>
+        <attribute name="lyrics" type="string">I worship You Almighty God
+There is none like You
+I worship You Oh Prince of Peace
+That is what I love to do
+
+I give you praise
+For you are my righteousness
+I worship You Almighty God
+There is none like you</attribute>
+        <attribute name="title" type="string">I worship You Almighty God</attribute>
+    </object>
+    <object type="SONG" id="z358">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Standing Somewhere in the shadows
+You'll find Jesus
+He's the only One who cares and understands.
+Standing somewhere in the shadows
+You will find Him
+And you'll know him
+By the nail-prints in his hands
+
+Can you wonder?
+Can you wonder?
+Can you wonder
+Why it is I love Him so?
+
+When I think of all he's done
+And for me, the guilty one.
+Can you wonder
+Why it is I love Him so?</attribute>
+        <attribute name="title" type="string">Standing Somewhere in the Shadows</attribute>
+    </object>
+    <object type="SONG" id="z306">
+        <attribute name="copyright" type="string">Steve Fry 1983 Birdwing / Cherry Lane Music / ASCAP </attribute>
+        <attribute name="lyrics" type="string">Jesus all glorious create in us a temple 
+We are called as living stones 
+Where You're enthroned 
+And as You rose from death in power 
+So rise within our worship 
+Rise upon our praise 
+And let the hand that saw You raised 
+Clothe us in Your glory draw us by Your Grace 
+
+O the glory of Your presence 
+We Your temple give You reverence 
+So arise to Your rest 
+And be blessed by our praise 
+As we glory in Your embrace 
+As Your presence now fills this place </attribute>
+        <attribute name="title" type="string">Jesus all glorious create in us a temple </attribute>
+    </object>
+    <object type="SONG" id="z172">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">In the holy of holies 
+Behind the heavenly veil
+Sat the ark of the covenant 
+Where the most high dwells 
+But only the high priest could enter therein 
+To offer up a sacrifice of atonement for sin 
+But the veil was rent in an instant 
+Revealing the holy place 
+On a hill near by on a rugged cross 
+Justice met grace 
+
+Now I can go into the holy of holies 
+I can kneel and make my petition known 
+I can go into the holy of holies
+And although I'm just a common man 
+Because of God's redemption plan 
+I can boldly approach the throne 
+
+For the blood of sacrifices 
+Is now no longer required 
+For the blood of Christ God's spotless lamb 
+Has opened heaven's door 
+Allowing us to enter in
+To the presence of the Lord 
+
+Now I can go into the holy of holies 
+I can kneel and make my petition known 
+I can go into the holy of holies
+And although I'm just a common man 
+Because of God's redemption plan 
+I can boldly approach the throne</attribute>
+        <attribute name="title" type="string">In the holy of holies </attribute>
+    </object>
+    <object type="SONG" id="z145">
+        <attribute name="copyright" type="string">Sarah Fuller Adams, Arthur Tozer Russell 
+</attribute>
+        <attribute name="lyrics" type="string">Nearer my God to Thee nearer to Thee
+E'en though it be a cross that raiseth me
+Still all my song shall be
+Nearer my God to Thee
+Nearer my God to Thee nearer to Thee
+
+Though like the wanderer the sun gone down
+Darkness be over me my rest a stone
+Yet in my dreams I'd be
+Nearer my God to Thee
+Nearer my God to Thee nearer to Thee
+
+There let the way appear
+Steps unto heav'n all that Thou send'st me
+In mercy given angels to beckon me 
+Nearer my God to Thee
+Nearer my God to Thee nearer to Thee                                                                 
+ 
+Then with my waking thoughts
+Bright with Thy praise out of my stony griefs 
+Bethel I'll raise so by my woes to be
+Nearer my God to Thee
+Nearer my God to Thee nearer to Thee 
+                                                                 
+Or if on joyful wing cleaving the sky
+Sun moon and stars forgot upward I'll fly 
+Still all my song shall be
+Nearer my God to Thee
+Nearer my God to Thee nearer to Thee                                                       
+
+Christ alone beareth me
+Where Thou dost shine
+Joint heir He maketh me of the divine
+In Christ my soul shall be
+Nearest my God to Thee
+Nearest my God to Thee nearest to Thee
+</attribute>
+        <attribute name="title" type="string">Nearer my God to Thee nearer to Thee</attribute>
+    </object>
+    <object type="SONG" id="z119">
+        <attribute name="copyright" type="string">Fanny J. Crosby </attribute>
+        <attribute name="lyrics" type="string">Redeemed, how I love to proclaim it!
+Redeemed by the blood of the Lamb;
+Redeemed through His infinite mercy,
+His child and forever I am.
+
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb;
+Redeemed, redeemed,His child and forever I am.
+
+Redeemed, and so happy in Jesus,
+No language my rapture can tell;
+I know that the light of His presence
+With me doth continually dwell.
+
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb;
+Redeemed, redeemed,His child and forever I am.
+
+I think of my blessed Redeemer,
+I think of Him all the day long:
+I sing, for I cannot be silent;
+His love is the theme of my song.
+
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb;
+Redeemed, redeemed,His child and forever I am.
+
+I know I shall see in His beauty,	
+The King in whose law I delight,			            
+Who lovingly guardeth my footsteps,
+And giveth me songs in the night.
+
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb;
+Redeemed, redeemed,His child and forever I am.													
+I know there's a crown that is waiting,
+In yonder bright mansion for me,
+And soon, with the spirits made perfect,
+At home with the Lord I shall be.
+
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb;
+Redeemed, redeemed,His child and forever I am.</attribute>
+        <attribute name="title" type="string">Redeemed, how I love to proclaim it!</attribute>
+    </object>
+    <object type="SONG" id="z245">
+        <attribute name="copyright" type="string">William Williams</attribute>
+        <attribute name="lyrics" type="string">Guide me, O Thou great Jehovah
+Pilgrim through this barren land
+I am weak, but Thou art mighty
+Hold me with Thy powerful hand
+Bread of heaven
+Feed me now and evermore
+
+Open now the crystal fountain
+Whence the healing stream doth flow
+Let the fiery cloudy pillar
+Lead me all my journey through
+Strong Deliverer
+Be Thou still my Strength and Shield
+
+If I tread the verge of Jordan
+Bid my anxious fears subside
+Bear me through the swelling torrent
+ Land me safe on Canaan's side
+Songs of praisesI will ever give to Thee                                                                                                                                                       
+
+Saviour, come we long to see Thee
+Long to dwell with Thee above
+And to know in full communion
+All the sweetness of Thy love
+Come Lord Jesus
+Take Thy waiting people home</attribute>
+        <attribute name="title" type="string">Guide me oh Thou great Jehovah</attribute>
+    </object>
+    <object type="SONG" id="z321">
+        <attribute name="copyright" type="string">Anne R. Cousin  </attribute>
+        <attribute name="lyrics" type="string">The sands of time are sinking
+The dawn of heaven breaks;
+The summer morn I've sighed for
+The fair, sweet morn awakes:
+Dark, dark hath been the midnight
+But dayspring is at hand,
+And glory, glory dwelleth
+In Immanuel's land.
+
+O Christ, He is the fountain
+The deep, sweet well of love!
+The streams on earth I've tasted
+More deep I'll drink above:
+There to an ocean fullness
+His mercy doth expand,
+And glory, glory dwelleth 
+In Immanuel's land.
+
+With mercy and with judgment 
+My web of time He wove,
+And aye, the dews of sorrow 
+Were lustered by His love;I
+'ll bless the hand that guided
+I'll bless the heart that planned
+When throned where glory dwelleth
+In Immanuel's land.
+
+O I am my Beloved's 
+And my Beloved is mine!
+He brings a poor vile sinner 
+Into His "house of wine".
+I stand upon His merit
+I know no other stand,
+Not even where glory dwelleth
+In Immanuel's land.
+
+The Bride eyes not her garment
+But her dear Bridegroom's face;
+I will not gaze at glory
+But on my King of grace.
+Not at the crown He giveth
+But on His pierced hand;
+The Lamb is all the glory
+Of Immanuel's land
+
+I've wrestled on towards Heaven
+Against storm and wind and tide,
+Now, like a weary traveller
+That leaneth on his guide,
+Amid the shades of evening
+While sinks life's lingering sand,
+I hail the glory dawning
+From Immanuel's land.
+</attribute>
+        <attribute name="title" type="string">The sands of time are sinking</attribute>
+    </object>
+    <object type="SONG" id="z157">
+        <attribute name="copyright" type="string">Mary Elizabeth Byrne </attribute>
+        <attribute name="lyrics" type="string">Be Thou my Vision O Lord of my heart;
+Naught be all else to me save that Thou art
+Thou my best thought by day or by night,
+Waking or sleeping, Thy presence my light.
+
+Be Thou my Wisdom, and Thou my true word;
+I ever with Thee and Thou with me, Lord;
+Thou my great Father, I Thy true son;
+Thou in me dwelling, and I with Thee one.
+
+Be Thou my battle shield, sword for the fight;
+Be Thou my dignity, Thou my delight;
+Thou my soul's shelter, Thou my high tower:
+Raise Thou me heavenward,
+O Power of my power.
+
+Riches I heed not, nor man's empty praise,
+Thou mine inheritance, now and always:
+Thou and Thou only, first in my heart,
+High King of heaven, my treasure Thou art.
+
+High King of heaven, after victory's won,
+May I reach heaven's joys 
+O bright Heaven's Sun!
+Heart of my own heart, whatever befall,
+Still be my vision, O ruler of all.
+</attribute>
+        <attribute name="title" type="string">Be Thou My Vision</attribute>
+    </object>
+    <object type="SONG" id="z204">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">The Lord bless you, the Lord keep you
+And make His face to shine upon you
+The Lord be gracious unto you
+The Lord lift up His countenance upon you
+And give you peace
+
+Oh taste and see that the Lord is good 
+To those who trust Him, for tomorrow
+
+So make a new word for tomorrow
+Call it "Take no thought for day"
+Or even better you might say
+And as for me and my great big family
+We will trust Him for tomorrow
+
+The Lord bless you, the Lord keep you
+And make His face to shine upon you
+The Lord be gracious unto you
+The Lord lift up His countenance upon you
+And give you peace, give you peace</attribute>
+        <attribute name="title" type="string">The Blessing</attribute>
+    </object>
+    <object type="SONG" id="z236">
+        <attribute name="copyright" type="string">Daniel L Schutte c 1991 New Dawn Music </attribute>
+        <attribute name="lyrics" type="string">I the Lord of sea and sky
+I have heard My people cry 
+All who dwell in dark and sin
+My hand will save 
+I who made the stars of night
+I will make their darkness bright 
+I will speak My word to them 
+Whom shall I send 
+
+Here I am Lord is it I Lord 
+I have heard You calling in the night 
+I will go Lord if you lead me 
+I will hold Your people in my heart 
+
+I the Lord of snow and rain 
+I have borne my people's pain 
+I have wept for love of them 
+They turn away 
+I will break their hearts of stone 
+Give them hearts for love alone 
+I will speak My word to them 
+Whom shall I send
+
+
+I the Lord of wind and flame 
+I will tend the poor and lame 
+I will set a feast for them
+My hand will save 
+Finest bread I will provide
+Till their hearts are satisfied 
+I will give My life to them
+Whom shall I send
+
+Here I am Lord is it I Lord 
+I have heard You calling in the night 
+I will go Lord if you lead me 
+I will hold Your people in my heart 
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">I the Lord of sea and sky</attribute>
+    </object>
+    <object type="SONG" id="z356">
+        <attribute name="copyright" type="string">HB Black</attribute>
+        <attribute name="lyrics" type="string">The winds of God are blowing blowing everywhere
+The words of God are sounding, sounding on the air
+Prepare the ground for battle, for God's day has come
+Drive back the powers of darkness and march to sounding drum
+
+Long years the land lay shrouded, shrouded in defeat
+There was the breath of evil there was satan;s seat
+But now the winds are blowing, and darkness flees the plain
+The power of God is flowing and many are the slain
+
+Hark to the sounding trumpet, hark to the blaring horn
+Now is the day of battle, when many shall be born
+Sing now the song of Zion, sing loud the swelling praise
+Sing of the glorious lion and loud the anthems raise
+
+Praise Him, praise Him Lord of Glory
+Praise Him, praise Him Lord of life
+See He rides in triumph victorious in the strife
+
+Crown Him Lord of Glory, Crown Him Lord of life
+See the Lord of battles victorious in the strife</attribute>
+        <attribute name="title" type="string">The Song of War</attribute>
+    </object>
+    <object type="SONG" id="z136">
+        <attribute name="copyright" type="string">Steve McEwan c Body Songs / Copycare Ltd. 1983
+</attribute>
+        <attribute name="lyrics" type="string">Great is the Lord 
+And most worthy of praise 
+The city of our God the holy place 
+The joy of the whole earth 
+Great is the Lord 
+In whom we have the victory 
+He aids us against the enemy 
+We bow down on our knees
+
+And Lord we want to lift 
+Your name on high 
+And Lord we want to thank You 
+For the works You've done in our lives
+And Lord we trust in Your unfailing love 
+For You alone are God Eternal 
+Throughout earth and heaven above 
+</attribute>
+        <attribute name="title" type="string">Great is the Lord </attribute>
+    </object>
+    <object type="SONG" id="z220">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Let the Son of Righteousness arise 
+With healing in his wings 
+Shine upon your people Lord 
+Let your Holy spirit bring 
+The light that sets us free 
+To fix our eyes on things above 
+The glory of your presence 
+The healing of your love 
+Melt the clouds of darkness Lord 
+And set your people free 
+Let the Son of Righteousness 
+Arise and shine on me 
+
+Shine in every corner soften every heart 
+Strengthen all your body glorify each part 
+
+Let the Son of Righteousness arise 
+With healing in his wings 
+Shine upon your people Lord 
+Let your Holy spirit bring 
+The light that sets us free 
+To fix our eyes on things above 
+The glory of your presence 
+The healing of your love 
+Melt the clouds of darkness now 
+And set your people free 
+Let the Son of Righteousness 
+Arise and shine on me 
+
+Banish condemnation with your heart embrace
+Let the joy of Jesus shine on every face
+
+Let the Son of Righteousness arise 
+With healing in his wings 
+Shine upon your people Lord 
+Let your Holy spirit bring 
+The light that sets us free 
+To fix our eyes on things above 
+The glory of your presence 
+The healing of your love 
+Melt the clouds of darkness now 
+And set your people free 
+Let the Son of Righteousness 
+Arise and shine on me 
+</attribute>
+        <attribute name="title" type="string">Let the Son of Righteousness arise </attribute>
+    </object>
+    <object type="SONG" id="z315">
+        <attribute name="copyright" type="string"></attribute>
+        <attribute name="lyrics" type="string">We are a moment, You are forever
+Lord of the ages, God before time
+We are a vapour, You are eternal
+Love everlasting, reigning on high
+
+Holy holy, Lord God Almighty
+Worthy is the Lamb that was slain
+Highest praises, honour and glory
+Be unto Your name
+Be unto Your name
+
+We are the broken, You are the healer
+Jesus Redeemer, mighty to save
+You are the love song, we'll sing forever
+Bowing before You, praising Your name
+
+Holy holy, Lord God Almighty
+Worthy is the Lamb that was slain
+Highest praises, honour and glory
+Be unto Your name
+Be unto Your name</attribute>
+        <attribute name="title" type="string">we are a moment </attribute>
+    </object>
+    <object type="SONG" id="z124">
+        <attribute name="copyright" type="string">A Howard / P Turner c 1985 Restoration Music Ltd 
+</attribute>
+        <attribute name="lyrics" type="string">Salvation belongs to our God 
+Who sits upon the throne 
+And unto the Lamb 
+Praise and glory wisdom and thanks 
+Honour and power and strength 
+
+Be to our God forever and ever 
+Be to our God forever and ever 
+Be to our God forever and ever amen 
+
+And we the redeemed shall be strong 
+In purpose and unity 
+Declaring aloud praise and glory 
+Wisdom and thanks 
+Honour and power and strength 
+
+Be to our God forever and ever 
+Be to our God forever and ever 
+Be to our God forever and ever amen
+</attribute>
+        <attribute name="title" type="string">Salvation belongs to our God </attribute>
+    </object>
+    <object type="SONG" id="z102">
+        <attribute name="copyright" type="string">unknown</attribute>
+        <attribute name="lyrics" type="string">Pierce my ear O Lord my God 
+Take me to Your throne this day 
+I will serve no other god 
+Lord I'm here to stay 
+
+For You have paid the price for me 
+With Your blood You ransomed me
+I will serve You eternally 
+A free man I'll never be </attribute>
+        <attribute name="title" type="string">Pierce my ear O Lord my God </attribute>
+    </object>
+    <object type="SONG" id="z292">
+        <attribute name="copyright" type="string">John W. Peterson </attribute>
+        <attribute name="lyrics" type="string">O what a wonderful, wonderful day
+A day I will never forget
+After I wandered in darkness away
+Jesus my saviour I met
+O, what a tender compassionate Friend
+He met the need of my heart
+Shadows dispelling with joy I am telling
+He made all the darkness depart
+
+Heaven came down 
+And glory filled my soul
+When at the cross
+My saviour made me whole
+My sins were washed away
+And my night was turned to day
+When heaven came down 
+And glory filled my soul
+
+Born of the Spirit with life from above
+Into God's family divine
+Justified fully thro' Calvary's love
+O what a standing is mine
+And the transaction so quickly was made
+When as a sinner I came
+Took of the offer of grace He did proffer
+He saved me O praise His dear name
+
+
+Now I've a hope that will surely endure
+After the passing of time
+I have a future in heaven for sure
+There in those mansions sublime
+And it's because of that wonderful day
+When at the cross I believed
+Riches eternal and blessings supernal
+From His precious hand I received
+
+Heaven came down 
+And glory filled my soul
+When at the cross
+My saviour made me whole
+My sins were washed away
+And my night was turned to day
+When heaven came down 
+And glory filled my soul
+</attribute>
+        <attribute name="title" type="string">O what a wonderful, wonderful day</attribute>
+    </object>
+    <object type="SONG" id="z289">
+        <attribute name="copyright" type="string">Gail Cole, Glen Cummings c 1975 Church of the Messiah 
+</attribute>
+        <attribute name="lyrics" type="string">I will dwell in His secret place
+In His shadow I will abide 
+In His fortress I will take refuge 
+In my God the Most High 
+
+From plague and from snare
+You are protected 
+You need not fear the dark of night 
+And with His wing you will be covered 
+Delivered from the wicked's might 
+
+I will dwell in His secret place 
+In His shadow I will abide 
+In His fortress I will take refuge 
+In my God The Most High
+
+There shall no evil o'ercome you
+Neither shall the plague come nigh 
+For He shall place His angels o'er you 
+To keep you safe in all your ways 
+
+I will dwell in His secret place 
+In His shadow I will abide 
+In His fortress I will take refuge 
+In my God The Most High 
+
+When I call to the Lord He will answer 
+He will set my soul on high 
+He will be near in time of trouble 
+Give long life and satisfy
+
+I will dwell in His secret place 
+In His shadow I will abide 
+In His fortress I will take refuge 
+In my God The Most High
+</attribute>
+        <attribute name="title" type="string">I will dwell in His secret place</attribute>
+    </object>
+    <object type="SONG" id="z237">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">You deserve the glory and honour 
+Lord we lift our hearts in worship 
+As we praise Your holy name 
+Repeat 
+
+For You are great 
+You do miracles so great 
+There is no one else like You 
+There is no one else like You 
+</attribute>
+        <attribute name="title" type="string">You deserve the glory and honour 
+</attribute>
+    </object>
+    <object type="SONG" id="z174">
+        <attribute name="copyright" type="string">Harriett B. Stowe </attribute>
+        <attribute name="lyrics" type="string">Still, still with Thee
+When purple morning breaketh
+When the bird waketh 
+And the shadows flee
+Fairer than morning
+Lovelier than daylight
+Dawns the sweet consciousness
+I am with Thee
+
+Alone with Thee
+Amid the mystic shadows
+The solemn hush of nature newly born
+Alone with Thee in breathless adoration
+In the calm dew and freshness of the morn
+
+As in the dawning o'er the waveless ocean
+The image of the morning star doth rest
+So in the stillness Thou beholdest only
+Thine image in the waters of my breast
+
+Still, still with Thee
+As to each newborn morning
+A fresh and solemn splendour still is given
+So does this blessed consciousness awaking
+Breathe each day nearness
+Unto Thee and heaven.
+
+When sinks the soul 
+Subdued by toil to slumber
+Its closing eye looks up to Thee in prayer
+Sweet the repose beneath thy wings o'er shading
+But sweeter still to wake and find Thee there
+
+So shall it be at last
+In that bright morning
+When the soul waketh 
+And life's shadows fleeO in that hour 
+Fairer than daylight dawning
+Shall rise the glorious thought
+I am with Thee
+</attribute>
+        <attribute name="title" type="string">Still, still with Thee</attribute>
+    </object>
+    <object type="SONG" id="z224">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">All I once held dear, built my life upon
+All this world reveres, and wars to own
+All I once thought gain I have counted loss
+Spent and worthless now, compared to this
+
+Knowing you, Jesus, knowing you, 
+There is no greater thing
+You're my all, you're my rest
+You're my joy, my righteousness
+And I love you, Lord
+
+Now my heart's desire is to know you more
+To be found in you and known as yoursT
+o possess by faith what I could not earn
+All-surpassing gift of righteousness
+
+Knowing you, Jesus, knowing you, 
+There is no greater thing
+You're my all, you're my rest
+You're my joy, my righteousness
+And I love you, Lord
+
+Oh, to know the power of your risen life
+And to know You in Your sufferings
+To become like you in your death, my Lord
+So with you to live and never die
+
+Knowing you, Jesus, knowing you, 
+There is no greater thing
+You're my all, you're my rest
+You're my joy, my righteousness
+And I love you, Lord</attribute>
+        <attribute name="title" type="string">All I once held dear</attribute>
+    </object>
+    <object type="SONG" id="z233">
+        <attribute name="copyright" type="string">D Ruis C 1993 Mercy / Vineyard Publishing 
+</attribute>
+        <attribute name="lyrics" type="string">Sing a song of celebration 
+Lift up a shout of praise 
+For the Bridegroom will come
+The glorious One 
+And oh we will look on His face 
+We'll go to a much better place 
+
+Dance with all your might 
+Lift up your hands and clap for joy 
+The time's drawing near
+When He will appear 
+And oh we will stand by His side 
+A strong pure spotless Bride 
+
+Oh we will dance on  
+The streets that are golden 
+The glorious Bride
+And the great son of Man 
+From every tongue and tribe and nation 
+Will join in the song of the Lamb
+
+Men-Women echo 
+Sing aloud for the time of rejoicing is near
+The risen King our Groom is soon to appear 
+The wedding feast to come is now near at hand
+Lift up your voice proclaim the coming Lamb
+
+</attribute>
+        <attribute name="title" type="string">Sing a song of celebration 
+</attribute>
+    </object>
+    <object type="SONG" id="z310">
+        <attribute name="copyright" type="string"></attribute>
+        <attribute name="lyrics" type="string">My Jesus, My saviour,
+Lord, there is none like You.
+All of my days I want to praise
+The wonders of Your mighty love.
+My comfort, my shelter,
+Tower of refuge and strength,
+Let every breath, all that I am,
+Never cease to worship You.
+
+Shout to the Lord all the earth, let us sing
+Power and majesty, praise to the King.
+Mountains bow down
+And the seas will roar
+At the sound of Your name.
+I sing for joy at the work of Your hands.
+Forever I'll love You, forever I'll stand.
+Nothing compares to the promise I have in You.</attribute>
+        <attribute name="title" type="string">My Jesus, My Saviour</attribute>
+    </object>
+    <object type="SONG" id="z201">
+        <attribute name="copyright" type="string">F. R. Havergal. </attribute>
+        <attribute name="lyrics" type="string">Take my life, and let it be  
+Consecrated, Lord, to Thee.
+Take my moments and my days;
+Let them flow in ceaseless praise.
+
+Take my hands, and let them move 
+At the impulse of Thy love.
+Take my feet, and let them be 
+Swift and beautiful for Thee.
+
+Take my voice, and let me sing 
+Always, only, for my King.
+Take my lips, and let them be
+Filled with messages from Thee.
+
+Take my silver and my gold; 
+Not a mite would I withhold.
+Take my intellect, and use
+Every power as Thou shalt choose.
+
+Take my will, and make it Thine;  
+It shall be no longer mine.
+Take my heart, it is Thine own;  
+It shall be Thy royal throne.                
+Take my love, my Lord, I pour
+At Thy feet its treasure store.
+Take myself, and I will be
+Ever only all for Thee. 
+</attribute>
+        <attribute name="title" type="string">Take my life, and let it be  </attribute>
+    </object>
+    <object type="SONG" id="z331">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">I'll walk closer now on the higher way
+Through the darkest night will You hold my hand
+Jesus guide my way
+
+For You mourn with me and You dance with me
+For My heart of hearts is bound to You
+
+Though I walk through valleys low
+I'll fear no evil 
+By Your waters still my soul
+My heart will trust in You
+My heart will trust in You
+
+</attribute>
+        <attribute name="title" type="string">I'll walk closer now on the higher way
+Through the darkest night will You hold my hand
+Jesus guide my way
+
+For You mourn with me and you dance with me
+For My heart of hearts is bound to You
+
+Though I walk through valleys low
+I'll fear no evil 
+By Your waters still my soul
+My heart will trust in You
+My heart will trust in You
+</attribute>
+    </object>
+    <object type="SONG" id="z137">
+        <attribute name="copyright" type="string">Paul Sharkey, Public Domain
+</attribute>
+        <attribute name="lyrics" type="string">I stand in awe of Your holy Name 
+Spirit healing, revealing, aflame 
+I stand only through faith
+Grafted into my place 
+In the tree that's planted in You 
+
+I never cease to wonder and praise 
+Your holy call which came in these days 
+In the darkness of night 
+Came the voice in love's light 
+Calling me to the riches of God 
+
+Now I stand redeemed 
+I stand redeemed 
+I stand only through faith 
+In Your love and Your grace 
+Grafted in to the riches of God </attribute>
+        <attribute name="title" type="string">I stand in awe</attribute>
+    </object>
+    <object type="SONG" id="z184">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">And they sang a new song 
+Worthy is the Lamb
+To receive all honour glory and praise 
+From each tribe and nation 
+Purchased by His blood 
+Comes a royal priesthood 
+To bring in the rule of God 
+
+To Him who sits upon the throne
+And to the Lamb 
+Be praise and honour
+And glory and power
+Forever and ever - worship the Lamb 
+Forever and ever - worship the Lamb 
+Forever and ever more - worship the Lamb</attribute>
+        <attribute name="title" type="string">And they sang a new song </attribute>
+    </object>
+    <object type="SONG" id="z284">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">A river is flowing from heaven above 
+A river of blessing a river of love 
+Tis reaching the nations both far and near
+This river of God oh let it flow here 
+
+O river of God flow down on me 
+O river of God flow out from me 
+O river of God so full and free 
+O river of God I cry to thee
+
+The desert shall blossom as fresh as the rose 
+This river brings healing wherever it flows 
+The ground that is parched so thirsty and dry 
+Shall surely be flooded with rain from on high 
+
+The deaf shall have hearing 
+The blind folk shall see 
+The lame shall be loosed from their infirmity 
+The crooked made straight 
+And the broken made whole 
+This latter time blessing as promised by Joel 
+
+The fetters of fear and of doubt soon shall break 
+When unbelief goes and the church shall awake 
+The chains of hard bondage for ever will fall 
+And Jesus exalted supreme over all 
+
+By this flowing river earth's bondage shall cease 
+The floods are now rising to bring us release 
+The vision is glorious then why not believe
+Step into the blessing His fullness receive
+
+O river of God flow down on me 
+O river of God flow out from me 
+O river of God so full and free 
+O river of God I cry to thee
+
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">A river is flowing from heaven above </attribute>
+    </object>
+    <object type="SONG" id="z213">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">Would you be free from your burden of sin?
+There's power in the blood, power in the blood
+Would you o'er evil a victory win?
+There's wonderful power in the blood
+
+There is power, power wonder working power
+In the blood of the Lamb
+There is power, power wonder working power
+In the precious blood of the Lamb
+
+Would you be free from your passions and pride?
+There's power in the blood, power in the blood
+Come for a cleansing from Calvary's tide
+There's wonderful power in the blood
+
+There is power, power wonder working power
+In the blood of the Lamb
+There is power, power wonder working power
+In the precious blood of the Lamb
+
+Would you be whiter much whiter than snow?
+There's power in the blood, power in the blood
+Sin stains are lost in its life-giving flow
+There's wonderful power in the blood
+
+There is power, power wonder working power
+In the blood of the Lamb
+There is power, power wonder working power
+In the precious blood of the Lamb
+
+Would you do service for Jesus your King?
+There's power in the blood, power in the blood
+Would you live daily His praises to sing?
+There's wonderful power in the blood
+
+There is power, power wonder working power
+In the blood of the Lamb
+There is power, power wonder working power
+In the precious blood of the Lamb</attribute>
+        <attribute name="title" type="string">Would you be free from your burden of sin</attribute>
+    </object>
+    <object type="SONG" id="z352">
+        <attribute name="copyright" type="string">Terry MacAlmon 1997 HeavenSong Music</attribute>
+        <attribute name="lyrics" type="string">Can you hear the sound of Heaven 
+Like the sound of many waters 
+It's the sound of worship 
+Coming from the throne 
+There are cries of adoration 
+As men from every nation 
+Lift their voice to make
+His glory known 
+Singing 
+
+Holy holy holy are You Lord 
+Holy holy holy are You Lord 
+The elders and angels bow 
+The redeemed worship You now 
+Holy holy holy are You Lord
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Can you hear the sound of Heaven</attribute>
+    </object>
+    <object type="SONG" id="z196">
+        <attribute name="copyright" type="string">Brian Doerkson c 1990 Mercy / Vineyard Publishing 
+</attribute>
+        <attribute name="lyrics" type="string">Holiness is your life in me 
+Making me clean through your blood 
+Holiness is your fire in me 
+Purging my heart like a flood 
+I know you are perfect in holiness 
+Your life in me 
+Setting me free making me holy 
+
+Only the blood of Jesus covers all of my sin 
+Only the life of Jesus renews me from within 
+Your blood is enough your mercy complete 
+Your work of atonement 
+Paid for my debts making me holy 
+
+Women:  Only the blood of Jesus x 3 
+Men:  Mercy triumphs over judgement x 2 
+</attribute>
+        <attribute name="title" type="string">Holiness is your life in me</attribute>
+    </object>
+    <object type="SONG" id="z316">
+        <attribute name="copyright" type="string">A Jewell</attribute>
+        <attribute name="lyrics" type="string">Lord we see the rain come falling down 
+Saturating thirsty ground 
+O Lord with all our hearts
+We've turned around 
+And this is what we seek 
+
+Cloud of glory coming down 
+Cloud of glory coming down 
+Cloud of glory coming down 
+This is what we seek 
+
+Cloud of healing coming down 
+Cloud of healing coming down 
+Cloud of healing coming down 
+This is what we seek </attribute>
+        <attribute name="title" type="string">Lord we see the rain</attribute>
+    </object>
+    <object type="SONG" id="z304">
+        <attribute name="copyright" type="string">Francis H. Rawley </attribute>
+        <attribute name="lyrics" type="string">I will sing the wondrous story
+Of the Christ who died for me.
+How He left His home in glory
+For the cross of Calvary.
+
+Yes, I'll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+I was lost, but Jesus found me,
+Found the sheep that went astray,
+Threw His loving arms around me,
+Drew me back into His way.
+
+Yes, I'll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+I was bruised, but Jesus healed me,
+Faint was I from many a fall,
+Sight was gone, and fears possessed me,
+But He freed me from them all.
+
+Yes, I'll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+ 
+He will keep me till the river 
+Rolls its waters at my feet;
+Then He'll bear me safely over,
+Where the loved ones I shall meet.
+
+Yes, I'll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+</attribute>
+        <attribute name="title" type="string">I will sing the wondrous story</attribute>
+    </object>
+    <object type="SONG" id="z246">
+        <attribute name="copyright" type="string">1996 Megin's College Fund Music ASCAP Latter Rain Music Admin by Sparow
+</attribute>
+        <attribute name="lyrics" type="string">To the King who gave everything for me
+Whose body crucified high on Calvary's tree 
+Whose redemptive blood makes way for me 
+I now give everything 
+
+To the King who came in the form of a child 
+All powerful God and yet so mild 
+Whose obedience shows the way for me
+I humbly come to Thee 
+
+Chorus 
+To the King alone I will give my life 
+To the King I will sing both day and night 
+To the Lamb of God who has paid the price 
+To the King alone, I will give my life 
+
+To the King the One True Royalty 
+The King He has befriended me 
+But greater still He lives in me 
+I give Him everything 
+
+Chorus 
+To the King alone I will give my life 
+To the King I will sing both day and night 
+To the Lamb of God who has paid the price 
+To the King alone, I will give my life
+</attribute>
+        <attribute name="title" type="string">To the King who gave everything for me
+</attribute>
+    </object>
+    <object type="SONG" id="z258">
+        <attribute name="copyright" type="string">Banecroft, Charitie Lees</attribute>
+        <attribute name="lyrics" type="string">Before the throne of God above 
+I have a strong a perfect plea 
+A great high priest whose name is Love 
+Who ever lives and pleads for me 
+My name is graven on His hands
+My name is written on His heart 
+I know that while in heaven stands 
+No tongue can bid me thence depart 
+x2
+ 
+When Satan tempts me to despair 
+And tells me of the guilt within 
+Upwards I look and see Him there 
+Who made an end to all my sin 
+Because the sinless Saviour died 
+My sinful soul is counted free 
+For God the just is satisfied 
+To look on him and pardon me 
+x 2 
+
+Behold Him there the risen lamb 
+My perfect spotless righteousness 
+The great unchangeable I Am 
+The King of glory and of grace 
+One with Himself I cannot die 
+My soul is purchased with His blood 
+My life is hid with Christ on high 
+With Christ my Saviour and my God 
+x 2 
+
+
+
+
+
+
+
+
+
+
+</attribute>
+        <attribute name="title" type="string">Before the throne of God above </attribute>
+    </object>
+    <object type="SONG" id="z359">
+        <attribute name="copyright" type="string">John Rippon, 1787. Music: Early American melody</attribute>
+        <attribute name="lyrics" type="string">How Firm a Foundation, Ye Saints of the Lord,
+Is laid for your faith in His excellent word!
+What more can He say than to you He hath said,
+You who unto Jesus for refuge hath fled?
+
+Fear not I am with Thee, O be not dismayed!
+For I am thy God and will still give thee aid.
+I’ll strengthen thee, help thee, and cause thee to stand,
+Upheld by My righteous, omnipotent hand.
+
+When through the deep waters I call thee to go
+The rivers of grief shall not thee overflow;
+For I will be with thee in trouble to bless
+And sanctify to thee thy deepest distress.
+
+The soul that on Jesus hath leaned for repose
+I will not, I will not dester to its foes!
+That soul though all hell should endeavour to shake
+I’ll never, no, never, no, never forsake!</attribute>
+        <attribute name="title" type="string">How Firm a Foundation</attribute>
+    </object>
+    <object type="SONG" id="z360">
+        <attribute name="lyrics" type="string">(Men lead, women echo)
+The Lord  is my strength and my song
+And He is become my salvation
+He is become my salvation
+He is My God 
+
+(All)
+And I shall prepare Him my heart  (x2)
+
+(Men lead, women echo)
+The Lord He shall reign
+Forever and ever
+Amen
+
+(All)
+And I shall prepare Him my heart  (x2)</attribute>
+        <attribute name="title" type="string">The Lord  is my strength and my song</attribute>
+    </object>
+    <object type="SONG" id="z361">
+        <attribute name="copyright" type="string">Words: Thomas Chisholm, 1923. Music: William Runyan.</attribute>
+        <attribute name="lyrics" type="string">Great is Thy Faithfulness!, O Lord my Father,
+There is no shadow of turning with Thee; 
+Thou changest not, Thy compassions they fail not;
+As Thou hast been Thou forever wilt be.
+
+Great is Thy Faithfulness!
+Great is Thy Faithfulness!
+Morning by morning new mercies I see;
+All I have needed Thy hand hath provided,
+Great is Thy Faithfulness, Lord, unto me!
+
+Summer and winter and springtime and harvest,
+Sun, moon and stars in their courses above,
+Join with all nature in manifold witness
+To Thy great faithfulness, mercy and love.
+
+Great is Thy Faithfulness!
+Great is Thy Faithfulness!
+Morning by morning new mercies I see;
+All I have needed Thy hand hath provided,
+Great is Thy Faithfulness, Lord, unto me!
+
+Pardon for sin and a peace that endureth,
+Thine own dear presence to cheer and to guide;
+Strength for today and bright hope for tomorrow,
+Blessings all mine, with ten thousand beside!
+
+Great is Thy Faithfulness!
+Great is Thy Faithfulness!
+Morning by morning new mercies I see;
+All I have needed Thy hand hath provided,
+Great is Thy Faithfulness, Lord, unto me!</attribute>
+        <attribute name="title" type="string">Great is Thy Faithfulness!</attribute>
+    </object>
+    <object type="SONG" id="z362">
+        <attribute name="lyrics" type="string">All to Jesus I surrender
+All to Him I freely give;
+I will ever love and trust Him,
+In His presence daily live.
+
+I surrender all
+I surrender all;
+All to Thee my blessed Saviour
+I surrender all.
+All to Jesus I surrender.
+Humbly at His feet I bow;
+Worldly pleasures all forsaken,
+Take me, Jesus, take me now.
+
+All to Jesus I surrender.
+Lord, I give myself to thee;
+Fill me with Thy love and power,
+Let Thy blessing fall on me.
+
+All to Jesus I surrender.
+Now I feel the sacred flame;
+O the joy of full salvation!
+Glory, glory to His name!</attribute>
+        <attribute name="title" type="string">All to Jesus I surrender</attribute>
+    </object>
+    <object type="SONG" id="z363">
+        <attribute name="copyright" type="string">Isaac Watts, 1707. Music: Low ell Ma son, 1824.</attribute>
+        <attribute name="lyrics" type="string">When I Survey the wondrous Cross
+On which the Prince of Glory died,
+My richest gain I count but loss 
+And pour contempt on all my pride.
+
+Forbid it Lord that I should boast,
+Save in the death of Christ my Lord:
+All the vain things that charm me most,
+I sacrifice them to His blood.
+
+See from His head, His hands, His feet,
+Sorrow and love flow mingled down;
+Did e’er such love and sorrow meet ,
+Or thorns compose so rich a crown?
+
+Were the whole realm of nature mine,
+That were an offering far too small;
+love so amazing, so divine,
+Demands my soul, my life, my all.
+</attribute>
+        <attribute name="title" type="string">When I Survey the wondrous Cross</attribute>
+    </object>
+    <object type="SONG" id="z129">
+        <attribute name="copyright" type="string">Ian Lundie, Public Domain</attribute>
+        <attribute name="lyrics" type="string">Lift me up higher than the mountains
+Lift me up on Your healing wing
+Lift me up higher than the angels
+Lift me up to Your throne of grace
+That I may worship You on bended knee
+That I may pour my love out at Your feet
+That I may see Your face
+And die to my own life
+And live the risen life of Christ
+Lift me up.
+</attribute>
+        <attribute name="title" type="string">Lift me Higher</attribute>
     </object>
 </database>
