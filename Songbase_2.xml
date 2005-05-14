@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>91AC326B-81CC-49FF-BB35-8E0611994F97</UUID>
-        <nextObjectID>363</nextObjectID>
+        <nextObjectID>382</nextObjectID>
         <metadata></metadata>
     </databaseInfo>
     <object type="SONG" id="z103">
@@ -890,17 +890,6 @@ Hallelujah Hallelujah Amen Amen Amen
 </attribute>
         <attribute name="title" type="string">Ye gates lift up your heads on high </attribute>
     </object>
-    <object type="SONG" id="z147">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">So let the temple 
-Be filled with His glory 
-And let the courts 
-Be filled with His praise 
-And let us worship the Lord 
-In the Holy of Holy's 
-Zion rejoices again </attribute>
-        <attribute name="title" type="string">So let the temple </attribute>
-    </object>
     <object type="SONG" id="z148">
         <attribute name="copyright" type="string">NCC Jesus Fellowship Songs
 </attribute>
@@ -921,37 +910,6 @@ Alellujah  Allelu  x 3
 Allelujah
 </attribute>
         <attribute name="title" type="string">Those who trust in the Lord 
-</attribute>
-    </object>
-    <object type="SONG" id="z149">
-        <attribute name="copyright" type="string">1996 Megin's College Fund Music ASCAP Latter Rain Music Admin by Sparow
-</attribute>
-        <attribute name="lyrics" type="string">To the King who gave everything for me
-Whose body crucified high on Calvary's tree 
-Whose redemptive blood makes way for me 
-I now give everything 
-
-To the King who came in the form of a child 
-All powerful God and yet so mild 
-Whose obedience shows the way for me
-I humbly come to Thee 
-
-To the King alone I will give my life 
-To the King I will sing both day and night 
-To the Lamb of God who has paid the price 
-To the King alone, I will give my life 
-
-To the King the One True Royalty 
-The King He has befriended me 
-But greater still He lives in me 
-I give Him everything 
-
-To the King alone I will give my life 
-To the King I will sing both day and night 
-To the Lamb of God who has paid the price 
-To the King alone, I will give my life
-</attribute>
-        <attribute name="title" type="string">To the King who gave everything for me
 </attribute>
     </object>
     <object type="SONG" id="z150">
@@ -1498,22 +1456,6 @@ For you to dwell
 For my presence is yours 
 I will give you rest</attribute>
         <attribute name="title" type="string">I'll go before you </attribute>
-    </object>
-    <object type="SONG" id="z181">
-        <attribute name="copyright" type="string">Keith Green</attribute>
-        <attribute name="lyrics" type="string">Create in me a clean heart oh God
-And renew a right spirit within me
-Create in me a clean heart oh God
-And renew a right spirit within me
-
-Cast me not away
-From thy presence oh Lord
-Take not thy Holy Spirit from me
-Restore unto me the joy of my salvation
-And renew a right spirit within me
-
-</attribute>
-        <attribute name="title" type="string">create in me a clean heart</attribute>
     </object>
     <object type="SONG" id="z183">
         <attribute name="copyright" type="string">A Jewell, Public Domain 
@@ -4218,37 +4160,6 @@ I will give all the glory (3 times)
 To the Lamb that was slain</attribute>
         <attribute name="title" type="string">Jesus breaks every fetter </attribute>
     </object>
-    <object type="SONG" id="z339">
-        <attribute name="copyright" type="string">Geoff Bullock copyright  1995 Word music Inc.</attribute>
-        <attribute name="lyrics" type="string">Jesus God's righteousness revealed,
-The son of man, the Son of God, His kingdom comes,
-Jesus, redemption's sacrifice,
-Now glorified, now justified, His kingdom come.
-  
-And His kingdom will know no end,
-And its glory shall know no bonds,
-For the majesty and power
-Of this kingdom's king has come
-And this kingdom's reigns,
-And this kingdom's rule,
-And this kingdom's power and authority
-Jesus, God's righteousness revealed.
-
-Jesus the expression of God's love,
-The grace of God, the word of God, revealed to us,
-Jesus, God's holiness displayed,
-Now glorified, now justified, his kingdom comes.
-
-And His kingdom will know no end,
-And its glory shall know no bonds,
-For the majesty and power
-Of this kingdom's king has come
-And this kingdom's reigns,
-And this kingdom's rule,
-And this kingdom's power and authority
-Jesus, God's righteousness revealed.</attribute>
-        <attribute name="title" type="string">Jesus God's righteousness revealed</attribute>
-    </object>
     <object type="SONG" id="z340">
         <attribute name="copyright" type="string">D Ruis c 1993 Zion Song Music 
 </attribute>
@@ -5896,21 +5807,6 @@ In my God The Most High
 </attribute>
         <attribute name="title" type="string">I will dwell in His secret place</attribute>
     </object>
-    <object type="SONG" id="z237">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">You deserve the glory and honour 
-Lord we lift our hearts in worship 
-As we praise Your holy name 
-Repeat 
-
-For You are great 
-You do miracles so great 
-There is no one else like You 
-There is no one else like You 
-</attribute>
-        <attribute name="title" type="string">You deserve the glory and honour 
-</attribute>
-    </object>
     <object type="SONG" id="z174">
         <attribute name="copyright" type="string">Harriett B. Stowe </attribute>
         <attribute name="lyrics" type="string">Still, still with Thee
@@ -6046,69 +5942,6 @@ I sing for joy at the work of Your hands.
 Forever I'll love You, forever I'll stand.
 Nothing compares to the promise I have in You.</attribute>
         <attribute name="title" type="string">My Jesus, My Saviour</attribute>
-    </object>
-    <object type="SONG" id="z201">
-        <attribute name="copyright" type="string">F. R. Havergal. </attribute>
-        <attribute name="lyrics" type="string">Take my life, and let it be  
-Consecrated, Lord, to Thee.
-Take my moments and my days;
-Let them flow in ceaseless praise.
-
-Take my hands, and let them move 
-At the impulse of Thy love.
-Take my feet, and let them be 
-Swift and beautiful for Thee.
-
-Take my voice, and let me sing 
-Always, only, for my King.
-Take my lips, and let them be
-Filled with messages from Thee.
-
-Take my silver and my gold; 
-Not a mite would I withhold.
-Take my intellect, and use
-Every power as Thou shalt choose.
-
-Take my will, and make it Thine;  
-It shall be no longer mine.
-Take my heart, it is Thine own;  
-It shall be Thy royal throne.                
-Take my love, my Lord, I pour
-At Thy feet its treasure store.
-Take myself, and I will be
-Ever only all for Thee. 
-</attribute>
-        <attribute name="title" type="string">Take my life, and let it be  </attribute>
-    </object>
-    <object type="SONG" id="z331">
-        <attribute name="copyright" type="string">Unknown</attribute>
-        <attribute name="lyrics" type="string">I'll walk closer now on the higher way
-Through the darkest night will You hold my hand
-Jesus guide my way
-
-For You mourn with me and You dance with me
-For My heart of hearts is bound to You
-
-Though I walk through valleys low
-I'll fear no evil 
-By Your waters still my soul
-My heart will trust in You
-My heart will trust in You
-
-</attribute>
-        <attribute name="title" type="string">I'll walk closer now on the higher way
-Through the darkest night will You hold my hand
-Jesus guide my way
-
-For You mourn with me and you dance with me
-For My heart of hearts is bound to You
-
-Though I walk through valleys low
-I'll fear no evil 
-By Your waters still my soul
-My heart will trust in You
-My heart will trust in You
-</attribute>
     </object>
     <object type="SONG" id="z137">
         <attribute name="copyright" type="string">Paul Sharkey, Public Domain
@@ -6359,39 +6192,6 @@ Gathered by the crystal sea.
 </attribute>
         <attribute name="title" type="string">I will sing the wondrous story</attribute>
     </object>
-    <object type="SONG" id="z246">
-        <attribute name="copyright" type="string">1996 Megin's College Fund Music ASCAP Latter Rain Music Admin by Sparow
-</attribute>
-        <attribute name="lyrics" type="string">To the King who gave everything for me
-Whose body crucified high on Calvary's tree 
-Whose redemptive blood makes way for me 
-I now give everything 
-
-To the King who came in the form of a child 
-All powerful God and yet so mild 
-Whose obedience shows the way for me
-I humbly come to Thee 
-
-Chorus 
-To the King alone I will give my life 
-To the King I will sing both day and night 
-To the Lamb of God who has paid the price 
-To the King alone, I will give my life 
-
-To the King the One True Royalty 
-The King He has befriended me 
-But greater still He lives in me 
-I give Him everything 
-
-Chorus 
-To the King alone I will give my life 
-To the King I will sing both day and night 
-To the Lamb of God who has paid the price 
-To the King alone, I will give my life
-</attribute>
-        <attribute name="title" type="string">To the King who gave everything for me
-</attribute>
-    </object>
     <object type="SONG" id="z258">
         <attribute name="copyright" type="string">Banecroft, Charitie Lees</attribute>
         <attribute name="lyrics" type="string">Before the throne of God above 
@@ -6458,25 +6258,6 @@ I will not, I will not dester to its foes!
 That soul though all hell should endeavour to shake
 I’ll never, no, never, no, never forsake!</attribute>
         <attribute name="title" type="string">How Firm a Foundation</attribute>
-    </object>
-    <object type="SONG" id="z360">
-        <attribute name="lyrics" type="string">(Men lead, women echo)
-The Lord  is my strength and my song
-And He is become my salvation
-He is become my salvation
-He is My God 
-
-(All)
-And I shall prepare Him my heart  (x2)
-
-(Men lead, women echo)
-The Lord He shall reign
-Forever and ever
-Amen
-
-(All)
-And I shall prepare Him my heart  (x2)</attribute>
-        <attribute name="title" type="string">The Lord  is my strength and my song</attribute>
     </object>
     <object type="SONG" id="z361">
         <attribute name="copyright" type="string">Words: Thomas Chisholm, 1923. Music: William Runyan.</attribute>
@@ -6578,5 +6359,734 @@ And live the risen life of Christ
 Lift me up.
 </attribute>
         <attribute name="title" type="string">Lift me Higher</attribute>
+    </object>
+    <object type="SONG" id="z181">
+        <attribute name="copyright" type="string">Keith Green</attribute>
+        <attribute name="lyrics" type="string">Create in me a clean heart oh God
+And renew a right spirit within me
+Create in me a clean heart oh God
+And renew a right spirit within me
+
+Cast me not away
+From thy presence oh Lord
+Take not thy Holy Spirit from me
+Restore unto me the joy of my salvation
+And renew a right spirit within me
+
+</attribute>
+        <attribute name="title" type="string">Create in me a clean heart</attribute>
+    </object>
+    <object type="SONG" id="z147">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">So let the temple 
+Be filled with His glory 
+And let the courts 
+Be filled with His praise 
+And let us worship the Lord 
+In the Holy of Holy's 
+Zion rejoices again. </attribute>
+        <attribute name="title" type="string">So let the temple </attribute>
+    </object>
+    <object type="SONG" id="z364">
+        <attribute name="lyrics" type="string">I will give thanks to Thee 
+Oh Lord among the people
+I will sing praises to Thee
+Among the nations
+For Thy steadfast love is great
+Is great to the heavens
+Any Thy faithfulness, Thy faithfulness to the clouds
+
+Be exalted O God above the heavens
+Let Thy glory be over all the earth 
+Be exalted O God above the heavens
+Let Thy glory be over all the earth 
+</attribute>
+        <attribute name="title" type="string">I will give thanks to Thee </attribute>
+    </object>
+    <object type="SONG" id="z360">
+        <attribute name="lyrics" type="string">(Men lead, women echo)
+The Lord is my strength and my song
+And He is become my salvation
+He is My God 
+
+(All)
+And I shall prepare Him my heart  (x2)
+
+(Men lead, women echo)
+The Lord He shall reign
+Forever and ever
+Amen
+
+(All)
+And I shall prepare Him my heart  (x2)</attribute>
+        <attribute name="title" type="string">The Lord  is my strength and my song</attribute>
+    </object>
+    <object type="SONG" id="z237">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">You deserve the glory and honour 
+Lord we lift our hearts in worship 
+As we praise Your holy name 
+
+
+For You are great 
+You do miracles so great 
+There is no one else like You 
+There is no one else like You 
+</attribute>
+        <attribute name="title" type="string">You deserve the glory and honour 
+</attribute>
+    </object>
+    <object type="SONG" id="z149">
+        <attribute name="copyright" type="string">1996 Megin's College Fund Music ASCAP Latter Rain Music Admin by Sparow
+</attribute>
+        <attribute name="lyrics" type="string">To the King who gave everything for me
+Whose body crucified high on Calvary's tree 
+Whose redemptive blood makes way for me 
+I now give everything 
+
+To the King who came in the form of a child 
+All powerful God and yet so mild 
+Whose obedience shows the way for me
+I humbly come to Thee 
+
+To the King alone I will give my life 
+To the King I will sing both day and night 
+To the Lamb of God who has paid the price 
+To the King alone, I will give my life 
+
+To the King the one true royalty 
+The King He has befriended me 
+But greater still He lives in me 
+I give Him everything 
+
+To the King alone I will give my life 
+To the King I will sing both day and night 
+To the Lamb of God who has paid the price 
+To the King alone, I will give my life
+</attribute>
+        <attribute name="title" type="string">To the King who gave everything for me
+</attribute>
+    </object>
+    <object type="SONG" id="z201">
+        <attribute name="copyright" type="string">F. R. Havergal. </attribute>
+        <attribute name="lyrics" type="string">Take my life, and let it be  
+Consecrated, Lord, to Thee.
+Take my moments and my days;
+Let them flow in ceaseless praise.
+
+Take my hands, and let them move 
+At the impulse of Thy love.
+Take my feet, and let them be 
+Swift and beautiful for Thee.
+
+Take my voice, and let me sing 
+Always, only, for my King.
+Take my lips, and let them be
+Filled with messages from Thee.
+
+Take my silver and my gold; 
+Not a mite would I withhold.
+Take my intellect, and use
+Every power as Thou shalt choose.
+
+Take my will, and make it Thine;  
+It shall be no longer mine.
+Take my heart, it is Thine own;  
+It shall be Thy royal throne.
+                
+Take my love, my Lord, I pour
+At Thy feet its treasure store.
+Take myself, and I will be
+Ever only all for Thee. 
+</attribute>
+        <attribute name="title" type="string">Take my life, and let it be  </attribute>
+    </object>
+    <object type="SONG" id="z365">
+        <attribute name="lyrics" type="string">Come, Holy Spirit, we await You: 
+Come in all Your sovereign power;
+This is the day the Lord has chosen,
+This is the day and this the hour. 
+
+Come, gentle Spirit, we await You: 
+Come in all your holy grace; 
+Show us now the things of Jesus, 
+Show us now His Blessed face. 
+
+Come, Holy Spirit, we can feel You 
+Falling on us like a shower; 
+Bless we now the name of Jesus, 
+Thrill we now with holy power. 
+
+Come, Holy Spirit, we can sense You: 
+Coming like the gentle rain; 
+Love a mantle falling on us
+Sing we now our glad refrain. 
+
+Take the things that shade His glory:
+Pierce the clouds that lie between; 
+Convict of sin, O Holy Spirit, 
+That His glory may be seen. 
+
+Come, Holy Spirit, to release us: 
+Bind our wounds and set us free; 
+Break the cruel bands of darkness, 
+As thy glorious light we see. 
+
+Lift the burdens, Holy Spirit: 
+Heal the scars and staunch the pain, 
+By the precious blood of Jesus,
+Through the Lamb who once was slain. 
+
+Chorus 
+Sing we now the song of Jesus, 
+Praise we now the stricken Lamb;
+Unctioned by the Holy Spirit, 
+Praise we now the great I Am.</attribute>
+        <attribute name="title" type="string">The Song of Jesus (Mr Black's  Song)</attribute>
+    </object>
+    <object type="SONG" id="z366">
+        <attribute name="lyrics" type="string">Love songs from heaven are filling the earth
+Brining great hope to all nations
+Evil has prospered, but truth is alive
+In this dark world the light still shines.
+
+Nothing has silenced this gospel of Christ
+It echos down through the ages
+Blood of the martyrs has made Your church strong
+In this dark world the light still shines
+
+For You we live
+And for You we may die
+Through us may Jesus be seen
+For You alone we will offer our lives
+In this dark world our light will shine
+
+Let every nation be filled with Your song
+This is the cry of Your people
+We will not settle for anything less
+In this dark world our light must shine
+
+For You we live
+And for You we may die
+Through us may Jesus be seen
+For You alone we will offer our lives
+In this dark world our light will shine</attribute>
+        <attribute name="title" type="string">Love songs from heaven</attribute>
+    </object>
+    <object type="SONG" id="z367">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">We bow down and confess
+You are Lord in this place
+We bow down and confess
+You are Lord in this place
+You are all I need
+It's Your face I seek
+In the presense of Your light
+We bow down, we bow down</attribute>
+        <attribute name="title" type="string">We bow down and confess</attribute>
+    </object>
+    <object type="SONG" id="z368">
+        <attribute name="lyrics" type="string">(Men lead, Women echo)
+I will worship
+With all of my heart
+I will praise You
+With all of my strength
+I will seek You
+All of my days
+I will follow
+All of Your ways
+
+I will give You all my worship
+I will give You all my praise
+You alone I long to worship
+You alone are worthy of my praise
+
+I will bow down
+Hail You as king
+I will serve You
+Give you everything
+I will lift up
+My eyes to Your throne
+I will trust 
+I will trust You alone
+
+I will give You all my worship
+I will give You all my praise
+You alone I long to worship
+You alone are worthy of my praise</attribute>
+        <attribute name="title" type="string">I will worship, with all of my heart</attribute>
+    </object>
+    <object type="SONG" id="z369">
+        <attribute name="copyright" type="string">S Rinaldi, S Bassett c 1994 Kingsway's Thank You Music</attribute>
+        <attribute name="lyrics" type="string">In these days of darkness who will bear the light
+In all of this confusion
+Who will rage against the night
+And who will light a beacon
+In the face of this dark dark sky
+
+Where there is oppression 
+Who will raise the flame 
+For the sake of all the children
+Who will touch the fields of shame
+And who will light a beacon
+In the face of this dark dark sky
+With a hope that is eternal
+With a love that will never die
+
+Oh I, I will carry the fire (repeat)
+
+Who will burn with passion
+Blazing from the heart
+To forge a new tomorrow
+We must tell the world
+Of a hope that is eternal
+Of a love that will never die
+And we will light a beacon
+In the face of this dark dark sky
+
+Oh I, I will carry the fire (repeat)
+I will not rest, I will not tire
+With all my strength I'll carry the fire
+I will not rest, I will not tire
+With ally my strength, I'll carry the fire</attribute>
+        <attribute name="title" type="string">In these days of darkness</attribute>
+    </object>
+    <object type="SONG" id="z370">
+        <attribute name="lyrics" type="string">Magnificent warrior, arrayed for battle
+We see You ready to slay Your enemies
+O might captain of heaven's armies
+We bow before You, we worship You
+
+So take Your sword upon Your side
+O mighty One clothe Yourself
+With splendour and with majesty
+And in Your majesty ride forth
+Ride forth victoriously for truth
+Humility and righteousness
+Let your strong right hand
+Display Your awsome deeds
+
+Magnificent warrior, we hear Your strong command
+To join the ranks of light and march into the fight
+By faith to overthrow ten thousand Jerichos
+To make Your judgements known in all the earth
+
+So take Your sword upon Your side
+O mighty One clothe Yourself
+With splendour and with majesty
+And in Your majesty ride forth
+Ride forth victoriously for truth
+Humility and righteousness
+Let your strong right hand
+Display Your awsome deeds</attribute>
+        <attribute name="title" type="string">Magnificent warrior</attribute>
+    </object>
+    <object type="SONG" id="z371">
+        <attribute name="copyright" type="string">Mr H Black, Public Domain</attribute>
+        <attribute name="lyrics" type="string">There’s a road that is open before us 
+And it leads to a world unknown; 
+Oft have we pondered its pleasures 
+And pictured the heavenly throne. 
+
+We have thought of myriad angels, 
+Of harps and of jubilant song; 
+We have pictured our Lord and our Saviour 
+Where they praise Him all the day long. 
+
+But now our heavenly Guide
+Is taking us upward from earth, 
+And we’re entering spiritual hallways 
+With the sense of a spiritual birth. 
+
+There’s a sensing of realms that we know not 
+An acute awareness of need, 
+To learn of the things of the Spirit, 
+To sit at God’s table and feed. 
+
+The Lamb whom we pictured we see not 
+With the eyes of our flesh or our mind, 
+But we sense His ineffable nearness 
+As He opens the eyes of the blind. 
+
+Instruct us, our God and our Father, 
+As we move in this heavenly place;
+Teach us the laws of the kingdom 
+As we bathe in Thy glory and grace. 
+
+Set our minds firmly on Jesus 
+As we search for that radiant face; 
+Let our feet go fervently forward 
+As we seek for that uttermost place. 
+
+Chorus
+Sing we now the song of Jesus, 
+Let the vaults of heaven ring, 
+Let all nations come and worship 
+At the throne of heaven’s king. 
+
+Seek we now the joy of Jesus, 
+Seek the deepest wells of life; 
+Let us rise and take the kingdom, 
+Rise victorious in the strife.</attribute>
+        <attribute name="title" type="string">Within The Veil (Mr Black's Song)</attribute>
+    </object>
+    <object type="SONG" id="z372">
+        <attribute name="copyright" type="string">A Jewell, Public Domain</attribute>
+        <attribute name="lyrics" type="string">The desert land 
+Is thirsty in the heat
+The land lies empty
+The people cry
+For food that they may live
+They cry for freedom
+
+Cry out and shout
+Inhabitant of Zion
+O cry aloud and shout for joy
+Lift up a shout 
+Inhabitant of Zion
+For great and holy
+Great and holy
+Great and holy is the Lord
+Who stands within your walls
+
+I hear a sound
+Of singing in the streets
+Sing loud O people
+I see a light
+Of glory in the sky
+Lift hands of worship
+
+Cry out and shout
+Inhabitant of Zion
+O cry aloud and shout for joy
+Lift up a shout 
+Inhabitant of Zion
+For great and holy
+Great and holy
+Great and holy is the Lord
+Who stands within your walls</attribute>
+        <attribute name="title" type="string">The desert land lies</attribute>
+    </object>
+    <object type="SONG" id="z373">
+        <attribute name="lyrics" type="string">See the conquering hero comes victorious in the strife;
+See Him crowned with glory:  He is Lord of Life. 
+Dark has been the midnight, dark the darkest hours 
+When He went forth to conquer hell and all its powers. 
+
+There on Calvary’s mountain and dread Gethsemane 
+He fought the prince of darkness and won the victory. 
+And now He reigns triumphant, the goodly crown is won. 
+All glory to the Saviour, all glory to the Son. 
+
+Rise up O men of battle, rise up ye men of war; 
+Christ the Lord of battles is gone on before. 
+Raise your standards boldly, raise your standards high
+Christ is now victorious and death itself must die</attribute>
+        <attribute name="title" type="string">The song of Victory (Mr Black's Song)</attribute>
+    </object>
+    <object type="SONG" id="z374">
+        <attribute name="copyright" type="string">C Austin Miles</attribute>
+        <attribute name="lyrics" type="string">I come to the garden alone
+While the dew is still on the roses
+And the voice I hear, falling on my ear
+The Son of God discloses
+
+And He walks with me and He talks to me 
+And He tells me I am His own
+And the joy we share, as we tarry there
+None other has ever known.
+
+He speaks and the sound of His voice
+Is so sweet the birds hush their singing
+And the melody, that He gives to me
+Within my heart is ringing.
+
+And He walks with me and He talks to me 
+And He tells me I am His own
+And the joy we share, as we tarry there
+None other has ever known.
+
+I'd stay in the garden with Him
+Though the night around me be calling
+But He bids me go thro' the voice of woe
+His voice to me is calling.
+
+And He walks with me and He talks to me 
+And He tells me I am His own
+And the joy we share, as we tarry there
+None other has ever known.</attribute>
+        <attribute name="title" type="string">I come to the garden alone</attribute>
+    </object>
+    <object type="SONG" id="z375">
+        <attribute name="lyrics" type="string">I'm forgiven because You were forsaken
+I'm accepted, You were condemned
+I'm alive and well Your spirit is within me
+Because You died and rose again
+
+Amazing love, how can it be
+That You my King would die for me
+Amazing love, I know it's true
+It's my joy to honour You
+In all I do, I honour You</attribute>
+        <attribute name="title" type="string">Im forgiven because You were forsaken</attribute>
+    </object>
+    <object type="SONG" id="z376">
+        <attribute name="lyrics" type="string">I will sing of my Redeemer
+And His wonderous love for me
+On the cruel cross He suffered 
+From the curse to set me free
+
+Sing oh sing of my Redeemer
+With His blood He purchased me
+On the cross He sealed my pardon
+Paid the debt and made me free
+
+I will tell the wonderous story
+How my lost estate to save
+In His boundless love and mercy
+He the ransom freely gave
+
+I will praise my dear Redeemer 
+His triumphant power I'll tell
+How the victory He giveth
+Over sin, and death, and hell</attribute>
+        <attribute name="title" type="string">I will sing of my Redeemer</attribute>
+    </object>
+    <object type="SONG" id="z378">
+        <attribute name="lyrics" type="string">Feel the lift of the wind of heaven, 
+Breathe the air of the city of God; 
+See the light of the glorious rainbow, 
+Walk the road that His feet have trod.  
+Shall we meet in the halls of glory, 
+As we praise Him around the throne?
+Shall our songs sound out the story 
+Of the love that our Lord has shown? 
+
+For He that was dead now liveth: 
+He liveth for evermore; 
+And the gift of new life He giveth, 
+As He stands by the open door. 
+Come enter the land of His promise, 
+Come eat of the corn and the wine: 
+For ever our Saviour now liveth, 
+And He calls us to come and dine. 
+
+See the pure gold He is bringing, 
+And the raiment exceeding fine;
+Our thanks we offer in singing, 
+And the glory for ever be Thine. 
+So, Lord, at they feet lowly bending, 
+We take of thy gifts and thy love.  
+We take of the grace Thou art sending 
+Down from thy throne above. 
+
+Chorus 
+Praise Him, praise Him, Hallelujah, 
+Praise Him, praise Him, Heaven’s King;
+Let the people rise and worship, 
+Let the nations rise and sing. 
+
+Praised be the name of Jesus, 
+Praised be the King of heaven! 
+Low before His throne now bending,
+Worship Him our Lord arisen.</attribute>
+        <attribute name="title" type="string">The Song Of Praise (Mr Black's Song)</attribute>
+    </object>
+    <object type="SONG" id="z379">
+        <attribute name="lyrics" type="string">There’ll be laughing, laughing, laughing on the floors of earth 
+As God’s chosen people come to second birth.
+
+There’ll be weeping, weeping, weeping as the waters break, 
+As a generation’s old foundations shake. 
+
+There’ll be singing, singing, singing tuning into glory, 
+With a holy nation sounding out the story. 
+
+There’ll be dancing, dancing, dancing there before the throne
+As a joyous people worship God alone. 
+
+Laughing, weeping, singing, dancing. 
+See the hosts of God advancing, 
+See the powers of darkness yield 
+As Judah’s lion takes the field 
+As Judah’s lion takes the field. 
+
+Laughing, weeping, dancing, singing, 
+Hear the courts of heaven ringing; 
+This the long-awaited hour, 
+This the day of heaven’s power 
+This is the day of heaven’s power. 
+
+Rivers rising, strong tides swelling, 
+Feel the waters fast upwelling; 
+This the coming glorious flood, 
+A church triumphant through the blood 
+A church triumphant through the blood.</attribute>
+        <attribute name="title" type="string">Early Rains  (Mr Black's Song)</attribute>
+    </object>
+    <object type="SONG" id="z380">
+        <attribute name="lyrics" type="string">I want to sing, until I am lost in Your love
+Till I am found in Your presence
+Worshiping before Your throne
+Filled with Your spirit
+Entering into Your flow
+How precious these moments
+Lord I want You to know
+
+It's You, You who have won my heart
+Taken me into Your love
+Comforted me like a friend
+Your love surrounded me from the start
+I never want to be apart 
+From you ever again</attribute>
+        <attribute name="title" type="string">I want to sing, until I am lost in Your love</attribute>
+    </object>
+    <object type="SONG" id="z381">
+        <attribute name="lyrics" type="string">Holy holy
+Holy is the Lord God Almighty
+Holy holy
+Holy is the Lord God Almighty
+Who was and is, and is to come
+Who was and is, and is to come
+
+Lift up His anme with the sound of singing
+Lift up His name in all the earth
+Lift up your voice and give Him glory
+For He is worthy to be praised</attribute>
+        <attribute name="title" type="string">Holy holy (Lift up His name)</attribute>
+    </object>
+    <object type="SONG" id="z382">
+        <attribute name="lyrics" type="string">Praise God for the body
+Praise God for the Son
+Praise God for the life
+That binds our hearts in one
+
+Joy is the food we share
+Love is our home brothers
+Praise God for the body
+Shalom Shalom
+
+Guard your circle brothers
+Clasp your hand in hand
+Satan cannot break
+The bond in which we stand
+
+Joy is the food we share
+Love is our home brothers
+Praise God for the body
+Shalom Shalom
+
+Shed your extra clothing
+Keep your baggage light
+Rough will be the battle
+Long will be the fight but
+
+Joy is the food we share
+Love is our home brothers
+Praise God for the body
+Shalom Shalom</attribute>
+        <attribute name="title" type="string">Praise God for the body</attribute>
+    </object>
+    <object type="SONG" id="z331">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">I'll walk closer now on the higher way
+Through the darkest night will You hold my hand
+Jesus guide my way
+
+For You mourn with me and You dance with me
+For My heart of hearts is bound to You
+
+Though I walk through valleys low
+I'll fear no evil 
+By Your waters still my soul
+My heart will trust in You
+My heart will trust in You
+
+For You counsel me and You comfort me
+When I cannot see You light my path
+
+Though I walk through valleys low
+I'll fear no evil 
+By Your waters still my soul
+My heart will trust in You
+My heart will trust in You
+</attribute>
+        <attribute name="title" type="string">I'll walk closer now on the higher way
+Through the darkest night will You hold my hand
+Jesus guide my way
+
+For You mourn with me and you dance with me
+For My heart of hearts is bound to You
+
+Though I walk through valleys low
+I'll fear no evil 
+By Your waters still my soul
+My heart will trust in You
+My heart will trust in You
+</attribute>
+    </object>
+    <object type="SONG" id="z377">
+        <attribute name="copyright" type="string">Unknown</attribute>
+        <attribute name="lyrics" type="string">The love of God, heaven's hope
+This perfect peace, this rest for my soul
+This love divine, portrayed in pain
+The cross stands alone
+Unfailing love
+
+This love of God, creation's cry
+Perfection portrayed, broken for me
+The author of life, has suffered our pain
+The cross stands alone
+Unfailing Love
+
+The love of God was found in the nails
+The love of God was seen in the scars
+The light and the life was darkened by death
+My hope and salvation carried to life
+Unfailing love
+
+The love of God, written in blood
+This empty grave, the stone rolled away
+The mercy of God, has triumphed in Christ
+The cross stands alone
+Unfailing love
+
+The love of God was found in the nails
+The love of God was seen in the scars
+The light and the life was darkened by death
+My hope and salvation carried to life
+Unfailing love</attribute>
+        <attribute name="title" type="string">The love of God, heaven's hope</attribute>
+    </object>
+    <object type="SONG" id="z339">
+        <attribute name="copyright" type="string">Geoff Bullock copyright  1995 Word music Inc.</attribute>
+        <attribute name="lyrics" type="string">Jesus God's righteousness revealed,
+The son of man, the Son of God, His kingdom comes,
+Jesus, redemption's sacrifice,
+Now glorified, now justified, His kingdom come.
+  
+And His kingdom will know no end,
+And its glory shall know no bounds,
+For the majesty and power
+Of this kingdom's king has come
+And this kingdom's reigns,
+And this kingdom's rule,
+And this kingdom's power and authority
+Jesus, God's righteousness revealed.
+
+Jesus the expression of God's love,
+The grace of God, the word of God, revealed to us,
+Jesus, God's holiness displayed,
+Now glorified, now justified, his kingdom comes.
+
+And His kingdom will know no end,
+And its glory shall know no bonds,
+For the majesty and power
+Of this kingdom's king has come
+And this kingdom's reigns,
+And this kingdom's rule,
+And this kingdom's power and authority
+Jesus, God's righteousness revealed.</attribute>
+        <attribute name="title" type="string">Jesus God's righteousness revealed</attribute>
     </object>
 </database>
