@@ -36,4 +36,7 @@
 
 - (IBAction)makeSharp:(id)sender;
 - (IBAction)makeFlat:(id)sender;
+
+- (IBAction)exportSelectedSongs:(id)sender;
+- (IBAction)exportIndex:(id)sender;
 @end

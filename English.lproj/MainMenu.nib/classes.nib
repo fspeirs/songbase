@@ -7,7 +7,21 @@
             SUPERCLASS = NSObject; 
         }, 
         {
+            ACTIONS = {exportIndex = id; exportSelectedSongs = id; }; 
+            CLASS = SBFullController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                currentSong = id; 
+                mainView = NSView; 
+                songArrayController = NSArrayController; 
+                textView = NSTextView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
             ACTIONS = {
+                exportIndex = id; 
+                exportSelectedSongs = id; 
                 importFiles = id; 
                 makeFlat = id; 
                 makeSharp = id; 

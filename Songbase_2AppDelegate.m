@@ -191,4 +191,51 @@
 - (IBAction)makeFlat:(id)sender {
 	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];	
 }
+
+- (IBAction)exportSelectedSongs:(id)sender {
+
+}
+
+- (IBAction)exportIndex:(id)sender {
+	NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES];
+	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];
+	[desc release];
+	
+	NSMutableString *songString = [[NSMutableString alloc] initWithCapacity: 100];
+		
+	NSEnumerator *songEnumerator = [songArray objectEnumerator];
+	id song;
+	while(song = [songEnumerator nextObject]) {
+		[songString appendString: [song valueForKey: @"title"]];
+		[songString appendString: @"\n"];
+	}
+	NSLog(songString);	
+	
+	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: songString]
+															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
+	
+	NSSavePanel *save = [NSSavePanel savePanel];
+	[save beginSheetForDirectory: nil
+							file: nil
+				  modalForWindow: window
+				   modalDelegate: self
+				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
+					 contextInfo: payloadDict];
+}
+
+- (void)savePanelDidEnd:(NSSavePanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo {
+	if(returnCode == NSOKButton) {
+		id data = [(NSDictionary *)contextInfo objectForKey: @"payload"];
+		
+		if(![data respondsToSelector: @selector(count)]) { // A string
+			NSLog(@"Writing to file: %@", [sheet filename]);
+			[data writeToFile: [sheet filename] atomically: YES];	
+		}
+		else { //An array
+			
+		}
+		
+		[contextInfo release];
+	}
+}
 @end
