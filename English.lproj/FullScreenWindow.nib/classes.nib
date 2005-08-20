@@ -8,10 +8,29 @@
             OUTLETS = {
                 currentSong = id; 
                 mainView = NSView; 
-                scrollView = NSScrollView; 
+                otherTextView = NSTextView; 
                 textView = NSTextView; 
             }; 
             SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                importFiles = id; 
+                makeFlat = id; 
+                makeSharp = id; 
+                saveAction = id; 
+                showFullScreenWindow = id; 
+                showPreferences = id; 
+            }; 
+            CLASS = "Songbase_2AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = NSArrayController; 
+                prefsWindow = NSWindow; 
+                table = NSTableView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
         }
     ); 
     IBVersion = 1; 

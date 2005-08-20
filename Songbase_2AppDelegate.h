@@ -20,6 +20,9 @@
 	
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
+	
+	// Rendezvous for SongbaseRemote
+	NSNetService *netService;
 }
 
 - (NSManagedObjectModel *)managedObjectModel;
