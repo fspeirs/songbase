@@ -1,7 +1,6 @@
 /* SBFullController */
 
 #import <Cocoa/Cocoa.h>
-#import "ARendezvousController.h"
 
 @interface SBFullController : NSWindowController
 {

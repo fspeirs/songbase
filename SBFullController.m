@@ -14,7 +14,6 @@
 	self = [super init];
 	if(self) {
 		[NSBundle loadNibNamed: @"FullScreenWindow" owner: self];
-		NSRect screenRect = [[NSScreen mainScreen] frame];
 		NSWindow *win = [[SBFSWindow alloc] initWithContentRect: NSMakeRect(20,20,400,800)//screenRect
 													  styleMask: NSBorderlessWindowMask
 														backing: NSBackingStoreBuffered

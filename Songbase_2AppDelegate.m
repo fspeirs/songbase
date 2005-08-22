@@ -12,67 +12,6 @@
 - (void)awakeFromNib {
 	[table setTarget: self];
 	[table setDoubleAction: @selector(showFullScreenWindow:)];
-	netService = [[NSNetService alloc] initWithDomain: @"" type: @"_songbase._tcp." name: @"Songbase" port:8080];
-	NSDictionary *dict = [NSDictionary dictionaryWithObject: @"Rect" forKey: @"{{0, 52}, {1295, 843}}"];
-	[netService setTXTRecordData: [NSNetService dataFromTXTRecordDictionary: dict]];
-	[netService setDelegate: self];
-	[netService publish];
-	
-	// Register for scroll notification
-	[[NSNotificationCenter defaultCenter] addObserver: self
-											 selector: @selector(songDidScroll:)
-												 name: @"SongbaseScrollEvent"
-											   object: nil];
-}
-
-// Scroll event
-- (void)songDidScroll:(NSNotification *)note {
-	NSString *newRectString = [note object];
-	NSDictionary *txtDict = [NSDictionary dictionaryWithObjects: [NSArray arrayWithObjects: @"Hello", newRectString, nil]
-														forKeys: [NSArray arrayWithObjects: @"Message", @"Rect", nil]];
-	NSLog([txtDict description]);
-	[netService setTXTRecordData: [NSNetService dataFromTXTRecordDictionary: txtDict]];
-}
-
-// Rendezvous delegate
-- (void)netServiceWillPublish:(NSNetService *)netService {
-	NSLog(@"Netservice will publish");	
-}
-
-- (void)netService:(NSNetService *)netService didNotPublish:(NSDictionary *)errorDict {
-	NSLog(@"Problem publishing: %@", [errorDict description]);
-	int errorCode = [[errorDict objectForKey: NSNetServicesErrorCode] intValue];
-	NSLog(@"Error code: %d", errorCode);
-	switch(errorCode) {
-		case NSNetServicesUnknownError:
-			NSLog(@"NSNetServicesUnknownError");
-			break;
-		case NSNetServicesCollisionError:
-			NSLog(@"The service could not be published because the name is already in use. The name could be in use locally or on another system.");
-			break;
-		case NSNetServicesNotFoundError:
-			NSLog(@"The service could not be found on the network.");
-			break;
-		case NSNetServicesActivityInProgress:
-			NSLog(@"The net service cannot process the request at this time. No additional information about the network state is known.");
-			break;
-		case NSNetServicesBadArgumentError:
-			NSLog(@"An invalid argument was used when creating the NSNetService object.");
-			break;
-		case NSNetServicesCancelledError:
-			NSLog(@"The client canceled the action.");
-			break;
-		case NSNetServicesInvalidError:
-			NSLog(@"The net service was improperly configured.");
-			break;
-		case NSNetServicesTimeoutError:
-			NSLog(@"Timed out");
-	}
-}
-
-- (void)netServiceDidStop:(NSNetService *)theNetService {
-	[netService release];
-	netService = nil;
 }
 
 - (NSManagedObjectModel *)managedObjectModel {
@@ -147,7 +86,6 @@
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
-	[netService stop];
 	
     NSError *error;
     NSManagedObjectContext *context;
@@ -256,7 +194,34 @@
 }
 
 - (IBAction)exportSelectedSongs:(id)sender {
+	NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
+	NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES];
+	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];
 
+	NSEnumerator *songEnumerator = [songArray objectEnumerator];
+	id song;
+	while(song = [songEnumerator nextObject]) {
+		NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
+		NSAttributedString *title = [[NSAttributedString alloc] initWithString: [song valueForKey: @"title"] attributes: titleAtts];
+		[str appendAttributedString: title];
+		[title release];
+		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n"] autorelease]];
+		
+		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: titleAtts];
+		[str appendAttributedString: lyrics];
+		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n"] autorelease]];
+	}
+	
+	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: str]
+															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
+	
+	NSSavePanel *save = [NSSavePanel savePanel];
+	[save beginSheetForDirectory: nil
+							file: nil
+				  modalForWindow: window
+				   modalDelegate: self
+				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
+					 contextInfo: payloadDict];
 }
 
 - (IBAction)exportIndex:(id)sender {
@@ -292,7 +257,10 @@
 		
 		if(![data respondsToSelector: @selector(count)]) { // A string
 			NSLog(@"Writing to file: %@", [sheet filename]);
-			[data writeToFile: [sheet filename] atomically: YES];	
+			if([data isKindOfClass: [NSAttributedString class]])
+				[[data RTFFromRange: NSMakeRange(0,[data length])] writeToFile: [sheet filename] atomically: YES]; 
+			else
+				[data writeToFile: [sheet filename] atomically: YES];	
 		}
 		else { //An array
 			
