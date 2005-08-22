@@ -24,14 +24,6 @@
 		[win setLevel:CGShieldingWindowLevel()];
 		[self setWindow: win];
 		
-		// Turn on bounds did change notifications in the textview's NSClipView
-		[[textView superview] setPostsBoundsChangedNotifications: YES];
-		
-		[[NSNotificationCenter defaultCenter] addObserver: self
-												 selector: @selector(textviewDidScroll:)
-													 name: NSViewBoundsDidChangeNotification
-												   object: [textView superview]];
-		
 		[[NSNotificationCenter defaultCenter] addObserver: self
 												 selector: @selector(showNewSong:)
 													 name: @"SongSelected"
@@ -81,7 +73,7 @@
         [aCurrentSong retain];
         [currentSong release];
         currentSong = aCurrentSong;
-		
+		[textView setNeedsDisplay: YES];
     }
 }
 
