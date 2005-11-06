@@ -120,6 +120,10 @@
 - (IBAction)showFullScreenWindow:(id)sender {
 	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];
 	
+	// Bump the playcount here
+	int count = [[song valueForKey: @"playcount"] intValue];
+	[song setValue: [NSNumber numberWithInt: count+1] forKey: @"playcount"];
+	
 	if(!fullScreenController) {
 		fullScreenController = [[SBFullController alloc] init];
 	}
