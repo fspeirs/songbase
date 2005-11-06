@@ -206,14 +206,17 @@
 	id song;
 	while(song = [songEnumerator nextObject]) {
 		NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
+		NSDictionary *bodyAttributes = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica" size: 12] forKey: NSFontAttributeName];
+		
 		NSAttributedString *title = [[NSAttributedString alloc] initWithString: [song valueForKey: @"title"] attributes: titleAtts];
 		[str appendAttributedString: title];
 		[title release];
-		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n"] autorelease]];
 		
-		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: titleAtts];
+		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
+		
+		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes];
 		[str appendAttributedString: lyrics];
-		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n"] autorelease]];
+		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", NSFormFeedCharacter]] autorelease]];
 	}
 	
 	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: str]
@@ -262,7 +265,7 @@
 		if(![data respondsToSelector: @selector(count)]) { // A string
 			NSLog(@"Writing to file: %@", [sheet filename]);
 			if([data isKindOfClass: [NSAttributedString class]])
-				[[data RTFFromRange: NSMakeRange(0,[data length])] writeToFile: [sheet filename] atomically: YES]; 
+				[[data RTFFromRange: NSMakeRange(0,[data length]) documentAttributes: nil] writeToFile: [sheet filename] atomically: YES]; 
 			else
 				[data writeToFile: [sheet filename] atomically: YES];	
 		}
