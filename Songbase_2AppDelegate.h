@@ -39,4 +39,5 @@
 
 - (IBAction)exportSelectedSongs:(id)sender;
 - (IBAction)exportIndex:(id)sender;
+- (IBAction)savePlayCountReport: (id)sender;
 @end

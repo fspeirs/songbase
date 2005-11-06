@@ -123,6 +123,8 @@
 	// Bump the playcount here
 	int count = [[song valueForKey: @"playcount"] intValue];
 	[song setValue: [NSNumber numberWithInt: count+1] forKey: @"playcount"];
+	[song setValue: [NSCalendarDate date] forKey: @"lastPlayed"];
+	
 	
 	if(!fullScreenController) {
 		fullScreenController = [[SBFullController alloc] init];
@@ -247,6 +249,42 @@
 	NSLog(songString);	
 	
 	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: songString]
+															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
+	
+	NSSavePanel *save = [NSSavePanel savePanel];
+	[save beginSheetForDirectory: nil
+							file: nil
+				  modalForWindow: window
+				   modalDelegate: self
+				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
+					 contextInfo: payloadDict];
+}
+
+- (IBAction)savePlayCountReport: (id)sender {
+	NSError *err;
+
+	NSFetchRequest *fReq = [[NSFetchRequest alloc] init];
+	[fReq setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
+	[fReq setPredicate: [NSPredicate predicateWithFormat: @"playcount > 0"]];
+
+	NSMutableAttributedString *attString = [[NSMutableAttributedString alloc] init];
+	
+	NSAttributedString *tabString = [[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", NSTabCharacter]];
+	
+	NSEnumerator *en = [[[self managedObjectContext] executeFetchRequest: fReq error: &err] objectEnumerator];
+	id song;
+	while(song = [en nextObject]) {
+		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: [song valueForKey: @"title"]] autorelease]];
+		
+		int i;
+		for(i=0; i < 5; i++)
+			[attString appendAttributedString: tabString];
+		
+		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%d", [[song valueForKey: @"playcount"] intValue]]] autorelease]];
+		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n"] autorelease]];
+	}
+	
+	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: attString]
 															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
 	
 	NSSavePanel *save = [NSSavePanel savePanel];

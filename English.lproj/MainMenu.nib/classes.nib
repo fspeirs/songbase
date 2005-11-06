@@ -26,6 +26,7 @@
                 makeFlat = id; 
                 makeSharp = id; 
                 saveAction = id; 
+                savePlayCountReport = id; 
                 showFullScreenWindow = id; 
                 showPreferences = id; 
             }; 
