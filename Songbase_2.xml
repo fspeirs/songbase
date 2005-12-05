@@ -2200,13 +2200,6 @@ Restore us O Father
 Revive us again</attribute>
         <attribute name="title" type="string">Holy Spirit Thou art welcome</attribute>
     </object>
-    <object type="SONG" id="z419">
-        <attribute name="lyrics" type="string">Father, Son and Holy Spirit
-Father, Son and Holy Spirit
-Father, Son and Holy Spirit
-Take my life I worship only You</attribute>
-        <attribute name="title" type="string">Father, Son and Holy Spirit</attribute>
-    </object>
     <object type="SONG" id="z421">
         <attribute name="lyrics" type="string">Thou art worthy
 Thou art worthy
@@ -3370,27 +3363,6 @@ Then through eternity, ever I'll be
 Nearer, my Saviour, still nearer to Thee.  </attribute>
         <attribute name="title" type="string">Nearer still nearer close to Thy heart</attribute>
     </object>
-    <object type="SONG" id="z297">
-        <attribute name="copyright" type="string">Noel &amp; Tricia Richards, Kingsway's Thank You Music 1987</attribute>
-        <attribute name="lyrics" type="string">All heaven declares 
-The glory of the risen Lord
-Who once was slain 
-To reconcile man to God
-Forever You will be
-The Lamb upon the throne
-I gladly bow the knee
-And worship Him alone
-
-I will proclaim 
-The glory of the risen Lord
-Who can compare 
-With the beauty of the Lord
-Forever He will be
-The Lamb upon the throne
-I gladly bow the knee 
-And worship You alone</attribute>
-        <attribute name="title" type="string">All heaven declares</attribute>
-    </object>
     <object type="SONG" id="z402">
         <attribute name="copyright" type="string">Kingsway's Thankyou Music</attribute>
         <attribute name="lyrics" type="string">Rejoice, rejoice, Christ is in you
@@ -4189,35 +4161,6 @@ Steal away
 Steal away home
 Jesus waits to meet you</attribute>
         <attribute name="title" type="string">Steal away</attribute>
-    </object>
-    <object type="SONG" id="z457">
-        <attribute name="lyrics" type="string">Spirit of the sovereign Lord
-Come and make Your presence known
-Reveal the glory of the living God
-
-Let the weight of Your glory cover us
-Let the life of Your river flow
-Let the truth of Your kingdom reign in us
-Let the weight of Your glory
-Let the weight of Your glory fall
-Let the weight of Your glory
-Let the weight of Your glory fall
-
-And we do not seek Your hand
-We only seek Your face
-We want to know You
-We want to see You revealed 
-Your glory in this place
-
-Let the weight of Your glory cover us
-Let the life of Your river flow
-Let the truth of Your kingdom reign in us
-Let the weight of Your glory
-Let the weight of Your glory fall
-Let the weight of Your glory
-Let the weight of Your glory fall
-</attribute>
-        <attribute name="title" type="string">Spirit of the sovereign Lord, come and make Your presence known</attribute>
     </object>
     <object type="SONG" id="z461">
         <attribute name="lyrics" type="string">For we see Jesus
@@ -10316,5 +10259,62 @@ Christ the Lord of battles is gone on before.
 Raise your standards boldly, raise your standards high
 Christ is now victorious and death itself must die</attribute>
         <attribute name="title" type="string">The song of Victory (Mr Black's Song)</attribute>
+    </object>
+    <object type="SONG" id="z419">
+        <attribute name="lyrics" type="string">Father, Son and Holy Spirit
+Father, Son and Holy Spirit
+Father, Son and Holy Spirit
+Take my life I worship only You</attribute>
+        <attribute name="title" type="string">Father Son and Holy Spirit</attribute>
+    </object>
+    <object type="SONG" id="z457">
+        <attribute name="lyrics" type="string">Spirit of the sovereign Lord
+Come and make Your presence known
+Reveal the glory of the living God
+
+Let the weight of Your glory cover us
+Let the life of Your river flow
+Let the truth of Your kingdom reign in us
+Let the weight of Your glory
+Let the weight of Your glory fall
+Let the weight of Your glory
+Let the weight of Your glory fall
+
+And we do not seek Your hand
+We only seek Your face
+We want to know You
+We want to see You reveal
+Your glory in this place
+
+Let the weight of Your glory cover us
+Let the life of Your river flow
+Let the truth of Your kingdom reign in us
+Let the weight of Your glory
+Let the weight of Your glory fall
+Let the weight of Your glory
+Let the weight of Your glory fall
+</attribute>
+        <attribute name="title" type="string">Spirit of the sovereign Lord, come and make Your presence known</attribute>
+    </object>
+    <object type="SONG" id="z297">
+        <attribute name="copyright" type="string">Noel &amp; Tricia Richards, Kingsway's Thank You Music 1987</attribute>
+        <attribute name="lyrics" type="string">All heaven declares 
+The glory of the risen Lord
+Who can compare 
+With the beauty of the Lord
+Forever You will be
+The Lamb upon the throne
+I gladly bow the knee
+And worship You alone
+
+I will proclaim 
+The glory of the risen Lord
+Who once was slain 
+To reconcile man to God
+Forever He will be
+The Lamb upon the throne
+I gladly bow the knee 
+And worship Him alone</attribute>
+        <attribute name="title" type="string">All heaven declares</attribute>
     </object>
 </database>
