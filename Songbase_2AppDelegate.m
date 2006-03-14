@@ -189,10 +189,10 @@
 }
 
 - (IBAction)makeSharp:(id)sender {
-	NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];
+	/*NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];
 
 	NSString *songKey = [song valueForKey: @"songKey"];
-	[song setValue: [NSString stringWithFormat: @"%@♭", songKey] forKey: @"songKey"];
+	[song setValue: [NSString stringWithFormat: @"%@♭", songKey] forKey: @"songKey"];*/
 }
 
 - (IBAction)makeFlat:(id)sender {
@@ -310,8 +310,6 @@
 		else { //An array
 			
 		}
-		
-		[contextInfo release];
 	}
 }
 @end
