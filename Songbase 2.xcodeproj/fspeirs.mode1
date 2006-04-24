@@ -217,10 +217,11 @@
 			<array>
 				<string>active-target-popup</string>
 				<string>active-buildstyle-popup</string>
-				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>buildOrClean</string>
+				<string>clean</string>
 				<string>build-and-runOrDebug</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
+				<string>servicesModuleclasses</string>
 				<string>com.apple.pbx.toolbar.searchfield</string>
 			</array>
 			<key>ControllerClassBaseName</key>
@@ -234,6 +235,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,11 +276,14 @@
 								<string>7756732906782D8800D1FEB8</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>24</integer>
+									<integer>23</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -346,8 +352,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -384,9 +388,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5F11330A09C747C6003B7A11</string>
+				<string>5FFB988009FCE72900F6A041</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5F11330B09C747C6003B7A11</string>
+				<string>5FFB988109FCE72900F6A041</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -505,7 +509,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>164055587.86849201</real>
+	<real>167573115.619151</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -521,8 +525,8 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1C0AD2B3069F1EA900FABCE6</string>
-		<string>/Users/fspeirs/Coding/Projects/SongBase/trunk/Songbase 2.xcodeproj</string>
 		<string>5F142C1F091E48960002ADAE</string>
+		<string>/Users/fspeirs/Coding/Projects/SongBase/trunk/Songbase 2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>111 186 693 691 0 0 1440 878 </string>
@@ -568,7 +572,7 @@
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-								<string>{{0, 167}, {527, 449}}</string>
+								<string>{{0, 5}, {527, 611}}</string>
 								<key>PBXProjectModuleGUID</key>
 								<string>XCMainBuildResultsModuleGUID</string>
 								<key>PBXProjectModuleLabel</key>
@@ -606,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5F142C1F091E48960002ADAE</string>
-				<string>5F11331009C747E1003B7A11</string>
+				<string>5FFB987E09FCE72500F6A041</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -617,7 +621,7 @@
 			<key>WindowToolGUID</key>
 			<string>5F142C1F091E48960002ADAE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -920,8 +924,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {493, 168}}</string>
-											<string>{{0, 173}, {493, 270}}</string>
+											<string>{{0, 0}, {367, 168}}</string>
+											<string>{{0, 173}, {367, 270}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -970,9 +974,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>5F11332109C7482F003B7A11</string>
+				<string>5FFB988209FCE72900F6A041</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>5F11332209C7482F003B7A11</string>
+				<string>5FFB988309FCE72900F6A041</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
@@ -981,7 +985,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C0AD2B3069F1EA900FABCE6</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -218,7 +218,7 @@
 		
 		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes];
 		[str appendAttributedString: lyrics];
-		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", NSFormFeedCharacter]] autorelease]];
+		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", NSFormFeedCharacter]] autorelease]];
 	}
 	
 	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: str]
