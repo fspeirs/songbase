@@ -40,6 +40,7 @@
 - (IBAction)makeFlat:(id)sender;
 
 - (IBAction)exportSelectedSongs:(id)sender;
+- (IBAction)exportSelectedSongsAsExportPackage:(id)sender;
 - (IBAction)exportIndex:(id)sender;
 - (IBAction)savePlayCountReport: (id)sender;
 - (IBAction)resetPlayCounts:(id)sender;

@@ -238,6 +238,18 @@
 					 contextInfo: payloadDict];
 }
 
+- (IBAction)exportSelectedSongsAsExportPackage:(id)sender {
+	NSEnumerator *songs = [[controller selectedObjects] objectEnumerator]; 
+	NSMutableArray *array = [NSMutableArray array];
+	SBSong *song;
+	while(song = [songs nextObject]) {
+		[array addObject: [song propertyListRepresentation]];
+	}
+	
+	[array writeToFile: [@"~/Desktop/SongBaseExport.plist" stringByExpandingTildeInPath]
+			atomically: YES];
+}
+
 - (IBAction)exportIndex:(id)sender {
 	NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES];
 	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];

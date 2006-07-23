@@ -93,6 +93,12 @@
 			PBXPerProjectTemplateStateSaveDate = 175355970;
 			PBXWorkspaceStateSaveDate = 175355970;
 		};
+		perUserProjectItems = {
+			5FBB66610A741E4000F9BB84 /* PBXTextBookmark */ = 5FBB66610A741E4000F9BB84 /* PBXTextBookmark */;
+			5FBB66620A741E4000F9BB84 /* PBXTextBookmark */ = 5FBB66620A741E4000F9BB84 /* PBXTextBookmark */;
+			5FBB66630A741E4000F9BB84 /* PBXTextBookmark */ = 5FBB66630A741E4000F9BB84 /* PBXTextBookmark */;
+			5FBB667C0A741ECC00F9BB84 /* PBXTextBookmark */ = 5FBB667C0A741ECC00F9BB84 /* PBXTextBookmark */;
+		};
 		sourceControlManager = 5F28771408262A70001639A5 /* Source Control */;
 		userBuildSettings = {
 		};
@@ -104,9 +110,9 @@
 		breakpointStyle = 0;
 		continueAfterActions = 0;
 		delayBeforeContinue = 0;
-		hitCount = 1;
+		hitCount = 10;
 		location = Foundation;
-		modificationTime = 175358548.256728;
+		modificationTime = 175382116.354491;
 		state = 1;
 		symbolName = "-[NSException raise]";
 	};
@@ -135,6 +141,8 @@
 		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	5F28771408262A70001639A5 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -192,17 +200,54 @@
 	5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1007, 620}}";
-			sepNavSelRange = "{187, 15}";
+			sepNavSelRange = "{254, 69}";
 			sepNavVisRect = "{{0, 0}, {1007, 620}}";
 		};
 	};
 	5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1007, 620}}";
-			sepNavSelRange = "{300, 0}";
-			sepNavVisRect = "{{0, 0}, {1007, 620}}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 552}}";
+			sepNavSelRange = "{632, 0}";
+			sepNavVisRect = "{{0, 266}, {864, 286}}";
 			sepNavWindowFrame = "{{58, 75}, {1052, 698}}";
 		};
+	};
+	5FBB66610A741E4000F9BB84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */;
+		name = "- (IBAction)exportSelectedSongsAsExportPackage:(id)sender {";
+		rLen = 60;
+		rLoc = 8873;
+		rType = 0;
+		vrLen = 2751;
+		vrLoc = 6980;
+	};
+	5FBB66620A741E4000F9BB84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */;
+		rLen = 0;
+		rLoc = "-2147483590";
+		rType = 0;
+	};
+	5FBB66630A741E4000F9BB84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */;
+		name = "- (IBAction)exportSelectedSongsAsExportPackage:(id)sender {";
+		rLen = 60;
+		rLoc = 8873;
+		rType = 0;
+		vrLen = 2751;
+		vrLoc = 6980;
+	};
+	5FBB667C0A741ECC00F9BB84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */;
+		name = "Songbase_2AppDelegate.h: exportSelectedSongsAsExportPackage:";
+		rLen = 0;
+		rLoc = 1072;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 0;
 	};
 	5FD9AA700885937300E95C71 /* XCBreakpointsBucket */ = {
 		isa = XCBreakpointsBucket;
@@ -216,7 +261,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 1;
+					_indexOfSelectedView = 0;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -268,7 +313,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {286, 220}}",
-							"{{291, 0}, {415, 220}}",
+							"{{291, 0}, {416, 220}}",
 						);
 					};
 				};
@@ -357,7 +402,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						150.570801,
+						153.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -373,16 +418,16 @@
 	77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1064, 700}}";
-			sepNavSelRange = "{1095, 39}";
+			sepNavSelRange = "{1072, 0}";
 			sepNavVisRect = "{{0, 0}, {1064, 700}}";
 			sepNavWindowFrame = "{{110, 0}, {1109, 778}}";
 		};
 	};
 	77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 4176}}";
-			sepNavSelRange = "{230, 0}";
-			sepNavVisRect = "{{0, 0}, {1064, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 4380}}";
+			sepNavSelRange = "{2438, 0}";
+			sepNavVisRect = "{{0, 655}, {864, 286}}";
 			sepNavWindowFrame = "{{110, 0}, {1109, 778}}";
 		};
 	};

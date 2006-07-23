@@ -23,6 +23,7 @@
             ACTIONS = {
                 exportIndex = id; 
                 exportSelectedSongs = id; 
+                exportSelectedSongsAsExportPackage = id; 
                 importFiles = id; 
                 makeFlat = id; 
                 makeSharp = id; 

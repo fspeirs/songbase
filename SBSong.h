@@ -12,5 +12,6 @@
 @interface SBSong : NSManagedObject {
 
 }
-
+- (NSDictionary *)propertyListRepresentation;
+- (void)configureFromPropertyListRepresentation:(NSDictionary *)dict;
 @end
