@@ -18,6 +18,7 @@
             }; 
             SUPERCLASS = NSWindowController; 
         }, 
+        {CLASS = SBMainWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
         {
             ACTIONS = {
                 exportIndex = id; 
@@ -25,8 +26,10 @@
                 importFiles = id; 
                 makeFlat = id; 
                 makeSharp = id; 
+                resetPlayCounts = id; 
                 saveAction = id; 
                 savePlayCountReport = id; 
+                searchSongsAction = id; 
                 showFullScreenWindow = id; 
                 showPreferences = id; 
             }; 
@@ -35,6 +38,7 @@
             OUTLETS = {
                 controller = NSArrayController; 
                 prefsWindow = NSWindow; 
+                searchField = NSSearchField; 
                 table = NSTableView; 
                 window = NSWindow; 
             }; 

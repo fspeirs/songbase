@@ -9,8 +9,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Deployment;
-		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA /* Development */;
+		activeBuildConfigurationName = Development;
 		activeExecutable = 5F28770608262A67001639A5 /* Songbase 2 */;
 		activeTarget = 8D1107260486CEB800E47090 /* Songbase 2 */;
 		addToTargets = (
@@ -91,8 +90,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 167569187;
-			PBXWorkspaceStateSaveDate = 167569187;
+			PBXPerProjectTemplateStateSaveDate = 175355970;
+			PBXWorkspaceStateSaveDate = 175355970;
 		};
 		sourceControlManager = 5F28771408262A70001639A5 /* Source Control */;
 		userBuildSettings = {
@@ -102,10 +101,12 @@
 		isa = PBXSymbolicBreakpoint;
 		actions = (
 		);
+		breakpointStyle = 0;
 		continueAfterActions = 0;
 		delayBeforeContinue = 0;
-		hitCount = 11;
-		modificationTime = 152980459.386298;
+		hitCount = 1;
+		location = Foundation;
+		modificationTime = 175358548.256728;
 		state = 1;
 		symbolName = "-[NSException raise]";
 	};
@@ -138,7 +139,7 @@
 	5F28771408262A70001639A5 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
-		isSCMEnabled = 1;
+		isSCMEnabled = 0;
 		scmConfiguration = {
 			SubversionToolPath = /usr/local/bin/svn;
 		};
@@ -188,6 +189,21 @@
 			sepNavWindowFrame = "{{58, 78}, {1109, 795}}";
 		};
 	};
+	5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 620}}";
+			sepNavSelRange = "{187, 15}";
+			sepNavVisRect = "{{0, 0}, {1007, 620}}";
+		};
+	};
+	5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 620}}";
+			sepNavSelRange = "{300, 0}";
+			sepNavVisRect = "{{0, 0}, {1007, 620}}";
+			sepNavWindowFrame = "{{58, 75}, {1052, 698}}";
+		};
+	};
 	5FD9AA700885937300E95C71 /* XCBreakpointsBucket */ = {
 		isa = XCBreakpointsBucket;
 		name = "Project Breakpoints";
@@ -200,7 +216,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 0;
+					_indexOfSelectedView = 1;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -210,15 +226,18 @@
 						"ET Class",
 					);
 					chosenTableColumnns_sortDirections = (
+						YES,
 					);
 					chosenTableColumnns_sortKeys = (
+						name,
 					);
 					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						139.080078,
+						136.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -239,7 +258,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {1109, 220}}",
-							"{{0, 225}, {1109, 456}}",
+							"{{0, 225}, {1109, 475}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -248,8 +267,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {287, 220}}",
-							"{{292, 0}, {415, 220}}",
+							"{{0, 0}, {286, 220}}",
+							"{{291, 0}, {415, 220}}",
 						);
 					};
 				};
@@ -260,20 +279,26 @@
 						"FT Predicate",
 					);
 					chosenTableColumnnFRTs_sortDirections = (
+						YES,
 					);
 					chosenTableColumnnFRTs_sortKeys = (
+						name,
 					);
 					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableColumnnsAT = (
 						"AT Attribute",
 						"AT Type",
 					);
 					chosenTableColumnnsAT_sortDirections = (
+						YES,
 					);
 					chosenTableColumnnsAT_sortKeys = (
+						name,
 					);
 					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableColumnnsFPT = (
 						"FP FetchedProperty",
@@ -281,10 +306,13 @@
 						"FP Predicate",
 					);
 					chosenTableColumnnsFPT_sortDirections = (
+						YES,
 					);
 					chosenTableColumnnsFPT_sortKeys = (
+						name,
 					);
 					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableColumnnsPT = (
 						"PT Property",
@@ -292,20 +320,26 @@
 						"PT SharedKeyOne",
 					);
 					chosenTableColumnnsPT_sortDirections = (
+						YES,
 					);
 					chosenTableColumnnsPT_sortKeys = (
+						name,
 					);
 					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableColumnnsRT = (
 						"RT Relationship",
 						"RT Destination",
 					);
 					chosenTableColumnnsRT_sortDirections = (
+						YES,
 					);
 					chosenTableColumnnsRT_sortKeys = (
+						name,
 					);
 					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
 					);
 					chosenTableWidthsAT = (
 						128.000000,
@@ -318,7 +352,7 @@
 					);
 					chosenTableWidthsFRT = (
 						128.000000,
-						249.764160,
+						263.764160,
 					);
 					chosenTableWidthsPT = (
 						128.000000,
@@ -331,25 +365,25 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-198, -13}, {1094, 441}}";
+				"xdesign model diagram view visible rect key" = "{{-198, -23}, {1094, 460}}";
 			};
-			sepNavWindowFrame = "{{225, 74}, {1109, 795}}";
+			sepNavWindowFrame = "{{98, 0}, {1109, 778}}";
 		};
 	};
 	77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 681}}";
-			sepNavSelRange = "{1013, 0}";
-			sepNavVisRect = "{{0, 0}, {1064, 681}}";
-			sepNavWindowFrame = "{{110, 83}, {1109, 795}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 700}}";
+			sepNavSelRange = "{1095, 39}";
+			sepNavVisRect = "{{0, 0}, {1064, 700}}";
+			sepNavWindowFrame = "{{110, 0}, {1109, 778}}";
 		};
 	};
 	77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 3816}}";
-			sepNavSelRange = "{8281, 0}";
-			sepNavVisRect = "{{0, 2412}, {1064, 681}}";
-			sepNavWindowFrame = "{{110, 83}, {1109, 795}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 4176}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRect = "{{0, 0}, {1064, 700}}";
+			sepNavWindowFrame = "{{110, 0}, {1109, 778}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* Songbase 2 */ = {

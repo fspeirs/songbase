@@ -6,6 +6,7 @@
 
 #import "Songbase_2AppDelegate.h"
 #import "SBFullController.h"
+#import "SBSong.h"
 
 @implementation Songbase_2AppDelegate
 
@@ -83,6 +84,10 @@
     if (![[self managedObjectContext] save:&error]) {
         [[NSApplication sharedApplication] presentError:error];
     }
+}
+
+- (IBAction)searchSongsAction:(id)sender {
+	[window makeFirstResponder: searchField];	
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
@@ -296,6 +301,31 @@
 					 contextInfo: payloadDict];
 }
 
+- (IBAction)resetPlayCounts:(id)sender {
+	int returnCode = NSRunAlertPanel(@"Reset Play Counts",
+									 @"Are you sure you want to set all play counts to zero?  This cannot be undone.",
+									 @"Cancel", @"Reset", nil);
+	if(returnCode == NSAlertDefaultReturn)
+		return;
+			
+	NSFetchRequest *req = [[NSFetchRequest alloc] init];
+	[req setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
+
+	NSError *err;
+	NSArray *allSongs = [[self managedObjectContext] executeFetchRequest: req error: &err];
+	
+	if(allSongs) {
+		NSEnumerator *en = [allSongs objectEnumerator];
+		SBSong *song;
+		while(song = [en nextObject]) {
+			[song setValue: [NSNumber numberWithInt: 0] forKey: @"playcount"];
+			[song setValue: nil forKey: @"lastPlayed"];
+		}
+	}
+	else
+		NSRunCriticalAlertPanel(@"Error Resetting Play Counts", [err localizedDescription], @"OK", nil, nil);
+}
+
 - (void)savePanelDidEnd:(NSSavePanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo {
 	if(returnCode == NSOKButton) {
 		id data = [(NSDictionary *)contextInfo objectForKey: @"payload"];
@@ -312,4 +342,5 @@
 		}
 	}
 }
+
 @end
