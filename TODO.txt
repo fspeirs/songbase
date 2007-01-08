@@ -1,0 +1,7 @@
+Songbase To-Do
+==============
+
+- Import/export package -> Multi-select on table view
+- Appcast
+- Possible to improve file export by forcing RTF?
+- Playlists?
