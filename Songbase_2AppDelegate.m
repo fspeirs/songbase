@@ -7,8 +7,13 @@
 #import "Songbase_2AppDelegate.h"
 #import "SBFullController.h"
 #import "SBSong.h"
+#import "SBIntegerToStringVT.h"
 
 @implementation Songbase_2AppDelegate
++ (void)initialize {
+	[NSValueTransformer setValueTransformer: [[[SBIntegerToStringVT alloc] init] autorelease]
+									forName: @"SBIntegerToStringVT"];
+}
 
 - (void)awakeFromNib {
 	[table setTarget: self];

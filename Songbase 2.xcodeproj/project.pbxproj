@@ -14,6 +14,7 @@
 		5F28777F08263A6D001639A5 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5F28777D08263A6D001639A5 /* Preferences.nib */; };
 		5F28778208263B0C001639A5 /* OAFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F28778108263B0C001639A5 /* OAFontView.m */; };
 		5F409F8F082D39670035AABC /* SBLongStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F409F8E082D39670035AABC /* SBLongStringVT.m */; };
+		5F467E510BA4AD8C00A43386 /* SBIntegerToStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */; };
 		5FBB65D60A73BC7B00F9BB84 /* SBSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB65D50A73BC7B00F9BB84 /* SBSong.m */; };
 		770B37ED0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */; };
 		77C8280D06725ACE000B614F /* Songbase_2AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */; };
@@ -43,6 +44,8 @@
 		5F28778108263B0C001639A5 /* OAFontView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OAFontView.m; sourceTree = "<group>"; };
 		5F409F8D082D39670035AABC /* SBLongStringVT.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SBLongStringVT.h; sourceTree = "<group>"; };
 		5F409F8E082D39670035AABC /* SBLongStringVT.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBLongStringVT.m; sourceTree = "<group>"; };
+		5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIntegerToStringVT.h; sourceTree = "<group>"; };
+		5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBIntegerToStringVT.m; sourceTree = "<group>"; };
 		5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSong.h; sourceTree = "<group>"; };
 		5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSong.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "Songbase 2_DataModel.xcdatamodel"; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				5F28778108263B0C001639A5 /* OAFontView.m */,
 				5FBB65D40A73BC7B00F9BB84 /* SBSong.h */,
 				5FBB65D50A73BC7B00F9BB84 /* SBSong.m */,
+				5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */,
+				5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				5F28778208263B0C001639A5 /* OAFontView.m in Sources */,
 				5F409F8F082D39670035AABC /* SBLongStringVT.m in Sources */,
 				5FBB65D60A73BC7B00F9BB84 /* SBSong.m in Sources */,
+				5F467E510BA4AD8C00A43386 /* SBIntegerToStringVT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

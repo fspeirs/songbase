@@ -90,8 +90,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 185835587;
-			PBXWorkspaceStateSaveDate = 185835587;
+			PBXPerProjectTemplateStateSaveDate = 195341578;
+			PBXWorkspaceStateSaveDate = 195341578;
 		};
 		sourceControlManager = 5F28771408262A70001639A5 /* Source Control */;
 		userBuildSettings = {
@@ -218,7 +218,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 0;
+					_indexOfSelectedView = 1;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -260,7 +260,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {1109, 220}}",
-							"{{0, 225}, {1109, 475}}",
+							"{{0, 225}, {1109, 439}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -367,7 +367,7 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-198, -23}, {1094, 460}}";
+				"xdesign model diagram view visible rect key" = "{{-198, -5}, {1094, 424}}";
 			};
 			sepNavWindowFrame = "{{98, 0}, {1109, 778}}";
 		};
