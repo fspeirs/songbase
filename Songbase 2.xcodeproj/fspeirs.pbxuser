@@ -9,7 +9,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Development;
+		activeBuildConfigurationName = Deployment;
 		activeExecutable = 5F28770608262A67001639A5 /* Songbase 2 */;
 		activeTarget = 8D1107260486CEB800E47090 /* Songbase 2 */;
 		addToTargets = (
@@ -90,8 +90,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 195341578;
-			PBXWorkspaceStateSaveDate = 195341578;
+			PBXPerProjectTemplateStateSaveDate = 206802745;
+			PBXWorkspaceStateSaveDate = 206802745;
 		};
 		sourceControlManager = 5F28771408262A70001639A5 /* Source Control */;
 		userBuildSettings = {
@@ -183,12 +183,36 @@
 			sepNavWindowFrame = "{{307, 132}, {1109, 746}}";
 		};
 	};
+	5F409F8D082D39670035AABC /* SBLongStringVT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{204, 18}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{97, 444}, {750, 558}}";
+		};
+	};
 	5F409F8E082D39670035AABC /* SBLongStringVT.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1070, 666}}";
-			sepNavSelRange = "{489, 0}";
+			sepNavSelRange = "{207, 389}";
 			sepNavVisRect = "{{0, 0}, {1070, 666}}";
 			sepNavWindowFrame = "{{58, 78}, {1109, 795}}";
+		};
+	};
+	5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{191, 19}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{645, 244}, {750, 558}}";
+		};
+	};
+	5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{542, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{120, 423}, {750, 558}}";
 		};
 	};
 	5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {
@@ -374,17 +398,17 @@
 	};
 	77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 700}}";
-			sepNavSelRange = "{1072, 0}";
-			sepNavVisRect = "{{0, 0}, {1064, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 672}}";
+			sepNavSelRange = "{386, 0}";
+			sepNavVisRect = "{{0, 4}, {1070, 649}}";
 			sepNavWindowFrame = "{{367, 250}, {1109, 778}}";
 		};
 	};
 	77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 4380}}";
-			sepNavSelRange = "{2438, 0}";
-			sepNavVisRect = "{{0, 655}, {864, 286}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 5096}}";
+			sepNavSelRange = "{262, 0}";
+			sepNavVisRect = "{{0, 0}, {1070, 649}}";
 			sepNavWindowFrame = "{{110, 0}, {1109, 778}}";
 		};
 	};
