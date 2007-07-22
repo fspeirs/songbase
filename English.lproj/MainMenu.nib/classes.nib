@@ -20,6 +20,12 @@
         }, 
         {CLASS = SBMainWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
         {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
             ACTIONS = {
                 exportIndex = id; 
                 exportSelectedSongs = id; 

@@ -15,6 +15,8 @@
 		5F28778208263B0C001639A5 /* OAFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F28778108263B0C001639A5 /* OAFontView.m */; };
 		5F409F8F082D39670035AABC /* SBLongStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F409F8E082D39670035AABC /* SBLongStringVT.m */; };
 		5F467E510BA4AD8C00A43386 /* SBIntegerToStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */; };
+		5F62F6E50C539112008D4357 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F62F6E40C539111008D4357 /* Sparkle.framework */; };
+		5F62F7010C53912B008D4357 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F62F6E40C539111008D4357 /* Sparkle.framework */; };
 		5FBB65D60A73BC7B00F9BB84 /* SBSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB65D50A73BC7B00F9BB84 /* SBSong.m */; };
 		770B37ED0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */; };
 		77C8280D06725ACE000B614F /* Songbase_2AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */; };
@@ -24,6 +26,19 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F62F6FD0C539120008D4357 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5F62F7010C53912B008D4357 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -46,6 +61,7 @@
 		5F409F8E082D39670035AABC /* SBLongStringVT.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBLongStringVT.m; sourceTree = "<group>"; };
 		5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIntegerToStringVT.h; sourceTree = "<group>"; };
 		5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBIntegerToStringVT.m; sourceTree = "<group>"; };
+		5F62F6E40C539111008D4357 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle/build/Release/Sparkle.framework; sourceTree = "<group>"; };
 		5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSong.h; sourceTree = "<group>"; };
 		5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSong.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "Songbase 2_DataModel.xcdatamodel"; sourceTree = "<group>"; };
@@ -53,7 +69,7 @@
 		77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Songbase_2AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Songbase_2AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Songbase 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Songbase 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Songbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5F62F6E50C539112008D4357 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,20 +88,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5F409F8D082D39670035AABC /* SBLongStringVT.h */,
-				5F409F8E082D39670035AABC /* SBLongStringVT.m */,
-				5F28772D0826300E001639A5 /* SBFSWindow.h */,
-				5F28772E0826300E001639A5 /* SBFSWindow.m */,
+				5F62F72F0C53B014008D4357 /* Value Transformers */,
+				5F62F7320C53B020008D4357 /* Widgets */,
+				5F62F7350C53B026008D4357 /* Models */,
 				5F28772F0826300E001639A5 /* SBFullController.h */,
 				5F2877300826300E001639A5 /* SBFullController.m */,
 				77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */,
 				77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */,
-				5F28778008263B0C001639A5 /* OAFontView.h */,
-				5F28778108263B0C001639A5 /* OAFontView.m */,
-				5FBB65D40A73BC7B00F9BB84 /* SBSong.h */,
-				5FBB65D50A73BC7B00F9BB84 /* SBSong.m */,
-				5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */,
-				5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -110,7 +120,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Songbase 2.app */,
+				8D1107320486CEB800E47090 /* Songbase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,10 +163,42 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F62F6E40C539111008D4357 /* Sparkle.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F62F72F0C53B014008D4357 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				5F409F8D082D39670035AABC /* SBLongStringVT.h */,
+				5F409F8E082D39670035AABC /* SBLongStringVT.m */,
+				5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */,
+				5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */,
+			);
+			name = "Value Transformers";
+			sourceTree = "<group>";
+		};
+		5F62F7320C53B020008D4357 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				5F28772D0826300E001639A5 /* SBFSWindow.h */,
+				5F28772E0826300E001639A5 /* SBFSWindow.m */,
+				5F28778008263B0C001639A5 /* OAFontView.h */,
+				5F28778108263B0C001639A5 /* OAFontView.m */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		5F62F7350C53B026008D4357 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FBB65D40A73BC7B00F9BB84 /* SBSong.h */,
+				5FBB65D50A73BC7B00F9BB84 /* SBSong.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {
@@ -177,6 +219,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				5F62F6FD0C539120008D4357 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -185,7 +228,7 @@
 			name = "Songbase 2";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "Songbase 2";
-			productReference = 8D1107320486CEB800E47090 /* Songbase 2.app */;
+			productReference = 8D1107320486CEB800E47090 /* Songbase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -282,6 +325,11 @@
 					i386,
 				);
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -309,6 +357,11 @@
 					i386,
 				);
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -320,7 +373,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PREBINDING = NO;
-				PRODUCT_NAME = "Songbase 2";
+				PRODUCT_NAME = Songbase;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
@@ -333,6 +386,11 @@
 					ppc,
 					i386,
 				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;

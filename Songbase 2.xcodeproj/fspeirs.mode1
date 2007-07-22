@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,14 +273,14 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>7756732906782D8800D1FEB8</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>1C37FAAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>6</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -348,8 +350,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -507,7 +507,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>206802755.48353601</real>
+	<real>206814979.77080199</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>2</integer>
 	<key>ToolbarIsVisible</key>
@@ -522,8 +522,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/fspeirs/src/SongBase/trunk/Songbase 2.xcodeproj</string>
+		<string>1C0AD2B3069F1EA900FABCE6</string>
 		<string>5F142C1F091E48960002ADAE</string>
+		<string>/Users/fspeirs/src/SongBase/trunk/Songbase 2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>146 337 693 691 0 0 1680 1028 </string>
@@ -618,7 +619,7 @@
 			<key>WindowToolGUID</key>
 			<string>5F142C1F091E48960002ADAE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -969,9 +970,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>5F467E4A0BA4AD5B00A43386</string>
+				<string>5F62F6D90C5390F4008D4357</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>5F467E4B0BA4AD5B00A43386</string>
+				<string>5F62F6DA0C5390F4008D4357</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>

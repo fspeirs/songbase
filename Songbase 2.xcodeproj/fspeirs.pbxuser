@@ -177,9 +177,9 @@
 	};
 	5F2877300826300E001639A5 /* SBFullController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 972}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 1134}}";
 			sepNavSelRange = "{1598, 0}";
-			sepNavVisRect = "{{0, 304}, {1064, 668}}";
+			sepNavVisRect = "{{0, 177}, {1064, 617}}";
 			sepNavWindowFrame = "{{307, 132}, {1109, 746}}";
 		};
 	};
@@ -224,9 +224,9 @@
 	};
 	5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 552}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1016, 644}}";
 			sepNavSelRange = "{632, 0}";
-			sepNavVisRect = "{{0, 266}, {864, 286}}";
+			sepNavVisRect = "{{0, 75}, {1007, 569}}";
 			sepNavWindowFrame = "{{58, 75}, {1052, 698}}";
 		};
 	};
@@ -420,9 +420,9 @@
 	};
 	8D1107310486CEB800E47090 /* Info.plist */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {893, 764}}";
-			sepNavSelRange = "{702, 0}";
-			sepNavVisRect = "{{0, 0}, {893, 764}}";
+			sepNavIntBoundsRect = "{{0, 0}, {893, 749}}";
+			sepNavSelRange = "{699, 0}";
+			sepNavVisRect = "{{0, 0}, {893, 749}}";
 			sepNavWindowFrame = "{{74, -5}, {938, 878}}";
 		};
 	};
