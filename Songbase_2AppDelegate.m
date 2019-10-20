@@ -340,6 +340,11 @@
     }];
 }
 
-
+- (void)applicationDidChangeScreenParameters:(NSNotification *)notification {
+    // If the screen configuration changed and we are left with only one screen, hide the overlay window even if it was up.
+    if([[NSScreen screens] count] == 1) {
+        [fullScreenController clearSongAndHideWindow];
+    }
+}
 
 @end
