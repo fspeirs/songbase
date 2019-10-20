@@ -73,15 +73,21 @@
 - (void)setFont:(NSFont *)newFont;
 {
     if (font == newFont)
-	return;
+        return;
 
     [font release];
     font = [newFont retain];
 
     [fontDescription release];
     fontDescription = [[NSString alloc] initWithFormat:@"%@ %.1f", [font displayName], [font pointSize]];
-    textSize.height = ceil(NSHeight([font boundingRectForFont]));
-    textSize.width = ceil([font widthOfString:fontDescription]);
+    //textSize.height = ceil(NSHeight([font boundingRectForFont]));
+    //textSize.width = ceil([font widthOfString:fontDescription]);
+    
+    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+    NSSize styledStringSize = [[[NSAttributedString alloc] initWithString: fontDescription attributes:attributes] size];
+    textSize.height = ceilf(styledStringSize.height);
+    textSize.width = ceilf(styledStringSize.width);
+    
     [self setNeedsDisplay:YES];
 }
 
@@ -93,19 +99,13 @@
         
         manager = [NSFontManager sharedFontManager];
         panel = [manager fontPanel: YES];
-        [panel setDelegate: self];
+        [panel setDelegate: (id)self];
 	[manager orderFrontFontPanel:sender];
     }
 }
 
 // NSFontManager sends -changeFont: up the responder chain
 
-- (BOOL)fontManager:(id)sender willIncludeFont:(NSString *)fontName;
-{
-    if ([delegate respondsToSelector: @selector(fontView:fontManager:willIncludeFont:)])
-        return [delegate fontView: self fontManager: sender willIncludeFont: fontName];
-    return YES;
-}
 
 - (void)changeFont:(id)sender;
 {
@@ -137,7 +137,7 @@
 
     [[NSColor gridColor] set];
     NSFrameRect(bounds);
-    [fontDescription drawWithFont:font color:[NSColor textColor] alignment:NSCenterTextAlignment verticallyCenter:YES inRectangle:bounds];
+    [fontDescription drawWithFont:font color:[NSColor textColor] alignment:NSTextAlignmentCenter verticallyCenter:YES inRectangle:bounds];
 
     if ([NSGraphicsContext currentContextDrawingToScreen] && [[self window] firstResponder] == self) {
 	[[NSColor keyboardFocusIndicatorColor] set];
@@ -214,9 +214,8 @@
     static NSString *string = nil;
 	
     if (!string)
-        string = [[NSString stringWithFormat: @"%@%@", self, @"É"] retain];
-	NSLog(string);
-    return @"É";
+        string = [[NSString stringWithFormat: @"%@%@", self, @"..."] retain];
+    return @"...";
 }
 
 
@@ -263,7 +262,7 @@
     requiresEllipsis = lineTooLong || NSMaxRange(lineCharacterRange) < [self length];
     
     if (requiresEllipsis) {
-        unsigned int ellipsisAttributeCharacterIndex;
+        unsigned long ellipsisAttributeCharacterIndex;
         if (lineCharacterRange.length != 0)
             ellipsisAttributeCharacterIndex = NSMaxRange(lineCharacterRange) - 1;
         else
@@ -298,13 +297,13 @@
         drawPoint.y = NSMinY(rectangle);
         switch (alignment) {
             default:
-            case NSLeftTextAlignment:
+            case NSTextAlignmentLeft:
                 drawPoint.x = NSMinX(rectangle);
                 break;
-            case NSCenterTextAlignment:
+            case NSTextAlignmentCenter:
                 drawPoint.x = NSMidX(rectangle) - lineSize.width / 2.0;
                 break;
-            case NSRightTextAlignment:
+            case NSTextAlignmentRight:
                 drawPoint.x = NSMaxX(rectangle) - lineSize.width;
                 break;
         }
