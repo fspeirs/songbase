@@ -6,7 +6,7 @@
 {
 	IBOutlet NSView *mainView;
 	IBOutlet NSTextView *textView;
-
+    NSArray *topLevelWindowObjects;
 	id currentSong;
 }
 

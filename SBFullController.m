@@ -13,13 +13,13 @@
 - (id)init {
 	self = [super init];
 	if(self) {
-		[NSBundle loadNibNamed: @"FullScreenWindow" owner: self];
+        [[NSBundle mainBundle] loadNibNamed: @"FullScreenWindow" owner: self topLevelObjects: &topLevelWindowObjects];
 		NSWindow *win = [[SBFSWindow alloc] initWithContentRect: NSMakeRect(20,20,400,800)//screenRect
-													  styleMask: NSBorderlessWindowMask
+													  styleMask: NSWindowStyleMaskBorderless
 														backing: NSBackingStoreBuffered
 														  defer: NO
 														 screen: [NSScreen mainScreen]];
-		[win setDelegate: self];
+		[win setDelegate: (id)self];
 		[win setContentView: mainView];
 		[win setLevel:CGShieldingWindowLevel()];
 		[self setWindow: win];
