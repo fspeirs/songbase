@@ -34,25 +34,25 @@
 }
 
 /* Change this path/code to point to your App's data store. */
-- (NSString *)applicationSupportFolder {
-    NSString *applicationSupportFolder = nil;
-    FSRef foundRef;
-    OSErr err = FSFindFolder(kUserDomain, kApplicationSupportFolderType, kDontCreateFolder, &foundRef);
-    if (err != noErr) {
-        NSRunAlertPanel(@"Alert", @"Can't find application support folder", @"Quit", nil, nil);
-        [[NSApplication sharedApplication] terminate:self];
-    } else {
-        unsigned char path[1024];
-        FSRefMakePath(&foundRef, path, sizeof(path));
-        applicationSupportFolder = [NSString stringWithUTF8String:(char *)path];
-        applicationSupportFolder = [applicationSupportFolder stringByAppendingPathComponent:@"Songbase_2"];
+- (NSURL *)applicationSupportFolderURL {
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *appSupportURL = [fileManager URLsForDirectory: NSApplicationSupportDirectory inDomains:NSUserDomainMask];
+    if([appSupportURL count] == 0) {
+        NSError *err = [NSError errorWithDomain:NSCocoaErrorDomain code: 100 userInfo: [NSDictionary dictionaryWithObjectsAndKeys: NSLocalizedDescriptionKey, @"Can't find application support folder", nil]];
+        [self abortSetupWithError: err];
     }
-    return applicationSupportFolder;
+    
+    return [appSupportURL firstObject];
+}
+
+- (void)abortSetupWithError:(NSError *)error {
+    NSAlert *alert = [NSAlert alertWithError: error];
+    [alert runModal];
+    [[NSApplication sharedApplication] terminate:self];
 }
 
 - (NSManagedObjectContext *) managedObjectContext {
     NSError *error;
-    NSString *applicationSupportFolder = nil;
     NSURL *url;
     NSFileManager *fileManager;
     NSPersistentStoreCoordinator *coordinator;
@@ -62,15 +62,19 @@
     }
     
     fileManager = [NSFileManager defaultManager];
-    applicationSupportFolder = [self applicationSupportFolder];
-    if ( ![fileManager fileExistsAtPath:applicationSupportFolder isDirectory:NULL] ) {
-        [fileManager createDirectoryAtPath:applicationSupportFolder attributes:nil];
+    NSURL *applicationSupportFolder = [self applicationSupportFolderURL];
+    if ( ![fileManager fileExistsAtPath: [applicationSupportFolder path] isDirectory:NULL] ) {
+        NSError *err = nil;
+        [fileManager createDirectoryAtPath: [applicationSupportFolder path] withIntermediateDirectories: YES attributes: nil error: &err];
+        if(err) {
+            [self abortSetupWithError: err];
+        }
     }
     
-    url = [NSURL fileURLWithPath: [applicationSupportFolder stringByAppendingPathComponent: @"Songbase_2.xml"]];
+    url = [applicationSupportFolder URLByAppendingPathComponent: @"Songbase_2.xml"];
     coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [self managedObjectModel]];
     if ([coordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error]){
-        managedObjectContext = [[NSManagedObjectContext alloc] init];
+        managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType: NSPrivateQueueConcurrencyType];
         [managedObjectContext setPersistentStoreCoordinator: coordinator];
     } else {
         [[NSApplication sharedApplication] presentError:error];
@@ -114,10 +118,7 @@
 				} else {
 					
 					// Error handling wasn't implemented. Fall back to displaying a "quit anyway" panel.
-					int alertReturn = NSRunAlertPanel(nil, @"Could not save changes while quitting. Quit anyway?" , @"Quit anyway", @"Cancel", nil);
-					if (alertReturn == NSAlertAlternateReturn) {
-						reply = NSTerminateCancel;	
-					}
+					[[NSAlert alertWithError: error] runModal];
 				}
             }
         } else {
@@ -145,7 +146,7 @@
 }
 
 - (IBAction)showPreferences:(id)sender {
-	[NSBundle loadNibNamed: @"Preferences" owner: self];	
+    [[NSBundle mainBundle] loadNibNamed: @"Preferences" owner: self topLevelObjects: &prefsTopLevelObjects];
 	[prefsWindow makeKeyAndOrderFront: self];
 }
 
@@ -155,24 +156,18 @@
 	[open setCanChooseDirectories: YES];
 	[open setAllowsMultipleSelection: YES];
 	[open setAllowedFileTypes: [NSArray arrayWithObject: @"songbase"]];
+    
+    [window beginSheet:open completionHandler:^(NSInteger result) {
+        if (result == NSModalResponseOK){
+            NSArray *files = [open URLs];
+            NSEnumerator *en = [files objectEnumerator];
+            NSURL *url;
+            while(url = [en nextObject]) {
+                [self processFile: [url path]];
+            }
+        }
+    }];
 	
-	[open beginSheetForDirectory: nil
-							file: nil
-				  modalForWindow: window
-				   modalDelegate: self
-				  didEndSelector: @selector(openPanelDidEnd:returnCode:contextInfo:)
-					 contextInfo: nil];
-	
-}
-
-- (void)openPanelDidEnd:(NSOpenPanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo {
-	if(returnCode == NSOKButton) {
-		NSArray *files = [sheet filenames];
-		NSEnumerator *en = [files objectEnumerator];
-		NSString *path;
-		while(path = [en nextObject])
-			[self processFile: path];
-	}
 }
 
 - (void)processFile: (NSString *)path {
@@ -182,9 +177,11 @@
 	NSString *title = [dict objectForKey: @"title"];
 	NSData *body = [dict objectForKey: @"body"];
 	
-	NSError *err;
+	NSError *err = nil;
 	NSAttributedString *attrstr = [[NSAttributedString alloc] initWithData: body
-																   options: nil documentAttributes: nil error: &err];
+																   options: [NSDictionary dictionary]
+                                                        documentAttributes: nil
+                                                                     error: &err];
 	
 	NSMutableString *lyrics = [[NSMutableString alloc] init];
 	[lyrics appendString: [attrstr string]];
@@ -228,21 +225,18 @@
 		
 		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes];
 		[str appendAttributedString: lyrics];
-		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", NSFormFeedCharacter]] autorelease]];
+        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
 	}
 	
-	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: str]
-															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
-	
 	NSSavePanel *save = [NSSavePanel savePanel];
-	[save beginSheetForDirectory: nil
-							file: nil
-				  modalForWindow: window
-				   modalDelegate: self
-				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
-					 contextInfo: payloadDict];
+    [window beginSheet: save completionHandler: ^(NSInteger result) {
+        if(result == NSModalResponseOK) {
+            NSDictionary *documentAttributes = [NSDictionary dictionaryWithObjectsAndKeys: NSRTFTextDocumentType, NSDocumentTypeDocumentAttribute, nil];
+            [[str RTFFromRange: NSMakeRange(0, [str length]) documentAttributes: documentAttributes] writeToURL: [save URL] atomically: YES];
+        }
+    }];
 }
-
+ 
 - (IBAction)exportSelectedSongsAsExportPackage:(id)sender {
 	NSEnumerator *songs = [[controller selectedObjects] objectEnumerator]; 
 	NSMutableArray *array = [NSMutableArray array];
@@ -268,18 +262,18 @@
 		[songString appendString: [song valueForKey: @"title"]];
 		[songString appendString: @"\n"];
 	}
-	NSLog(songString);	
-	
-	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: songString]
-															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
+	NSLog(@"%@", songString);
 	
 	NSSavePanel *save = [NSSavePanel savePanel];
-	[save beginSheetForDirectory: nil
-							file: nil
-				  modalForWindow: window
-				   modalDelegate: self
-				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
-					 contextInfo: payloadDict];
+    [window beginSheet: save completionHandler:^(NSInteger result) {
+        if (result == NSModalResponseOK) {
+            NSError *error = nil;
+            [songString writeToURL: [save URL] atomically: YES encoding: NSUTF8StringEncoding error: &error];
+            if(error) {
+                [[NSAlert alertWithError: error] runModal];
+            }
+        }
+    }];
 }
 
 - (IBAction)savePlayCountReport: (id)sender {
@@ -291,7 +285,7 @@
 
 	NSMutableAttributedString *attString = [[NSMutableAttributedString alloc] init];
 	
-	NSAttributedString *tabString = [[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", NSTabCharacter]];
+    NSAttributedString *tabString = [[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", (unichar)NSTabCharacter]];
 	
 	NSEnumerator *en = [[[self managedObjectContext] executeFetchRequest: fReq error: &err] objectEnumerator];
 	id song;
@@ -306,58 +300,46 @@
 		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n"] autorelease]];
 	}
 	
-	NSDictionary *payloadDict = [[NSDictionary dictionaryWithObjects: [NSArray arrayWithObject: attString]
-															 forKeys: [NSArray arrayWithObject: @"payload"]] retain];
-	
 	NSSavePanel *save = [NSSavePanel savePanel];
-	[save beginSheetForDirectory: nil
-							file: nil
-				  modalForWindow: window
-				   modalDelegate: self
-				  didEndSelector: @selector(savePanelDidEnd:returnCode:contextInfo:)
-					 contextInfo: payloadDict];
+    [window beginSheet: save completionHandler:^(NSInteger result) {
+        if (result == NSModalResponseOK) {
+            NSDictionary *documentAttributes = [NSDictionary dictionaryWithObjectsAndKeys: NSRTFTextDocumentType, NSDocumentTypeDocumentAttribute, nil];
+            [[attString RTFFromRange: NSMakeRange(0, [attString length]) documentAttributes: documentAttributes] writeToURL: [save URL] atomically: YES];
+        }
+    }];
 }
 
 - (IBAction)resetPlayCounts:(id)sender {
-	int returnCode = NSRunAlertPanel(@"Reset Play Counts",
-									 @"Are you sure you want to set all play counts to zero?  This cannot be undone.",
-									 @"Cancel", @"Reset", nil);
-	if(returnCode == NSAlertDefaultReturn)
-		return;
-			
-	NSFetchRequest *req = [[NSFetchRequest alloc] init];
-	[req setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
+    NSAlert *alert = [[NSAlert alloc] init];
+    alert.alertStyle = NSAlertStyleWarning;
+    alert.informativeText = @"Reset Play Counts";
+    alert.messageText = @"Are you sure you want to set all play counts to zero?  This cannot be undone.";
+    [alert addButtonWithTitle: @"Cancel"];
+    [alert addButtonWithTitle: @"Reset Counts"];
+    
+    [alert beginSheetModalForWindow: window completionHandler:^(NSModalResponse returnCode) {
+        if(returnCode == NSModalResponseOK) {
+            NSFetchRequest *req = [[NSFetchRequest alloc] init];
+            [req setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
 
-	NSError *err;
-	NSArray *allSongs = [[self managedObjectContext] executeFetchRequest: req error: &err];
-	
-	if(allSongs) {
-		NSEnumerator *en = [allSongs objectEnumerator];
-		SBSong *song;
-		while(song = [en nextObject]) {
-			[song setValue: [NSNumber numberWithInt: 0] forKey: @"playcount"];
-			[song setValue: nil forKey: @"lastPlayed"];
-		}
-	}
-	else
-		NSRunCriticalAlertPanel(@"Error Resetting Play Counts", [err localizedDescription], @"OK", nil, nil);
+            NSError *err;
+            NSArray *allSongs = [[self managedObjectContext] executeFetchRequest: req error: &err];
+            
+            if(allSongs) {
+                NSEnumerator *en = [allSongs objectEnumerator];
+                SBSong *song;
+                while(song = [en nextObject]) {
+                    [song setValue: [NSNumber numberWithInt: 0] forKey: @"playcount"];
+                    [song setValue: nil forKey: @"lastPlayed"];
+                }
+            }
+            else {
+                [[NSAlert alertWithError: err] runModal];
+            }
+        }
+    }];
 }
 
-- (void)savePanelDidEnd:(NSSavePanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo {
-	if(returnCode == NSOKButton) {
-		id data = [(NSDictionary *)contextInfo objectForKey: @"payload"];
-		
-		if(![data respondsToSelector: @selector(count)]) { // A string
-			NSLog(@"Writing to file: %@", [sheet filename]);
-			if([data isKindOfClass: [NSAttributedString class]])
-				[[data RTFFromRange: NSMakeRange(0,[data length]) documentAttributes: nil] writeToFile: [sheet filename] atomically: YES]; 
-			else
-				[data writeToFile: [sheet filename] atomically: YES];	
-		}
-		else { //An array
-			
-		}
-	}
-}
+
 
 @end

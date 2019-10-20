@@ -22,6 +22,8 @@
 	
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
+    
+    NSArray *prefsTopLevelObjects;
 }
 
 - (NSManagedObjectModel *)managedObjectModel;
