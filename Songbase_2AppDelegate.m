@@ -277,36 +277,34 @@
 }
 
 - (IBAction)savePlayCountReport: (id)sender {
-	NSError *err;
-
-	NSFetchRequest *fReq = [[NSFetchRequest alloc] init];
-	[fReq setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
-	[fReq setPredicate: [NSPredicate predicateWithFormat: @"playcount > 0"]];
-
-	NSMutableAttributedString *attString = [[NSMutableAttributedString alloc] init];
-	
-    NSAttributedString *tabString = [[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%C", (unichar)NSTabCharacter]];
-	
-	NSEnumerator *en = [[[self managedObjectContext] executeFetchRequest: fReq error: &err] objectEnumerator];
-	id song;
-	while(song = [en nextObject]) {
-		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: [song valueForKey: @"title"]] autorelease]];
-		
-		int i;
-		for(i=0; i < 5; i++)
-			[attString appendAttributedString: tabString];
-		
-		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"%d", [[song valueForKey: @"playcount"] intValue]]] autorelease]];
-		[attString appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n"] autorelease]];
-	}
-	
-	NSSavePanel *save = [NSSavePanel savePanel];
-    [window beginSheet: save completionHandler:^(NSInteger result) {
+    NSSavePanel *save = [NSSavePanel savePanel];
+    save.nameFieldStringValue = @"Play Count Report.csv";
+    [save beginSheetModalForWindow: window completionHandler:^(NSInteger result) {
         if (result == NSModalResponseOK) {
-            NSDictionary *documentAttributes = [NSDictionary dictionaryWithObjectsAndKeys: NSRTFTextDocumentType, NSDocumentTypeDocumentAttribute, nil];
-            [[attString RTFFromRange: NSMakeRange(0, [attString length]) documentAttributes: documentAttributes] writeToURL: [save URL] atomically: YES];
+            NSError *error = nil;
+            NSMutableString *csv = [self generateCSVPlayCountReport];
+            NSURL *theFile = [save URL];
+            NSLog(@"Saving play count report to: %@", theFile);
+            [csv writeToURL: theFile atomically:YES encoding:NSUTF8StringEncoding error: &error];
+            if(error) {
+                [[NSAlert alertWithError: error] runModal];
+            }
         }
     }];
+}
+
+- (NSMutableString *)generateCSVPlayCountReport {
+    NSError *err = nil;
+    NSFetchRequest *fReq = [[NSFetchRequest alloc] init];
+    [fReq setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
+    [fReq setPredicate: [NSPredicate predicateWithFormat: @"playcount > 0"]];
+    NSEnumerator *en = [[[self managedObjectContext] executeFetchRequest: fReq error: &err] objectEnumerator];
+    id song;
+    NSMutableString *csv = [[NSMutableString alloc] init];
+    while(song = [en nextObject]) {
+        [csv appendFormat: @"\"%@\",%@\n", [song valueForKey: @"title"], [song valueForKey: @"playcount"]];
+    }
+    return csv;
 }
 
 - (IBAction)resetPlayCounts:(id)sender {
