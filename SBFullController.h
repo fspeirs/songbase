@@ -12,5 +12,5 @@
 
 - (id)currentSong;
 - (void)setCurrentSong:(id)aCurrentSong;
-
+- (void)clearSongAndHideWindow;
 @end
