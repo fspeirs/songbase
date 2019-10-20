@@ -3,28 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5F2877310826300E001639A5 /* SBFSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F28772E0826300E001639A5 /* SBFSWindow.m */; };
 		5F2877320826300E001639A5 /* SBFullController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2877300826300E001639A5 /* SBFullController.m */; };
-		5F287753082630FD001639A5 /* FullScreenWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5F287751082630FD001639A5 /* FullScreenWindow.nib */; };
 		5F2877670826383D001639A5 /* iPod.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F2877660826383D001639A5 /* iPod.icns */; };
-		5F28777F08263A6D001639A5 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5F28777D08263A6D001639A5 /* Preferences.nib */; };
 		5F28778208263B0C001639A5 /* OAFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F28778108263B0C001639A5 /* OAFontView.m */; };
 		5F409F8F082D39670035AABC /* SBLongStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F409F8E082D39670035AABC /* SBLongStringVT.m */; };
 		5F467E510BA4AD8C00A43386 /* SBIntegerToStringVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */; };
-		5F62F6E50C539112008D4357 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F62F6E40C539111008D4357 /* Sparkle.framework */; };
-		5F62F7010C53912B008D4357 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F62F6E40C539111008D4357 /* Sparkle.framework */; };
 		5FBB65D60A73BC7B00F9BB84 /* SBSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB65D50A73BC7B00F9BB84 /* SBSong.m */; };
 		770B37ED0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */; };
-		77C8280D06725ACE000B614F /* Songbase_2AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */; };
 		77C8280E06725ACE000B614F /* Songbase_2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F80E8AA6235CB70900202D32 /* FullScreenWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E8AA0235CB70900202D32 /* FullScreenWindow.xib */; };
+		F80E8AA7235CB70900202D32 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E8AA2235CB70900202D32 /* MainMenu.xib */; };
+		F80E8AA8235CB70900202D32 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E8AA4235CB70900202D32 /* Preferences.xib */; };
+		F80E8AAD235CBCAF00202D32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80E8AAC235CBCAF00202D32 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,17 +31,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5F62F7010C53912B008D4357 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Songbase 2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Songbase 2_Prefix.pch"; sourceTree = "<group>"; };
@@ -52,16 +45,13 @@
 		5F28772E0826300E001639A5 /* SBFSWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBFSWindow.m; sourceTree = "<group>"; };
 		5F28772F0826300E001639A5 /* SBFullController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SBFullController.h; sourceTree = "<group>"; };
 		5F2877300826300E001639A5 /* SBFullController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBFullController.m; sourceTree = "<group>"; };
-		5F287752082630FD001639A5 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FullScreenWindow.nib; sourceTree = "<group>"; };
 		5F2877660826383D001639A5 /* iPod.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iPod.icns; sourceTree = "<group>"; };
-		5F28777E08263A6D001639A5 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
 		5F28778008263B0C001639A5 /* OAFontView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OAFontView.h; sourceTree = "<group>"; };
 		5F28778108263B0C001639A5 /* OAFontView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OAFontView.m; sourceTree = "<group>"; };
 		5F409F8D082D39670035AABC /* SBLongStringVT.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SBLongStringVT.h; sourceTree = "<group>"; };
 		5F409F8E082D39670035AABC /* SBLongStringVT.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBLongStringVT.m; sourceTree = "<group>"; };
 		5F467E4F0BA4AD8C00A43386 /* SBIntegerToStringVT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIntegerToStringVT.h; sourceTree = "<group>"; };
 		5F467E500BA4AD8C00A43386 /* SBIntegerToStringVT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBIntegerToStringVT.m; sourceTree = "<group>"; };
-		5F62F6E40C539111008D4357 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle/build/Release/Sparkle.framework; sourceTree = "<group>"; };
 		5FBB65D40A73BC7B00F9BB84 /* SBSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSong.h; sourceTree = "<group>"; };
 		5FBB65D50A73BC7B00F9BB84 /* SBSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSong.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* Songbase 2_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "Songbase 2_DataModel.xcdatamodel"; sourceTree = "<group>"; };
@@ -69,7 +59,13 @@
 		77C8280B06725ACE000B614F /* Songbase_2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Songbase_2AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* Songbase_2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Songbase_2AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Songbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Songbase 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Songbase 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80E8A9D235CB07E00202D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F80E8AA1235CB70900202D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FullScreenWindow.xib; sourceTree = "<group>"; };
+		F80E8AA3235CB70900202D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F80E8AA5235CB70900202D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Preferences.xib; sourceTree = "<group>"; };
+		F80E8AAC235CBCAF00202D32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F80E8AE7235CC04C00202D32 /* Songbase 2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Songbase 2.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				5F62F6E50C539112008D4357 /* Sparkle.framework in Frameworks */,
+				F80E8AAD235CBCAF00202D32 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +97,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F80E8AAC235CBCAF00202D32 /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -120,7 +115,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Songbase.app */,
+				8D1107320486CEB800E47090 /* Songbase 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +123,7 @@
 		29B97314FDCFA39411CA2CEA /* Songbase 2 */ = {
 			isa = PBXGroup;
 			children = (
+				F80E8AE7235CC04C00202D32 /* Songbase 2.entitlements */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -153,9 +149,9 @@
 				5F2877660826383D001639A5 /* iPod.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-				5F287751082630FD001639A5 /* FullScreenWindow.nib */,
-				5F28777D08263A6D001639A5 /* Preferences.nib */,
+				F80E8AA0235CB70900202D32 /* FullScreenWindow.xib */,
+				F80E8AA2235CB70900202D32 /* MainMenu.xib */,
+				F80E8AA4235CB70900202D32 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,7 +159,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F62F6E40C539111008D4357 /* Sparkle.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -228,7 +223,7 @@
 			name = "Songbase 2";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "Songbase 2";
-			productReference = 8D1107320486CEB800E47090 /* Songbase.app */;
+			productReference = 8D1107320486CEB800E47090 /* Songbase 2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -236,10 +231,20 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+			};
 			buildConfigurationList = 5FD9A99B08855AE900E95C71 /* Build configuration list for PBXProject "Songbase 2" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Songbase 2 */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Songbase 2 */,
 			);
@@ -251,12 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				77C8280D06725ACE000B614F /* Songbase_2AppDelegate.h in Resources */,
-				5F287753082630FD001639A5 /* FullScreenWindow.nib in Resources */,
 				5F2877670826383D001639A5 /* iPod.icns in Resources */,
-				5F28777F08263A6D001639A5 /* Preferences.nib in Resources */,
+				F80E8AA6235CB70900202D32 /* FullScreenWindow.xib in Resources */,
+				F80E8AA8235CB70900202D32 /* Preferences.xib in Resources */,
+				F80E8AA7235CB70900202D32 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,33 +289,33 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				F80E8A9D235CB07E00202D32 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		F80E8AA0235CB70900202D32 /* FullScreenWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				F80E8AA1235CB70900202D32 /* en */,
 			);
-			name = MainMenu.nib;
+			name = FullScreenWindow.xib;
 			sourceTree = "<group>";
 		};
-		5F287751082630FD001639A5 /* FullScreenWindow.nib */ = {
+		F80E8AA2235CB70900202D32 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F287752082630FD001639A5 /* English */,
+				F80E8AA3235CB70900202D32 /* en */,
 			);
-			name = FullScreenWindow.nib;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5F28777D08263A6D001639A5 /* Preferences.nib */ = {
+		F80E8AA4235CB70900202D32 /* Preferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F28777E08263A6D001639A5 /* English */,
+				F80E8AA5235CB70900202D32 /* en */,
 			);
-			name = Preferences.nib;
+			name = Preferences.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,119 +324,159 @@
 		5FD9A99808855AE900E95C71 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "Songbase 2.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Songbase 2_Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PREBINDING = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.speirs.Songbase2;
 				PRODUCT_NAME = "Songbase 2";
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
+				SDKROOT = macosx;
 			};
 			name = Development;
 		};
 		5FD9A99908855AE900E95C71 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Songbase 2_Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "Songbase 2.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PREBINDING = NO;
-				PRODUCT_NAME = Songbase;
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.speirs.Songbase2;
+				PRODUCT_NAME = "Songbase 2";
+				SDKROOT = macosx;
 			};
 			name = Deployment;
 		};
 		5FD9A99A08855AE900E95C71 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks/Sparkle/build/Release\"";
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Songbase 2_Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "Songbase 2.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PREBINDING = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.speirs.Songbase2;
 				PRODUCT_NAME = "Songbase 2";
-				WRAPPER_EXTENSION = app;
+				SDKROOT = macosx;
 			};
 			name = Default;
 		};
 		5FD9A99C08855AE900E95C71 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Development;
 		};
 		5FD9A99D08855AE900E95C71 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Deployment;
 		};
 		5FD9A99E08855AE900E95C71 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Default;
 		};
