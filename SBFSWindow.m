@@ -15,14 +15,19 @@
     return YES;
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
 - (void)sendEvent:(NSEvent *)theEvent {
-	if([theEvent type] == NSKeyDown && [[theEvent characters] characterAtIndex: 0] == 27) {
+    if([theEvent type] == NSEventTypeKeyDown && [[theEvent characters] characterAtIndex: 0] == 27) {
 		id del = [self delegate];
-		if([del respondsToSelector: @selector(clearSongAndHideWindow)])
+        if([del respondsToSelector: @selector(clearSongAndHideWindow)]) {
 			[self doCommandBySelector: @selector(clearSongAndHideWindow)];
+        }
 	}
 	else {
 		[super sendEvent: theEvent];
 	}
 }
+
+#pragma clang diagnostic pop
 @end
