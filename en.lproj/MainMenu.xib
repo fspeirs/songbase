@@ -26,7 +26,7 @@
                         <rect key="frame" x="210" y="530" width="134" height="13"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" alignment="left" title="# out of #" id="355">
-                            <font key="font" metaFont="menu" size="10"/>
+                            <font key="font" metaFont="system" size="10"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -789,11 +789,6 @@
             </connections>
         </arrayController>
         <customObject id="299" userLabel="Font Manager" customClass="NSFontManager"/>
-        <customObject id="351" userLabel="SUUpdater" customClass="SUUpdater"/>
-        <menuItem title="Check for Updates" id="352">
-            <connections>
-                <action selector="checkForUpdates:" target="351" id="353"/>
-            </connections>
-        </menuItem>
+        <menuItem title="Check for Updates" id="352"/>
     </objects>
 </document>
