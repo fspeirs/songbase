@@ -157,7 +157,7 @@
 	[open setAllowsMultipleSelection: YES];
 	[open setAllowedFileTypes: [NSArray arrayWithObject: @"songbase"]];
     
-    [window beginSheet:open completionHandler:^(NSInteger result) {
+    [open beginSheetModalForWindow: window completionHandler:^(NSInteger result) {
         if (result == NSModalResponseOK){
             NSArray *files = [open URLs];
             NSEnumerator *en = [files objectEnumerator];
@@ -229,7 +229,7 @@
 	}
 	
 	NSSavePanel *save = [NSSavePanel savePanel];
-    [window beginSheet: save completionHandler: ^(NSInteger result) {
+    [save beginSheetModalForWindow: window completionHandler: ^(NSInteger result) {
         if(result == NSModalResponseOK) {
             NSDictionary *documentAttributes = [NSDictionary dictionaryWithObjectsAndKeys: NSRTFTextDocumentType, NSDocumentTypeDocumentAttribute, nil];
             [[str RTFFromRange: NSMakeRange(0, [str length]) documentAttributes: documentAttributes] writeToURL: [save URL] atomically: YES];
@@ -265,7 +265,7 @@
 	NSLog(@"%@", songString);
 	
 	NSSavePanel *save = [NSSavePanel savePanel];
-    [window beginSheet: save completionHandler:^(NSInteger result) {
+    [save beginSheetModalForWindow: window completionHandler:^(NSInteger result) {
         if (result == NSModalResponseOK) {
             NSError *error = nil;
             [songString writeToURL: [save URL] atomically: YES encoding: NSUTF8StringEncoding error: &error];

@@ -17,7 +17,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="537" y="229" width="710" height="569"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" autoresizesSubviews="NO" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="710" height="569"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -299,7 +299,7 @@
                                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <size key="minSize" width="708" height="239"/>
-                                                        <size key="maxSize" width="708" height="10000000"/>
+                                                        <size key="maxSize" width="710" height="10000000"/>
                                                         <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <connections>
                                                             <binding destination="213" name="value" keyPath="selection.lyrics" id="253"/>
@@ -763,7 +763,7 @@
                     </menu>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="140" y="522"/>
+            <point key="canvasLocation" x="-321" y="-315"/>
         </menu>
         <customObject id="205" userLabel="Songbase_2AppDelegate" customClass="Songbase_2AppDelegate">
             <connections>
