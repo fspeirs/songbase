@@ -134,7 +134,7 @@
 	// Bump the playcount here
 	int count = [[song valueForKey: @"playcount"] intValue];
 	[song setValue: [NSNumber numberWithInt: count+1] forKey: @"playcount"];
-	[song setValue: [NSCalendarDate date] forKey: @"lastPlayed"];
+	[song setValue: [NSDate date] forKey: @"lastPlayed"];
 	
 	
 	if(!fullScreenController) {

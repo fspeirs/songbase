@@ -12,8 +12,8 @@
 @implementation SBSong
 - (void)awakeFromInsert {
 	[super awakeFromInsert];
-	
-	[self setValue: [NSCalendarDate date] forKey: @"dateAdded"];
+	    
+	[self setValue: [NSDate date] forKey: @"dateAdded"];
 }
 
 - (NSDictionary *)propertyListRepresentation {
