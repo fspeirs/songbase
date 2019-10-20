@@ -312,13 +312,13 @@
 - (IBAction)resetPlayCounts:(id)sender {
     NSAlert *alert = [[NSAlert alloc] init];
     alert.alertStyle = NSAlertStyleWarning;
-    alert.informativeText = @"Reset Play Counts";
-    alert.messageText = @"Are you sure you want to set all play counts to zero?  This cannot be undone.";
+    alert.messageText = @"Reset Play Counts";
+    alert.informativeText = @"Are you sure you want to set all play counts to zero?  This cannot be undone.";
     [alert addButtonWithTitle: @"Cancel"];
     [alert addButtonWithTitle: @"Reset Counts"];
     
     [alert beginSheetModalForWindow: window completionHandler:^(NSModalResponse returnCode) {
-        if(returnCode == NSModalResponseOK) {
+        if(returnCode == NSAlertSecondButtonReturn) {
             NSFetchRequest *req = [[NSFetchRequest alloc] init];
             [req setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
 
