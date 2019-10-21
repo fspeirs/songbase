@@ -206,7 +206,7 @@
 	//NSManagedObject *song = [[controller selectedObjects] objectAtIndex: 0];	
 }
 
-- (IBAction)exportSelectedSongs:(id)sender {
+- (IBAction)exportAllSongsAsRTF:(id)sender {
 	NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
 	NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES];
 	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];

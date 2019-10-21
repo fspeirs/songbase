@@ -425,15 +425,9 @@
                                     <action selector="importFiles:" target="-1" id="324"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Export Selected Songs" keyEquivalent="e" id="343">
-                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                <connections>
-                                    <action selector="exportSelectedSongsAsExportPackage:" target="205" id="349"/>
-                                </connections>
-                            </menuItem>
                             <menuItem title="Export All Songs…" keyEquivalent="e" id="326">
                                 <connections>
-                                    <action selector="exportSelectedSongs:" target="205" id="330"/>
+                                    <action selector="exportAllSongsAsRTF:" target="205" id="330"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Export Index…" keyEquivalent="E" id="328">
