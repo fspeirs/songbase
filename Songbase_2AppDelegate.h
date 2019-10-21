@@ -46,4 +46,8 @@
 - (IBAction)exportIndex:(id)sender;
 - (IBAction)savePlayCountReport: (id)sender;
 - (IBAction)resetPlayCounts:(id)sender;
+
+// Clearing the Main Window
+- (IBAction)clearSongWindow:(id)sender;
+- (IBAction)blankSongWindow:(id)sender;
 @end

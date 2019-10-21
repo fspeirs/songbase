@@ -13,6 +13,10 @@
 - (id)init {
 	self = [super init];
 	if(self) {
+        blackView = [[NSView alloc] init];
+        blackView.wantsLayer = YES;
+        blackView.layer.backgroundColor = [NSColor.blackColor CGColor];
+        
         [[NSBundle mainBundle] loadNibNamed: @"FullScreenWindow" owner: self topLevelObjects: &topLevelWindowObjects];
 		NSWindow *win = [[SBFSWindow alloc] initWithContentRect: NSMakeRect(20,20,400,800)//screenRect
 													  styleMask: NSWindowStyleMaskBorderless
@@ -20,7 +24,7 @@
 														  defer: NO
 														 screen: [NSScreen mainScreen]];
 		[win setDelegate: (id)self];
-		[win setContentView: mainView];
+		[win setContentView: [mainView retain]];
 		[win setLevel:CGShieldingWindowLevel()];
 		[self setWindow: win];
 		
@@ -28,6 +32,9 @@
 												 selector: @selector(showNewSong:)
 													 name: @"SongSelected"
 												   object: nil];
+        
+        
+
 	}
 	return self;
 }
@@ -56,6 +63,14 @@
 - (void)clearSongAndHideWindow {
 	[self setCurrentSong: nil];
 	[[self window] orderOut: self];
+}
+
+- (void)toggleBlackWindowState {
+    if(self.window.contentView == mainView) {
+        self.window.contentView = blackView;
+    } else {
+        self.window.contentView = mainView;
+    }
 }
 
 // =========================================================== 

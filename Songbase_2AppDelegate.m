@@ -348,4 +348,12 @@
     }
 }
 
+// Clearing the Main Window
+- (IBAction)clearSongWindow:(id)sender {
+    [fullScreenController setCurrentSong: nil];
+}
+- (IBAction)blankSongWindow:(id)sender {
+    [fullScreenController toggleBlackWindowState];
+}
+
 @end
