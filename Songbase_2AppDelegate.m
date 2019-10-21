@@ -229,18 +229,20 @@
     NSEnumerator *songEnumerator = [songArray objectEnumerator];
     id song;
     while(song = [songEnumerator nextObject]) {
-        NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
-        NSDictionary *bodyAttributes = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica" size: 12] forKey: NSFontAttributeName];
-        
-        NSAttributedString *title = [[NSAttributedString alloc] initWithString: [song valueForKey: @"title"] attributes: titleAtts];
-        [str appendAttributedString: title];
-        [title release];
-        
-        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
-        
-        NSAttributedString *lyrics = [[[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes] autorelease];
-        [str appendAttributedString: lyrics];
-        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
+        NSString *title = [song valueForKey: @"title"];
+        if([title rangeOfString: @"#"].location != 0) {
+            NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
+            NSDictionary *bodyAttributes = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica" size: 12] forKey: NSFontAttributeName];
+            
+            NSAttributedString *styledTitle = [[[NSAttributedString alloc] initWithString: title attributes: titleAtts] autorelease];
+            [str appendAttributedString: styledTitle];
+                        
+            [str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
+            
+            NSAttributedString *lyrics = [[[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes] autorelease];
+            [str appendAttributedString: lyrics];
+            [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
+        }
     }
     return [str autorelease];
 }
@@ -266,9 +268,13 @@
 		
 	NSEnumerator *songEnumerator = [songArray objectEnumerator];
 	id song;
+    int i = 1;
 	while(song = [songEnumerator nextObject]) {
-		[songString appendString: [song valueForKey: @"title"]];
-		[songString appendString: @"\n"];
+        NSString *title = [song valueForKey: @"title"];
+        if([title rangeOfString: @"#"].location != 0) {
+            [songString appendFormat: @"%d: %@\n", i, title];
+            i++;
+        }
 	}
 	NSLog(@"%@", songString);
 	
@@ -312,7 +318,10 @@
     id song;
     NSMutableString *csv = [[NSMutableString alloc] init];
     while(song = [en nextObject]) {
-        [csv appendFormat: @"\"%@\",%@\n", [song valueForKey: @"title"], [song valueForKey: @"playcount"]];
+        NSString *title = [song valueForKey: @"title"];
+        if([title rangeOfString: @"#"].location != 0) {
+            [csv appendFormat: @"\"%@\",%@\n", title, [song valueForKey: @"playcount"]];
+        }
     }
     return [csv autorelease];
 }
