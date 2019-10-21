@@ -177,11 +177,11 @@
 	NSString *title = [dict objectForKey: @"title"];
 	NSData *body = [dict objectForKey: @"body"];
 	
-	NSError *err = nil;
-	NSAttributedString *attrstr = [[NSAttributedString alloc] initWithData: body
-																   options: [NSDictionary dictionary]
-                                                        documentAttributes: nil
-                                                                     error: &err];
+    NSError *err = nil;
+    NSAttributedString *attrstr = [[[NSAttributedString alloc] initWithData: body
+                                                                    options: [NSDictionary dictionary]
+                                                         documentAttributes: nil
+                                                                      error: &err] autorelease];
 	
 	NSMutableString *lyrics = [[NSMutableString alloc] init];
 	[lyrics appendString: [attrstr string]];
@@ -193,6 +193,7 @@
 	[obj setValue: copy forKey: @"copyright"];
 	[obj setValue: title forKey: @"title"];
 	[obj setValue: lyrics forKey: @"lyrics"];
+    [lyrics release];
 }
 
 - (IBAction)makeSharp:(id)sender {
@@ -208,7 +209,7 @@
 
 - (IBAction)exportAllSongsAsRTF:(id)sender {
 	NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
-	NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES];
+	NSSortDescriptor *desc = [[[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES] autorelease];
 	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];
 
 	NSEnumerator *songEnumerator = [songArray objectEnumerator];
@@ -223,7 +224,7 @@
 		
 		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
 		
-		NSAttributedString *lyrics = [[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes];
+		NSAttributedString *lyrics = [[[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes] autorelease];
 		[str appendAttributedString: lyrics];
         [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
 	}
@@ -283,20 +284,21 @@
     [save beginSheetModalForWindow: window completionHandler:^(NSInteger result) {
         if (result == NSModalResponseOK) {
             NSError *error = nil;
-            NSMutableString *csv = [self generateCSVPlayCountReport];
+            NSMutableString *csv = [[self generateCSVPlayCountReport] retain];
             NSURL *theFile = [save URL];
             NSLog(@"Saving play count report to: %@", theFile);
             [csv writeToURL: theFile atomically:YES encoding:NSUTF8StringEncoding error: &error];
             if(error) {
                 [[NSAlert alertWithError: error] runModal];
             }
+            [csv release];
         }
     }];
 }
 
 - (NSMutableString *)generateCSVPlayCountReport {
     NSError *err = nil;
-    NSFetchRequest *fReq = [[NSFetchRequest alloc] init];
+    NSFetchRequest *fReq = [[[NSFetchRequest alloc] init] autorelease];
     [fReq setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
     [fReq setPredicate: [NSPredicate predicateWithFormat: @"playcount > 0"]];
     NSEnumerator *en = [[[self managedObjectContext] executeFetchRequest: fReq error: &err] objectEnumerator];
@@ -305,7 +307,7 @@
     while(song = [en nextObject]) {
         [csv appendFormat: @"\"%@\",%@\n", [song valueForKey: @"title"], [song valueForKey: @"playcount"]];
     }
-    return csv;
+    return [csv autorelease];
 }
 
 - (IBAction)resetPlayCounts:(id)sender {
@@ -318,10 +320,10 @@
     
     [alert beginSheetModalForWindow: window completionHandler:^(NSModalResponse returnCode) {
         if(returnCode == NSAlertSecondButtonReturn) {
-            NSFetchRequest *req = [[NSFetchRequest alloc] init];
+            NSFetchRequest *req = [[[NSFetchRequest alloc] init] autorelease];
             [req setEntity: [NSEntityDescription entityForName: @"Song" inManagedObjectContext: [self managedObjectContext]]];
 
-            NSError *err;
+            NSError *err = nil;
             NSArray *allSongs = [[self managedObjectContext] executeFetchRequest: req error: &err];
             
             if(allSongs) {

@@ -38,7 +38,8 @@
 
 - initWithFrame:(NSRect)frameRect
 {
-    if (![super initWithFrame:frameRect])
+    self = [super initWithFrame:frameRect];
+    if (!self)
         return nil;
 
     [self setFont:[NSFont userFontOfSize:0]];
@@ -84,10 +85,10 @@
     //textSize.width = ceil([font widthOfString:fontDescription]);
     
     NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
-    NSSize styledStringSize = [[[NSAttributedString alloc] initWithString: fontDescription attributes:attributes] size];
+    NSSize styledStringSize = [[[[NSAttributedString alloc] initWithString: fontDescription attributes:attributes] autorelease] size];
     textSize.height = ceilf(styledStringSize.height);
     textSize.width = ceilf(styledStringSize.width);
-    
+        
     [self setNeedsDisplay:YES];
 }
 
@@ -165,9 +166,9 @@
 - (BOOL)becomeFirstResponder;
 {
     if ([super becomeFirstResponder]) {
-	[[NSFontManager new] setSelectedFont:font isMultiple:NO];
-	[self setNeedsDisplay:YES];
-	return YES;
+        [[NSFontManager sharedFontManager] setSelectedFont:font isMultiple:NO];
+        [self setNeedsDisplay:YES];
+        return YES;
     }
     return NO;
 }
