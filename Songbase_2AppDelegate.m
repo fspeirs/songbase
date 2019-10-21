@@ -265,6 +265,7 @@
 	NSLog(@"%@", songString);
 	
 	NSSavePanel *save = [NSSavePanel savePanel];
+    save.nameFieldStringValue = @"Song Index.txt";
     [save beginSheetModalForWindow: window completionHandler:^(NSInteger result) {
         if (result == NSModalResponseOK) {
             NSError *error = nil;
