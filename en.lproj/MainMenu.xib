@@ -43,18 +43,6 @@
                             </binding>
                         </connections>
                     </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" tag="-1" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="230">
-                        <rect key="frame" x="516" y="520" width="90" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="356">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="remove:" target="213" id="231"/>
-                            <binding destination="213" name="enabled" keyPath="canRemove" id="232"/>
-                        </connections>
-                    </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" tag="-1" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="233">
                         <rect key="frame" x="606" y="520" width="90" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
@@ -461,6 +449,13 @@
                                     <action selector="print:" target="-1" id="86"/>
                                 </connections>
                             </menuItem>
+                            <menuItem isSeparatorItem="YES" id="lgf-nc-nwG"/>
+                            <menuItem title="Delete Song" id="JfO-ZT-0p0">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="remove:" target="213" id="wA9-58-v0g"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
@@ -768,7 +763,7 @@
                     </menu>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="-530" y="-717"/>
+            <point key="canvasLocation" x="-483" y="-808"/>
         </menu>
         <customObject id="205" userLabel="Songbase_2AppDelegate" customClass="Songbase_2AppDelegate">
             <connections>
