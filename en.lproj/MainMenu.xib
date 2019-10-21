@@ -721,9 +721,8 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="View" id="kLl-dl-Ep5" userLabel="View">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="View" id="Lw2-Ck-TjO">
+                <menuItem title="Window" id="19">
+                    <menu key="submenu" title="Window" systemMenu="window" id="24">
                         <items>
                             <menuItem title="Clear Song" keyEquivalent="R" id="Q9D-nC-0c4">
                                 <connections>
@@ -735,12 +734,7 @@
                                     <action selector="blankSongWindow:" target="205" id="kai-sc-bro"/>
                                 </connections>
                             </menuItem>
-                        </items>
-                    </menu>
-                </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
-                        <items>
+                            <menuItem isSeparatorItem="YES" id="tbq-Og-B14"/>
                             <menuItem title="Minimize" keyEquivalent="m" id="23">
                                 <connections>
                                     <action selector="performMiniaturize:" target="-1" id="37"/>
