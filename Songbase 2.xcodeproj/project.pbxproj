@@ -22,6 +22,7 @@
 		F80E8AA7235CB70900202D32 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E8AA2235CB70900202D32 /* MainMenu.xib */; };
 		F80E8AA8235CB70900202D32 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E8AA4235CB70900202D32 /* Preferences.xib */; };
 		F80E8AAD235CBCAF00202D32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80E8AAC235CBCAF00202D32 /* Cocoa.framework */; };
+		F80E8B21235D9CF900202D32 /* iPodU2.icns in Resources */ = {isa = PBXBuildFile; fileRef = F80E8B20235D9CF800202D32 /* iPodU2.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,7 @@
 		F80E8AA5235CB70900202D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Preferences.xib; sourceTree = "<group>"; };
 		F80E8AAC235CBCAF00202D32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		F80E8AE7235CC04C00202D32 /* Songbase 2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Songbase 2.entitlements"; sourceTree = "<group>"; };
+		F80E8B20235D9CF800202D32 /* iPodU2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iPodU2.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F80E8B20235D9CF800202D32 /* iPodU2.icns */,
 				5F2877660826383D001639A5 /* iPod.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				F80E8B21235D9CF900202D32 /* iPodU2.icns in Resources */,
 				5F2877670826383D001639A5 /* iPod.icns in Resources */,
 				F80E8AA6235CB70900202D32 /* FullScreenWindow.xib in Resources */,
 				F80E8AA8235CB70900202D32 /* Preferences.xib in Resources */,
