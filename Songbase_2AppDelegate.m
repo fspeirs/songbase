@@ -208,34 +208,41 @@
 }
 
 - (IBAction)exportAllSongsAsRTF:(id)sender {
-	NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
-	NSSortDescriptor *desc = [[[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES] autorelease];
-	NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];
-
-	NSEnumerator *songEnumerator = [songArray objectEnumerator];
-	id song;
-	while(song = [songEnumerator nextObject]) {
-		NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
-		NSDictionary *bodyAttributes = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica" size: 12] forKey: NSFontAttributeName];
-		
-		NSAttributedString *title = [[NSAttributedString alloc] initWithString: [song valueForKey: @"title"] attributes: titleAtts];
-		[str appendAttributedString: title];
-		[title release];
-		
-		[str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
-		
-		NSAttributedString *lyrics = [[[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes] autorelease];
-		[str appendAttributedString: lyrics];
-        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
-	}
 	
+    NSAttributedString *str = [[self allSongsAsAttributedString] retain];
 	NSSavePanel *save = [NSSavePanel savePanel];
+    save.nameFieldStringValue = @"Songbase.rtf";
     [save beginSheetModalForWindow: window completionHandler: ^(NSInteger result) {
         if(result == NSModalResponseOK) {
             NSDictionary *documentAttributes = [NSDictionary dictionaryWithObjectsAndKeys: NSRTFTextDocumentType, NSDocumentTypeDocumentAttribute, nil];
             [[str RTFFromRange: NSMakeRange(0, [str length]) documentAttributes: documentAttributes] writeToURL: [save URL] atomically: YES];
         }
     }];
+    [str release];
+}
+
+- (NSAttributedString *)allSongsAsAttributedString {
+    NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
+    NSSortDescriptor *desc = [[[NSSortDescriptor alloc] initWithKey: @"title" ascending: YES] autorelease];
+    NSArray *songArray = [[controller content] sortedArrayUsingDescriptors: [NSArray arrayWithObject: desc]];
+
+    NSEnumerator *songEnumerator = [songArray objectEnumerator];
+    id song;
+    while(song = [songEnumerator nextObject]) {
+        NSDictionary *titleAtts = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica Bold" size: 12] forKey: NSFontAttributeName];
+        NSDictionary *bodyAttributes = [NSDictionary dictionaryWithObject: [NSFont fontWithName: @"Helvetica" size: 12] forKey: NSFontAttributeName];
+        
+        NSAttributedString *title = [[NSAttributedString alloc] initWithString: [song valueForKey: @"title"] attributes: titleAtts];
+        [str appendAttributedString: title];
+        [title release];
+        
+        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: @"\n\n" attributes: bodyAttributes] autorelease]];
+        
+        NSAttributedString *lyrics = [[[NSAttributedString alloc] initWithString: [song valueForKey: @"lyrics"] attributes: bodyAttributes] autorelease];
+        [str appendAttributedString: lyrics];
+        [str appendAttributedString: [[[NSAttributedString alloc] initWithString: [NSString stringWithFormat: @"\n\n%C", (unichar)NSFormFeedCharacter]] autorelease]];
+    }
+    return [str autorelease];
 }
  
 - (IBAction)exportSelectedSongsAsExportPackage:(id)sender {
